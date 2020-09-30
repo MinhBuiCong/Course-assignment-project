@@ -39,12 +39,9 @@ a {
 }
 
 a:hover {
-
+    color: #FF8600;
 }
 
-.navText:hover {
-
-}
 
 .navIcon {
     width: 700px;
@@ -80,7 +77,8 @@ h1 {
 }
 
 h1:hover {
-
+    color: #FF8600;
+    font-size: 64px;
 }
 
 .navImage {
@@ -93,7 +91,8 @@ h1:hover {
 }
 
 .navImage:hover {
-
+    fill: #FF8600;
+    
 }
 
 .logo {
