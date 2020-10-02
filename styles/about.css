@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #0B3641;
+}
+
+h1 {
+    color: white;
+}
+
+.footerContent {
+    background-color: #FF8600;
+    color: #0B3641;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 40px 0px;
+    border-right: 1px solid #0B3641;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.paymentImage {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+
+.footerImage {
+    height: 40px;
+    width: 64px;
+    margin: 0px 20px 0px 0px;
+    
+}
+
+.giftCardsText {
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+
+.deliveryPartners {
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    width:300px;
+}
