@@ -1,0 +1,152 @@
+body {
+  background-color: #0b3641;
+  color: white;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout {
+  width: 100vw;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navUl {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 700px;
+}
+
+.navText {
+  margin-left: 56px;
+  margin-top: 80px;
+  padding: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff8600;
+}
+
+.navIcon {
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.content {
+  width: 100vw;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navHeadline {
+  display: block;
+  align-items: center;
+}
+
+.navHeader {
+  margin: 50px 0px 0px 0px;
+  padding: 0px;
+  align-items: center;
+  border: 0px;
+}
+
+h1 {
+  font-size: 56px;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #ff8600;
+  font-size: 64px;
+}
+
+.navImage {
+  width: 56px;
+  height: 56px;
+  margin-top: 56px;
+  margin-right: 56px;
+  cursor: pointer;
+}
+
+.navImage:hover {
+  fill: #ff8600;
+}
+
+.footerContent {
+  background-color: #ff8600;
+  color: #0b3641;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: lighter;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0px 40px 0px;
+  border-right: 1px solid #0b3641;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.paymentImage {
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  margin: 0px 0px 16px 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footerImage {
+  height: 40px;
+  width: 64px;
+  margin: 0px 20px 0px 0px;
+}
+
+.giftCardsText {
+  margin: 0px 0px 16px 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.deliveryPartners {
+  margin: 0px 0px 16px 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  width: 300px;
+}
