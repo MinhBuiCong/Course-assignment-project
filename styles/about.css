@@ -3,6 +3,7 @@ body {
   color: white;
   width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }
 
 .layout {
@@ -89,107 +90,9 @@ h2 {
 
 .aboutContent {
   display: flex;
-  flex-direction: row;
-}
-
-.sectionContent {
-  display: flex;
-  flex-direction: row;
-}
-
-.aboutFunction {
+  flex-direction: column;
   position: relative;
-  display: inline-block;
   padding: 20px;
-}
-
-.aboutFunction .aboutText {
-  visibility: hidden;
-  width: 120px;
-  height: auto;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.aboutFunction:hover .aboutText {
-  visibility: visible;
-}
-
-.faqFunction {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-}
-
-.faqFunction .faqText {
-  visibility: hidden;
-  width: 120px;
-  height: auto;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.faqFunction:hover .faqText {
-  visibility: visible;
-}
-
-.awardsFunction {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-}
-
-.awardsFunction .awardsText {
-  visibility: hidden;
-  width: 120px;
-  height: auto;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.awardsFunction:hover .awardsText {
-  visibility: visible;
-}
-
-.supportFunction {
-  position: relative;
-  display: inline-block;
-  padding: 20px;
-}
-
-.supportFunction .supportText {
-  visibility: hidden;
-  width: 120px;
-  height: auto;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.supportFunction:hover .supportText {
-  visibility: visible;
 }
 
 .footerContent {
@@ -247,7 +150,7 @@ h2 {
   font-weight: lighter;
 }
 
-.footerHeader {
+h3 {
   font-size: 24px;
   font-weight: bold;
   width: 300px;
