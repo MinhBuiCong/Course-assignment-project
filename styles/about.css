@@ -48,14 +48,6 @@ a:hover {
   justify-content: flex-end;
 }
 
-.content {
-  width: 100vw;
-  height: 840px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .navHeadline {
   display: block;
   align-items: center;
@@ -88,6 +80,116 @@ h1:hover {
 
 .navImage:hover {
   fill: #ff8600;
+}
+
+h2 {
+  margin: 20px 20px;
+  font-size: 32px;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutFunction {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.aboutFunction .aboutText {
+  visibility: hidden;
+  width: 120px;
+  height: auto;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.aboutFunction:hover .aboutText {
+  visibility: visible;
+}
+
+.faqFunction {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.faqFunction .faqText {
+  visibility: hidden;
+  width: 120px;
+  height: auto;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.faqFunction:hover .faqText {
+  visibility: visible;
+}
+
+.awardsFunction {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.awardsFunction .awardsText {
+  visibility: hidden;
+  width: 120px;
+  height: auto;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.awardsFunction:hover .awardsText {
+  visibility: visible;
+}
+
+.supportFunction {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+}
+
+.supportFunction .supportText {
+  visibility: hidden;
+  width: 120px;
+  height: auto;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.supportFunction:hover .supportText {
+  visibility: visible;
 }
 
 .footerContent {
@@ -145,7 +247,7 @@ h1:hover {
   font-weight: lighter;
 }
 
-h3 {
+.footerHeader {
   font-size: 24px;
   font-weight: bold;
   width: 300px;
