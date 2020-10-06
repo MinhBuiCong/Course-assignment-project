@@ -91,10 +91,29 @@ h1:hover {
   fill: #ff8600;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation .filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 20px;
+}
+
+.dirText {
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .shopContent {
   display: flex;
   flex-direction: row;
-  width: 1080px;
+  width: 100%;
 }
 
 .filter {
@@ -120,15 +139,51 @@ button:hover {
 
 .productPage {
   display: flex;
+  flex-direction: column;
+}
+
+.firstRow {
+  display: flex;
   flex-direction: row;
+}
+
+.secondRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.imageContainer .favourite {
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+}
+
+.favourite:hover {
+  fill: #ff8600;
+  animation-delay: 5s;
+}
+
+.productCard {
+  padding-right: 160px;
 }
 
 .productCard img {
   width: 240px;
   height: 360px;
   border-radius: 30px;
-  padding-right: 160px;
-  padding-top: 20px;
+  cursor: pointer;
 }
 
 .productDetails {
