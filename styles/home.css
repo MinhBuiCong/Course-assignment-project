@@ -1,0 +1,86 @@
+.layout {
+  background-image: url(../images/Rainydays\ logo.png);
+  background-repeat: no-repeat;
+  background-size: 720px 240px;
+  background-position: center;
+  background-position-y: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: #0b3641;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff8600;
+}
+
+.content {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 80px;
+  margin-top: 320px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  width: 240px;
+  height: 80px;
+  margin: none;
+  padding: none;
+  border: none;
+  font-size: 24px;
+  margin: 0px 40px 0px 40px;
+  border-radius: 33px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.men {
+  background-color: #0b3641;
+  color: white;
+}
+
+.men:hover {
+  background-color: white;
+  color: #0b3641;
+  border: 2px solid #0b3641;
+}
+
+.woman {
+  background-color: #3aafb9;
+  color: white;
+}
+
+.woman:hover {
+  background-color: white;
+  color: #3aafb9;
+  border: 2px solid #3aafb9;
+}
+
+.children {
+  background-color: #eb1526;
+  color: white;
+}
+
+.children:hover {
+  background-color: white;
+  color: #eb1526;
+  border: 2px solid #eb1526;
+}

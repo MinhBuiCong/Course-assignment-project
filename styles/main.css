@@ -1,13 +1,20 @@
+* {
+  overflow-x: hidden;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: white;
   color: #0b3641;
-  width: 100vw;
+  max-width: 100vw;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .layout {
-  width: 100vw;
+  width: 100%;
   margin: auto;
 }
 
@@ -20,7 +27,7 @@ body {
   display: flex;
   margin: 0px;
   padding: 0px;
-  width: 700px;
+  width: fit-content;
 }
 
 .navText {
@@ -29,37 +36,20 @@ body {
   padding: 0px;
   cursor: pointer;
   font-weight: bold;
-  font-size: 24px;
-}
-
-a {
-  text-decoration: none;
-  color: #0b3641;
-  cursor: pointer;
-}
-
-a:hover {
-  color: #ff8600;
+  font-size: 16px;
 }
 
 .navIcon {
-  width: 700px;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.content {
-  width: 100vw;
-  height: 840px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .navHeadline {
   display: block;
   align-items: center;
+  border: 0 80px;
 }
 
 .navHeader {
@@ -67,21 +57,17 @@ a:hover {
   padding: 0px;
   align-items: center;
   border: 0px;
-}
-
-h1 {
-  font-size: 56px;
+  font-size: 48px;
   cursor: pointer;
 }
 
-h1:hover {
+.navHeader:hover {
   color: #ff8600;
-  font-size: 64px;
 }
 
 .navImage {
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
   margin-top: 56px;
   margin-right: 56px;
   cursor: pointer;
@@ -91,61 +77,10 @@ h1:hover {
   fill: #ff8600;
 }
 
-.logo {
-  width: 800px;
-  height: 200px;
-  padding: 0px;
-  margin: 40px 0px;
-}
-
-h2 {
-  font-size: 56px;
-  font-weight: bold;
-  margin-bottom: 80px;
-}
-
-.buttonContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-button {
-  width: 324px;
-  height: 108px;
-  margin: none;
-  padding: none;
-  border: none;
-  font-size: 32px;
-  margin: 0px 40px 0px 40px;
-  border-radius: 33px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-button:hover {
-}
-
-.men {
-  background-color: #0b3641;
-  color: white;
-}
-
-.woman {
-  background-color: #3aafb9;
-  color: white;
-}
-
-.children {
-  background-color: #eb1526;
-  color: white;
-}
-
 .footerContent {
   background-color: #ff8600;
   color: #0b3641;
-  width: 100vw;
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -178,7 +113,7 @@ button:hover {
 .footerImage {
   height: 40px;
   width: 64px;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 16px 0px 0px;
 }
 
 .giftCardsText {
@@ -201,4 +136,5 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   width: 300px;
+  padding-bottom: 16px;
 }

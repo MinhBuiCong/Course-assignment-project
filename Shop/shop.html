@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/shop.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <title>Rainydays shop</title>
   </head>
   <body>
@@ -67,19 +68,9 @@
           </div>
         </div>
       </header>
-      <h2>SHOP</h2>
-      <hr />
-      <div class="navigation">
-        <div class="dirContainer">
-          <span class="dirText">gender</span>
-          <span class="dirText">-></span>
-          <span class="dirText">jacket type</span>
-        </div>
-        <div class="filtersContainer">
-          <button class="filterButton">Filters</button>
-        </div>
-      </div>
+      <hr class="headerDivider" />
       <div class="shopContent">
+        <!-- implement JS hide and show button -->
         <div class="filter">
           <button class="dirButton">Men</button>
           <button class="dirButton">Woman</button>
@@ -96,6 +87,20 @@
           <button class="dirButton">Type of jacket</button>
         </div>
         <div class="productPage">
+          <h2 class="pageHeader">SHOP</h2>
+          <hr class="pageHeaderDivider" />
+          <div class="navigation">
+            <!-- Placeholder for JS -->
+            <div class="dirContainer">
+              <span class="dirText">gender</span>
+              <span class="dirText">-></span>
+              <span class="dirText">jacket type</span>
+            </div>
+            <div class="filtersContainer">
+              <button class="filterButton">Filters</button>
+            </div>
+          </div>
+          <hr />
           <div class="firstRow">
             <div class="productCard">
               <div class="imageContainer">
@@ -119,8 +124,8 @@
               </div>
               <div class="productDetails">
                 <div class="row1">
-                  <p>name of the brand</p>
-                  <p>price</p>
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
                 </div>
                 <div class="row2">
                   <p>name of the product</p>
@@ -149,8 +154,8 @@
               </div>
               <div class="productDetails">
                 <div class="row1">
-                  <p>name of the brand</p>
-                  <p>price</p>
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
                 </div>
                 <div class="row2">
                   <p>name of the product</p>
@@ -179,8 +184,38 @@
               </div>
               <div class="productDetails">
                 <div class="row1">
-                  <p>name of the brand</p>
-                  <p>price</p>
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
+                </div>
+                <div class="row2">
+                  <p>name of the product</p>
+                </div>
+              </div>
+            </div>
+            <div class="productCard">
+              <div class="imageContainer">
+                <img
+                  src="../images/claude-piche-lO9LgCjqsBs-unsplash (1).jpg"
+                  alt="picture of product"
+                />
+                <svg
+                  class="favourite"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#ffffff"
+                  width="18px"
+                  height="18px"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  />
+                </svg>
+              </div>
+              <div class="productDetails">
+                <div class="row1">
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
                 </div>
                 <div class="row2">
                   <p>name of the product</p>
@@ -211,8 +246,8 @@
               </div>
               <div class="productDetails">
                 <div class="row1">
-                  <p>name of the brand</p>
-                  <p>price</p>
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
                 </div>
                 <div class="row2">
                   <p>name of the product</p>
@@ -241,8 +276,8 @@
               </div>
               <div class="productDetails">
                 <div class="row1">
-                  <p>name of the brand</p>
-                  <p>price</p>
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
                 </div>
                 <div class="row2">
                   <p>name of the product</p>
@@ -271,8 +306,38 @@
               </div>
               <div class="productDetails">
                 <div class="row1">
-                  <p>name of the brand</p>
-                  <p>price</p>
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
+                </div>
+                <div class="row2">
+                  <p>name of the product</p>
+                </div>
+              </div>
+            </div>
+            <div class="productCard">
+              <div class="imageContainer">
+                <img
+                  src="../images/claude-piche-lO9LgCjqsBs-unsplash (1).jpg"
+                  alt="picture of product"
+                />
+                <svg
+                  class="favourite"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#ffffff"
+                  width="18px"
+                  height="18px"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  />
+                </svg>
+              </div>
+              <div class="productDetails">
+                <div class="row1">
+                  <p class="brandName">name of the brand</p>
+                  <p class="price">price</p>
                 </div>
                 <div class="row2">
                   <p>name of the product</p>
@@ -282,12 +347,13 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="page">
-      <p>
-        <span>Back</span> Page <span>1</span> of <span>10</span
-        ><span> Next</span>
-      </p>
+      <!-- Transparent and show next page use JS -->
+      <div class="page">
+        <p>
+          <span>Back</span> Page <span>1</span> of <span>10</span
+          ><span> Next</span>
+        </p>
+      </div>
     </div>
   </body>
   <footer>

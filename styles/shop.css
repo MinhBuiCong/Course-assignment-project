@@ -1,35 +1,17 @@
-body {
-  background-color: #0b3641;
-  color: white;
-  max-width: 100vw;
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 100vh;
-}
-
 .layout {
-  width: 100vw;
-  margin: auto;
+  background-color: #0b3641;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
+.headerDivider {
+  background-color: gray;
+  padding: 1px;
+  margin: 20px;
 }
 
-.navUl {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  width: 700px;
-}
-
-.navText {
-  margin-left: 56px;
-  margin-top: 80px;
-  padding: 0px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 24px;
+.pageHeaderDivider {
+  background-color: gray;
+  padding: 1px;
+  margin: 20px;
 }
 
 a {
@@ -42,55 +24,6 @@ a:hover {
   color: #ff8600;
 }
 
-.navIcon {
-  width: 700px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.content {
-  width: 100vw;
-  height: 840px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.navHeadline {
-  display: block;
-  align-items: center;
-}
-
-.navHeader {
-  margin: 50px 0px 0px 0px;
-  padding: 0px;
-  align-items: center;
-  border: 0px;
-}
-
-h1 {
-  font-size: 56px;
-  cursor: pointer;
-}
-
-h1:hover {
-  color: #ff8600;
-  font-size: 64px;
-}
-
-.navImage {
-  width: 56px;
-  height: 56px;
-  margin-top: 56px;
-  margin-right: 56px;
-  cursor: pointer;
-}
-
-.navImage:hover {
-  fill: #ff8600;
-}
-
 .navigation {
   display: flex;
   flex-direction: row;
@@ -98,14 +31,16 @@ h1:hover {
   justify-content: space-between;
 }
 
-h2 {
+.pageHeader {
   display: flex;
   justify-content: center;
-  font-size: 56px;
+  font-size: 48px;
+  color: white;
+  width: 84%;
 }
 
 .filtersContainer {
-  padding-right: 432px;
+  padding-right: 288px;
   padding-top: 40px;
 }
 
@@ -122,40 +57,43 @@ h2 {
 
 .filterButton:hover {
   text-decoration: #ff8600;
-  font-size: 20px;
+  font-size: 18px;
+  border: 2px solid #ff8600;
 }
 
 .dirContainer {
-  padding-left: 404px;
+  padding-left: 88px;
   padding-top: 10px;
 }
 
 .dirText {
   padding-right: 10px;
   font-weight: bold;
+  color: white;
 }
 
 .shopContent {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  max-width: 100vw;
 }
 
 .filter {
   display: flex;
   flex-direction: column;
-  padding: 0px 60px 10px 60px;
+  padding: 100px 50px 10px 50px;
   width: 160px;
+  border-right: 2px solid gray;
 }
 
 .dirButton {
   background: none;
-  padding: 5px;
+  padding: 5px 0px;
   border: none;
   margin: 0;
   color: white;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 16px;
   width: fit-content;
 }
 
@@ -168,6 +106,8 @@ h2 {
 .productPage {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 100vw;
 }
 
 .firstRow {
@@ -189,7 +129,7 @@ h2 {
 .imageContainer .favourite {
   position: absolute;
   top: 5%;
-  left: 80%;
+  left: 75%;
   background-color: none;
   border: none;
   cursor: pointer;
@@ -200,18 +140,25 @@ h2 {
 
 .favourite:hover {
   fill: #ff8600;
-  animation-delay: 5s;
 }
 
 .productCard {
-  padding-left: 120px;
+  padding-left: 80px;
+  width: fit-content;
+  border: none;
+  margin: 0;
 }
 
 .productCard img {
-  width: 240px;
-  height: 320px;
+  width: 224px;
+  height: 280px;
   border-radius: 30px;
+  border: 2px solid #0b3641;
   cursor: pointer;
+}
+
+img:hover {
+  border: 2px solid #ff8600;
 }
 
 .productDetails {
@@ -220,22 +167,31 @@ h2 {
 }
 
 .row1 {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
+  justify-content: start;
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.row1 p {
-  padding-right: 42px;
+.row1 .brandName {
+  font-size: 12px;
   border: none;
   margin: 0;
+  color: white;
+  padding-right: 100px;
+}
+
+.row1 .price {
+  font-size: 12px;
+  border: none;
+  margin: 0;
+  color: white;
+  padding: 0;
 }
 
 .row2 {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
   margin: 0;
@@ -244,9 +200,11 @@ h2 {
 }
 
 .row2 p {
+  font-size: 12px;
   padding: 0;
   margin: 0;
   border: none;
+  color: white;
 }
 
 .page {
@@ -256,63 +214,10 @@ h2 {
   padding-bottom: 40px;
 }
 
-.footerContent {
-  background-color: #ff8600;
-  color: #0b3641;
-  width: 100vw;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: lighter;
+.page span {
+  color: white;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  margin: 40px 0px 40px 0px;
-  border-right: 1px solid #0b3641;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
-.paymentImage {
-  display: flex;
-  flex-direction: row;
-}
-
-.info {
-  margin: 0px 0px 16px 0px;
-  padding: 0px;
-  border: 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-.footerImage {
-  height: 40px;
-  width: 64px;
-  margin: 0px 20px 0px 0px;
-}
-
-.giftCardsText {
-  margin: 0px 0px 16px 0px;
-  padding: 0px;
-  border: 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-.deliveryPartners {
-  margin: 0px 0px 16px 0px;
-  padding: 0px;
-  border: 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: bold;
-  width: 300px;
+.page p {
+  color: white;
 }
