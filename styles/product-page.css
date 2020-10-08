@@ -30,3 +30,32 @@ a:hover {
   font-size: 48px;
   color: white;
 }
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideImageContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.sideImage {
+  width: 98px;
+  height: 116px;
+  margin: 0px 20px 10px 50px;
+  cursor: pointer;
+  border: 2px solid #0b3641;
+}
+
+.sideImageContainer img:hover {
+  border: 2px solid #ff8600;
+}
+
+.mainImage {
+  height: 637px;
+  width: 480px;
+  padding: 40px 40px 10px 0px;
+}
