@@ -1,0 +1,32 @@
+.layout {
+  background-color: #0b3641;
+}
+
+.headerDivider {
+  background-color: gray;
+  padding: 1px;
+  margin: 20px;
+}
+
+.pageHeaderDivider {
+  background-color: gray;
+  padding: 1px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff8600;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  color: white;
+}
