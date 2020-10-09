@@ -75,6 +75,7 @@ body {
 
 .navImage:hover {
   fill: #ff8600;
+  transition: all 400ms ease;
 }
 
 .footerContent {

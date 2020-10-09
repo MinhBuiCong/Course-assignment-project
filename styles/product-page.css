@@ -24,6 +24,7 @@ a {
 
 a:hover {
   color: #ff8600;
+  transition: all 400ms ease;
 }
 
 .pageHeader {
@@ -136,6 +137,7 @@ span {
 
 .color1:hover {
   border: 2px solid rgb(121, 17, 17);
+  transition: all 400ms ease;
 }
 
 .color2 {
@@ -145,6 +147,7 @@ span {
 
 .color2:hover {
   border: 2px solid rgb(133, 133, 19);
+  transition: all 400ms ease;
 }
 
 .color3 {
@@ -154,6 +157,7 @@ span {
 
 .color3:hover {
   border: 2px solid rgb(10, 10, 161);
+  transition: all 400ms ease;
 }
 
 .color4 {
@@ -163,6 +167,7 @@ span {
 
 .color4:hover {
   border: 2px solid rgb(7, 85, 7);
+  transition: all 400ms ease;
 }
 
 .dropDown {
@@ -186,6 +191,7 @@ span {
 
 .dropDown:hover button {
   border: 3px solid black;
+  transition: all 400ms ease;
 }
 
 .dropDown span {
@@ -231,14 +237,17 @@ span {
 .shoppingButton:hover {
   background-color: white;
   border: 1px solid #ff8600;
+  transition: all 400ms ease;
 }
 
 .shoppingButton:hover p {
   color: #ff8600;
+  transition: all 400ms ease;
 }
 
 .shoppingButton:hover .shoppingCart {
   fill: #ff8600;
+  transition: all 400ms ease;
 }
 
 .buttonContainer {
@@ -268,10 +277,12 @@ span {
 .favouriteButton:hover {
   background-color: #ffffff;
   border: 1px solid #ff8600;
+  transition: all 400ms ease;
 }
 
 .favouriteButton:hover .favouriteIcon {
   fill: #ff8600;
+  transition: all 400ms ease;
 }
 
 .incrementDecrement {
@@ -296,6 +307,7 @@ span {
 .minusButton:hover {
   background-color: #115464;
   font-size: 40px;
+  transition: all 400ms ease;
 }
 
 .count {
@@ -320,6 +332,7 @@ span {
 .plusButton:hover {
   background-color: #115464;
   font-size: 40px;
+  transition: all 400ms ease;
 }
 
 .additionalInfo {
@@ -353,7 +366,9 @@ span {
 
 .dropInfo:hover p {
   font-weight: bold;
+  transition: all 400ms ease;
 }
 .dropInfo:hover span {
   font-weight: bold;
+  transition: all 400ms ease;
 }

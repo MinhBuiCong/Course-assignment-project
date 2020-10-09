@@ -6,4 +6,5 @@ a {
 
 a:hover {
   color: #ff8600;
+  transition: all 400ms ease;
 }
