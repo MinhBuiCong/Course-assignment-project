@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rainydays</title>
+    <title>Rainydays shopping cart</title>
   </head>
-  <link rel="stylesheet" href="styles/home.css" />
-  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="../styles/shopping-cart.css" />
+  <link rel="stylesheet" href="../styles/main.css" />
   <body>
     <div class="layout">
       <header>
         <div class="nav">
           <div class="navUl">
             <ul class="navText">
-              <a href="Shop/shop.html">Shop</a>
+              <a href="../Shop/shop.html">Shop</a>
             </ul>
             <ul class="navText">
-              <a href="About/about.html">About</a>
+              <a href="../About/about.html">About</a>
             </ul>
             <ul class="navText">
-              <a href="Contact/contact.html">Contact</a>
+              <a href="../Contact/contact.html">Contact</a>
             </ul>
           </div>
           <div class="navHeadline">
-            <h1 class="navHeader">Rainydays</h1>
+            <h1 class="navHeader"><a href="../index.html">Rainydays</a></h1>
           </div>
           <div class="navIcon">
             <svg
@@ -50,30 +50,48 @@
                 d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
               />
             </svg>
-            <a href="./Shopping-cart/shopping-cart.html">
-              <svg
-                class="navImage"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="#0B3641"
-                viewBox="0 0 24 24"
-                width="18px"
-                height="18px"
-              >
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
-                />
-              </svg>
-            </a>
+            <svg
+              class="navImage"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#ff8600"
+              viewBox="0 0 24 24"
+              width="18px"
+              height="18px"
+            >
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+              />
+            </svg>
           </div>
         </div>
       </header>
       <div class="content">
-        <h2>Pushing the comfort zone</h2>
-        <div class="buttonContainer">
-          <button class="men">Men</button>
-          <button class="woman">Woman</button>
-          <button class="children">Children</button>
+        <hr class="divider" />
+        <h1 class="headline">Shopping cart</h1>
+        <div class="overview">
+          <p class="overviewName">ITEM</p>
+          <p class="overviewName">QTY.</p>
+          <p class="overviewName">PRICE</p>
+        </div>
+        <div class="cartItem">
+          <button class="remove">x</button>
+          <img
+            class="item"
+            src="../images/claude-piche-lO9LgCjqsBs-unsplash (1).jpg"
+            alt="item"
+          />
+          <p class="nameItem">Name of the product</p>
+          <span class="quantity">1</span>
+          <span class="price">$100.00</span>
+        </div>
+        <hr class="divider" />
+        <div>
+          <div class="finishOverview">
+            <p class="subtotal">Subtotal:</p>
+            <span class="finalPrice"> $100.00</span>
+          </div>
+          <button class="checkout">Checkout</button>
         </div>
       </div>
     </div>
@@ -97,13 +115,13 @@
       <div class="section">
         <h3>Payment methods</h3>
         <div class="paymentImage">
-          <img class="footerImage" src="images/Visa.png" alt="Visa" />
+          <img class="footerImage" src="../images/Visa.png" alt="Visa" />
           <img
             class="footerImage"
-            src="images/Mastercard.png"
+            src="../images/Mastercard.png"
             alt="MasterCard"
           />
-          <img class="footerImage" src="images/paypal.png" alt="PayPal" />
+          <img class="footerImage" src="../images/paypal.png" alt="PayPal" />
         </div>
       </div>
       <div class="section">
