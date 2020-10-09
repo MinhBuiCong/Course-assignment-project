@@ -12,13 +12,22 @@ a {
   cursor: pointer;
 }
 
+header {
+  margin-bottom: 40px;
+}
+
 a:hover {
   color: #ff8600;
   transition: all 400ms ease;
 }
 
+.allContent {
+  display: flex;
+  flex-direction: row;
+}
+
 .content {
-  width: 100vw;
+  width: 80vw;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -89,4 +98,27 @@ button {
   color: #eb1526;
   border: 2px solid #eb1526;
   transition: all 400ms ease;
+}
+
+.whiteSpace1 {
+  height: 90vh;
+  width: 30vw;
+  padding: 0;
+  border: none;
+  margin: 0;
+  background-color: #0b3641;
+  background: linear-gradient(to right, #0b3641 30%, white 70%);
+  background-size: 100% 50%;
+  background-position: left;
+}
+.whiteSpace2 {
+  height: 90vh;
+  width: 30vw;
+  padding: 0;
+  border: none;
+  margin: 0;
+  background-color: #0b3641;
+  background: linear-gradient(to left, #0b3641 30%, white 70%);
+  background-size: 100% 50%;
+  background-position: right;
 }
