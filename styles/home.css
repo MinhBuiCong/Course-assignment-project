@@ -73,7 +73,7 @@ button {
 }
 
 .men:hover {
-  background: linear-gradient(to left top, white 40%, #0b3641 90%);
+  background: linear-gradient(to left top, white 40%, white 90%);
   color: #0b3641;
   border: 2px solid #0b3641;
 }
@@ -84,7 +84,7 @@ button {
 }
 
 .woman:hover {
-  background: linear-gradient(to left top, white 40%, #0b3641 90%);
+  background: linear-gradient(to left top, white 40%, white 90%);
   color: #0b3641;
   border: 2px solid #0b3641;
 }
@@ -95,7 +95,7 @@ button {
 }
 
 .children:hover {
-  background: linear-gradient(to left top, white 40%, #0b3641 90%);
+  background: linear-gradient(to left top, white 40%, white 90%);
   color: #0b3641;
   border: 2px solid #0b3641;
 }

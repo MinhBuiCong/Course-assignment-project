@@ -1,35 +1,9 @@
-body {
-  background-color: #0b3641;
-  color: white;
-  width: 100vw;
-  font-family: Arial, Helvetica, sans-serif;
-  min-height: 100vh;
-}
-
 .layout {
-  width: 100vw;
-  margin: auto;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navUl {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  width: 700px;
-}
-
-.navText {
-  margin-left: 56px;
-  margin-top: 80px;
-  padding: 0px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 24px;
+  max-width: 100vw;
+  max-height: 100vh;
+  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
+  background-size: 120% 120%;
+  background-position: right bottom;
 }
 
 a {
@@ -40,118 +14,98 @@ a {
 
 a:hover {
   color: #ff8600;
+  transition: all 400ms ease;
 }
 
-.navIcon {
-  width: 700px;
+.content {
+  width: 100vw;
+  height: 90vh;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
 }
 
-.navHeadline {
-  display: block;
-  align-items: center;
-}
-
-.navHeader {
-  margin: 50px 0px 0px 0px;
-  padding: 0px;
-  align-items: center;
-  border: 0px;
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 50px;
+  width: 60vw;
 }
 
 h1 {
+  color: white;
+  margin-bottom: 40px;
   font-size: 56px;
-  cursor: pointer;
 }
 
-h1:hover {
-  color: #ff8600;
-  font-size: 64px;
-}
-
-.navImage {
-  width: 56px;
-  height: 56px;
-  margin-top: 56px;
-  margin-right: 56px;
-  cursor: pointer;
-}
-
-.navImage:hover {
-  fill: #ff8600;
-}
-
-h2 {
-  margin: 20px 20px;
-  font-size: 32px;
-}
-
-.aboutContent {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding: 20px;
-}
-
-.footerContent {
-  background-color: #ff8600;
-  color: #0b3641;
-  width: 100vw;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: lighter;
-}
-
-.section {
-  display: flex;
-  flex-direction: column;
-  margin: 40px 0px 40px 0px;
-  border-right: 1px solid #0b3641;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-
-.paymentImage {
-  display: flex;
-  flex-direction: row;
-}
-
-.info {
-  margin: 0px 0px 16px 0px;
-  padding: 0px;
-  border: 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-.footerImage {
-  height: 40px;
-  width: 64px;
-  margin: 0px 20px 0px 0px;
-}
-
-.giftCardsText {
-  margin: 0px 0px 16px 0px;
-  padding: 0px;
-  border: 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-.deliveryPartners {
-  margin: 0px 0px 16px 0px;
-  padding: 0px;
-  border: 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-h3 {
+.paragraph p {
+  margin-top: 20px;
+  color: white;
+  margin-right: 140px;
   font-size: 24px;
+  font-weight: lighter;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-top: 210px;
+  margin-right: 50px;
+}
+
+.column button {
+  height: 64px;
+  width: 240px;
+  border: 2px solid white;
+  background-color: #3aafb9;
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+  border-radius: 16px;
+  text-transform: uppercase;
+  margin-left: 120px;
+  cursor: pointer;
+}
+
+.column button:hover {
+  border: 2px solid #3aafb9;
+  color: #3aafb9;
+  background-color: white;
+  transition: all 400ms ease;
+}
+
+.signIn {
+  display: flex;
+  flex-direction: row;
+}
+
+.signIn p {
+  color: white;
+  margin-left: 120px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.signIn span {
+  color: #ff8600;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
   font-weight: bold;
-  width: 300px;
+  font-size: 16px;
+}
+
+.signIn span:hover {
+  font-style: italic;
+}
+
+img {
+  width: 480px;
+  height: 120px;
+  margin-left: 120px;
+  margin-top: 80px;
+  border-radius: 16px;
 }
