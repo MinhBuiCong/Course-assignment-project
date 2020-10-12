@@ -129,7 +129,7 @@ span {
   margin-right: 20px;
   width: 40px;
   height: 40px;
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 .color1 {
@@ -179,22 +179,22 @@ span {
   justify-content: space-between;
 }
 
-.dropDown button {
+.dropDown select {
   height: 48px;
   width: 240px;
   border-radius: 16px;
-  border: 1px solid #0b3641;
+  border: 2px solid #0b3641;
   color: black;
   background-color: white;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 16px;
+  padding-left: 5px;
   cursor: pointer;
 }
 
-.dropDown:hover button {
+.dropDown:hover select {
   border: 3px solid black;
-  transition: all 400ms ease;
 }
 
 .dropDown span {
