@@ -68,39 +68,36 @@ button {
 }
 
 .men {
-  background-color: #0b3641;
+  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
   color: white;
 }
 
 .men:hover {
-  background-color: white;
+  background: linear-gradient(to left top, white 40%, #0b3641 90%);
   color: #0b3641;
   border: 2px solid #0b3641;
-  transition: all 400ms ease;
 }
 
 .woman {
-  background-color: #3aafb9;
+  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
   color: white;
 }
 
 .woman:hover {
-  background-color: white;
-  color: #3aafb9;
-  border: 2px solid #3aafb9;
-  transition: all 400ms ease;
+  background: linear-gradient(to left top, white 40%, #0b3641 90%);
+  color: #0b3641;
+  border: 2px solid #0b3641;
 }
 
 .children {
-  background-color: #eb1526;
+  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
   color: white;
 }
 
 .children:hover {
-  background-color: white;
-  color: #eb1526;
-  border: 2px solid #eb1526;
-  transition: all 400ms ease;
+  background: linear-gradient(to left top, white 40%, #0b3641 90%);
+  color: #0b3641;
+  border: 2px solid #0b3641;
 }
 
 .whiteSpace1 {
