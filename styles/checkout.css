@@ -18,11 +18,105 @@ a:hover {
 }
 
 .content {
-  color: white;
   display: flex;
   flex-direction: column;
-  width: 80vw;
-  height: 100vh;
-  margin: 0;
-  margin-left: 200px;
+  justify-content: center;
+  height: 700px;
+  width: 100vw;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 56px;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+span {
+  display: inline-block;
+  justify-content: center;
+  color: #ff8600;
+  text-decoration: underline;
+  margin: 0px 8px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+span:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.homePage {
+  background-color: #0b3641;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 64px;
+  width: 220px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.homePage:hover {
+  background-color: white;
+  color: #0b3641;
+  border: 2px solid #0b3641;
+  transition: all 400ms ease;
+}
+
+.continue {
+  background-color: #ff8600;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 30px;
+  height: 64px;
+  width: 220px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.continue:hover {
+  background-color: white;
+  color: #ff8600;
+  border: 2px solid #ff8600;
+  transition: all 400ms ease;
+}
+
+h2 span {
+  font-weight: bold;
 }
