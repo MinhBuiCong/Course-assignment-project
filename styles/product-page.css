@@ -2,6 +2,9 @@
   background-color: #0b3641;
   max-width: 100vw;
   max-height: 100vh;
+  background: linear-gradient(to left top, #0b3641 40%, #115a6d 90%);
+  background-size: 120% 120%;
+  background-position: right bottom;
 }
 
 .headerDivider {

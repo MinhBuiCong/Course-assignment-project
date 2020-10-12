@@ -1,0 +1,28 @@
+.layout {
+  max-width: 100vw;
+  max-height: 100vh;
+  background: linear-gradient(to left top, #0b3641 40%, #115a6d 90%);
+  background-size: 120% 120%;
+  background-position: right bottom;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff8600;
+  transition: all 400ms ease;
+}
+
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 100vh;
+  margin: 0;
+  margin-left: 200px;
+}

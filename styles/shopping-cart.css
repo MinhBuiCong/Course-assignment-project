@@ -1,10 +1,166 @@
+.layout {
+  max-width: 100vw;
+  max-height: 100vh;
+  background: linear-gradient(to left top, #0b3641 40%, #115a6d 90%);
+  background-size: 120% 120%;
+  background-position: right bottom;
+}
+
 a {
   text-decoration: none;
-  color: #0b3641;
+  color: white;
   cursor: pointer;
 }
 
 a:hover {
   color: #ff8600;
+  transition: all 400ms ease;
+}
+
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 100vh;
+  margin: 0;
+  margin-left: 200px;
+}
+
+.divider {
+  border-width: 100px;
+  border: 1px solid white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  width: 74.5vw;
+}
+
+.headline {
+  display: block;
+  margin-top: 80px;
+  margin-left: 50px;
+  justify-self: center;
+  color: white;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.overviewName {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
+
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.remove {
+  color: white;
+  font-size: 24px;
+  background: none;
+  margin-right: 64px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: #ff8600;
+  border-radius: 50%;
+}
+
+.item {
+  width: 160px;
+  height: 160px;
+  margin-right: 36px;
+  border-radius: 30px;
+}
+
+.nameItem {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 64px;
+  margin-right: 82px;
+}
+
+.quantity {
+  color: white;
+  font-size: 24px;
+  margin-left: 82px;
+  margin-top: 64px;
+  margin-right: 300px;
+}
+
+.price {
+  color: white;
+  font-size: 24px;
+  margin-left: 280px;
+  margin-top: 64px;
+}
+
+.finish {
+  display: flex;
+  flex-direction: column;
+  justify-items: right;
+}
+
+.finishOverview {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 120px;
+}
+
+.subtotal {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.finalPrice {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 48px;
+}
+
+.checkoutContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.checkout {
+  margin-top: 40px;
+  height: 48px;
+  width: 200px;
+  border-radius: 30px;
+  margin-right: 48px;
+  background-color: #ff8600;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background-color: white;
+  color: #ff8600;
+  border: 2px solid #ff8600;
   transition: all 400ms ease;
 }
