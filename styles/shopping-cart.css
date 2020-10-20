@@ -6,6 +6,12 @@
   background-position: right bottom;
 }
 
+@media only screen and (max-width: 400px) {
+  .nav {
+    display: none;
+  }
+}
+
 a {
   text-decoration: none;
   color: white;

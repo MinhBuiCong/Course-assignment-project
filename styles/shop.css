@@ -5,10 +5,35 @@
   background-position: right bottom;
 }
 
+@media only screen and (max-width: 400px) {
+  .menuButton .menuIcon {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navHeadlineMobile {
+    margin-left: 32px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav {
+    display: none;
+  }
+}
+
 .headerDivider {
   background-color: gray;
   padding: 1px;
   margin: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .headerDivider {
+    display: none;
+  }
 }
 
 .pageHeaderDivider {
@@ -35,12 +60,41 @@ a:hover {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 400px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.mobileFilter {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .mobileFilter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    align-items: flex-start;
+  }
+}
+
 .pageHeader {
   display: flex;
   justify-content: center;
   font-size: 48px;
   color: white;
   width: 84%;
+}
+
+@media only screen and (max-width: 400px) {
+  .pageHeader {
+    font-size: 32px;
+    margin: 20px 0px;
+  }
 }
 
 .filtersContainer {
@@ -71,6 +125,12 @@ a:hover {
   padding-top: 10px;
 }
 
+@media only screen and (max-width: 400px) {
+  .dirContainer {
+    display: none;
+  }
+}
+
 .dirText {
   padding-right: 10px;
   font-weight: bold;
@@ -88,13 +148,14 @@ span .arrow {
   max-width: 100vw;
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .shopContent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
-} */
+}
 
 .filter {
   display: flex;
@@ -104,17 +165,11 @@ span .arrow {
   border-right: 2px solid gray;
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .filter {
-    width: 0px;
-    margin: 0;
-    padding: 0;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    border-right: none;
+    display: none;
   }
-} */
+}
 
 .dirButton {
   background: none;
@@ -141,29 +196,37 @@ span .arrow {
   width: 100vw;
 }
 
+@media only screen and (max-width: 400px) {
+  .productPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .firstRow {
   display: flex;
   flex-direction: row;
 }
-/* 
+
 @media only screen and (max-width: 400px) {
   .firstRow {
     display: flex;
     flex-direction: column;
   }
-} */
+}
 
 .secondRow {
   display: flex;
   flex-direction: row;
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .secondRow {
     display: flex;
     flex-direction: column;
   }
-} */
+}
 
 .imageContainer {
   position: relative;
