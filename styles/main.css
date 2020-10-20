@@ -5,6 +5,15 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 400px) {
+  * {
+    overflow-x: hidden;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
 body {
   background-color: white;
   color: #0b3641;
@@ -13,14 +22,34 @@ body {
   max-height: 100vh;
 }
 
+@media only screen and (max-width: 400px) {
+  .body {
+    background-color: white;
+  }
+}
+
 .layout {
   width: 100%;
   margin: auto;
 }
 
+@media only screen and (max-width: 400px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .navUl {
@@ -39,6 +68,12 @@ body {
   font-size: 16px;
 }
 
+@media only screen and (max-width: 400px) {
+  .navText {
+    display: none;
+  }
+}
+
 .navIcon {
   width: fit-content;
   display: flex;
@@ -46,10 +81,39 @@ body {
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 400px) {
+  .navIcon {
+    display: none;
+  }
+}
+
+.navHeadlineMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .navHeadlineMobile {
+    display: block;
+    align-items: center;
+    margin-right: 32px;
+  }
+
+  .navHeaderMobile {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+}
+
 .navHeadline {
   display: block;
   align-items: center;
   border: 0 80px;
+}
+
+@media only screen and (max-width: 400px) {
+  .navHeadline {
+    display: none;
+  }
 }
 
 .navHeader {
@@ -89,6 +153,15 @@ body {
   font-weight: lighter;
 }
 
+@media only screen and (max-width: 400px) {
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .section {
   display: flex;
   flex-direction: column;
@@ -96,6 +169,12 @@ body {
   border-right: 1px solid #0b3641;
   padding-right: 50px;
   padding-left: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .section {
+    margin: 16px 0px;
+  }
 }
 
 .paymentImage {

@@ -138,8 +138,8 @@ span {
 }
 
 .color1:hover {
-  border: 2px solid rgb(121, 17, 17);
-  transition: all 400ms ease;
+  background-color: rgb(121, 17, 17);
+  transition: all 200ms ease;
 }
 
 .color2 {
@@ -148,8 +148,8 @@ span {
 }
 
 .color2:hover {
-  border: 2px solid rgb(133, 133, 19);
-  transition: all 400ms ease;
+  background-color: rgb(133, 133, 19);
+  transition: all 200ms ease;
 }
 
 .color3 {
@@ -158,8 +158,8 @@ span {
 }
 
 .color3:hover {
-  border: 2px solid rgb(10, 10, 161);
-  transition: all 400ms ease;
+  background-color: rgb(10, 10, 161);
+  transition: all 200ms ease;
 }
 
 .color4 {
@@ -168,8 +168,8 @@ span {
 }
 
 .color4:hover {
-  border: 2px solid rgb(7, 85, 7);
-  transition: all 400ms ease;
+  background-color: rgb(7, 85, 7);
+  transition: all 200ms ease;
 }
 
 .dropDown {
