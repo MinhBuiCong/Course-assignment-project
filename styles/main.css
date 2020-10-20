@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   * {
     overflow-x: hidden;
     border: none;
@@ -22,7 +22,7 @@ body {
   max-height: 100vh;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .body {
     background-color: white;
   }
@@ -33,7 +33,7 @@ body {
   margin: auto;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .layout {
     display: flex;
     flex-direction: column;
@@ -52,15 +52,14 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .headerMobile {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 }
-
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .menuContent {
     display: flex;
     flex-direction: row;
@@ -79,7 +78,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .cartContentMobile {
     display: flex;
     flex-direction: row;
@@ -103,7 +102,7 @@ body {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .nav {
     display: none;
   }
@@ -125,7 +124,7 @@ body {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .navText {
     display: none;
   }
@@ -138,7 +137,7 @@ body {
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .navIcon {
     display: none;
   }
@@ -148,7 +147,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .navHeadlineMobile {
     display: block;
     align-items: center;
@@ -168,7 +167,7 @@ body {
   border: 0 80px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .navHeadline {
     display: none;
   }
@@ -211,12 +210,10 @@ body {
   font-weight: lighter;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .footerContent {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 }
 
@@ -229,9 +226,18 @@ body {
   padding-left: 50px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
   .section {
+    display: flex;
+    flex-direction: column;
     margin: 16px 0px;
+    border: none;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .section h3 {
+    width: fit-content;
   }
 }
 
@@ -246,6 +252,33 @@ body {
   border: 0px;
   font-size: 16px;
   font-weight: lighter;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .section .contactInfo {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section .giftCards {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section .delivery {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .footerImage {
