@@ -153,6 +153,7 @@ body {
     display: block;
     align-items: center;
     margin-right: 32px;
+    margin-left: 30px;
   }
 
   .navHeaderMobile {
