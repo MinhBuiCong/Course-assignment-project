@@ -4,16 +4,14 @@
   background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
   background-size: 120% 120%;
   background-position: right bottom;
-  
-
 }
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .headerMobile {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
+}
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .menuButton .menuIcon {
@@ -28,11 +26,10 @@
 }
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
-  .nav {
+  nav {
     display: none;
   }
 }
-
 
 .headerDivider {
   background-color: gray;
@@ -43,9 +40,9 @@
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .headerDivider {
     display: none;
-    margin:0px;
-    padding:0px;
-    border:none
+    margin: 0px;
+    padding: 0px;
+    border: none;
   }
 }
 
@@ -58,9 +55,9 @@
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .pageHeaderDivider {
     display: none;
-    margin:0px;
-    padding:0px;
-    border:none
+    margin: 0px;
+    padding: 0px;
+    border: none;
   }
 }
 
@@ -74,7 +71,6 @@ a:hover {
   color: #ff8600;
   transition: all 400ms ease;
 }
-
 
 .pageHeader {
   display: flex;
@@ -94,7 +90,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  
 }
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
@@ -102,8 +97,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-content: center;
-
-    
   }
 }
 
@@ -120,9 +113,10 @@ a:hover {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    height: auto;;
-    margin:0px;
+    height: auto;
+    margin: 0px;
   }
+}
 
 .sideImageContainer {
   display: flex;
@@ -136,10 +130,10 @@ a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin:10px;
-    padding:0px;
+    margin: 10px;
+    padding: 0px;
   }
-
+}
 
 .sideImage {
   width: 98px;
@@ -156,9 +150,8 @@ a:hover {
     padding: 0px;
     width: 9%;
     height: auto;
-
   }
-
+}
 
 .sideImageContainer img:hover {
   border: 2px solid #ff8600;
@@ -170,7 +163,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
-
+}
 
 .mainImage {
   height: 637px;
@@ -184,10 +177,10 @@ a:hover {
     width: 60%;
     height: auto;
     align-items: center;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
   }
-
+}
 
 .infoContainer {
   padding-top: 20px;
@@ -200,6 +193,7 @@ a:hover {
     align-items: center;
     margin-bottom: 40px;
   }
+}
 
 .brand {
   text-decoration: underline;

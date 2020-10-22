@@ -18,7 +18,7 @@
 }
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
-  .nav {
+  nav {
     display: none;
   }
 }
