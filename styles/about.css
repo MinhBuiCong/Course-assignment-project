@@ -175,7 +175,7 @@ h1 {
     margin: 20px 0px 0px 0px;
   }
 }
-.signIn span {
+.signIn a {
   color: #ff8600;
   margin-left: 10px;
   margin-top: 20px;
@@ -186,6 +186,11 @@ h1 {
   font-size: 16px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .signIn a {
+    margin: 20px 0px 0px 10px;
+  }
+}
 .signIn span:hover {
   font-style: italic;
 }
