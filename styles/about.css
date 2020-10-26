@@ -54,6 +54,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+}
 
 .paragraph {
   display: flex;
@@ -69,9 +70,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     height: 50vh;
-    margin:0px;
-    padding-right:16px
+    margin: 0px;
+    padding-right: 16px;
   }
+}
 
 h1 {
   color: white;
@@ -82,10 +84,10 @@ h1 {
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   h1 {
     font-size: 36px;
-    margin-top:40px;
+    margin-top: 40px;
     overflow-y: hidden;
   }
-
+}
 .paragraph p {
   margin-top: 20px;
   color: white;
@@ -96,9 +98,11 @@ h1 {
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .paragraph p {
-    margin:10px;
+    margin: 10px;
     font-size: 16px;
+    overflow-y: hidden;
   }
+}
 
 .column {
   display: flex;
@@ -110,15 +114,15 @@ h1 {
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .column {
-    margin:0px;
-    padding:0px;
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     width: auto;
     height: auto;
     align-items: center;
   }
-
+}
 
 .column button {
   height: 64px;
@@ -136,8 +140,9 @@ h1 {
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .column button {
-    margin:0px;
+    margin: 0px;
   }
+}
 
 .column button:hover {
   border: 2px solid #3aafb9;
@@ -153,9 +158,9 @@ h1 {
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .signIn {
-    margin:0px;
+    margin: 0px;
   }
-
+}
 
 .signIn p {
   color: white;
@@ -167,9 +172,9 @@ h1 {
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   .signIn p {
-    margin:20px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
   }
-
+}
 .signIn span {
   color: #ff8600;
   margin-left: 10px;
@@ -195,6 +200,6 @@ img {
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
   img {
-    margin:40px 0px 0px 0px;
-    
+    margin: 40px 0px 0px 0px;
   }
+}

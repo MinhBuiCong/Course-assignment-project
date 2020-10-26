@@ -4,6 +4,32 @@
   background-position: right bottom;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .headerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .menuButton .menuIcon {
+    color: white;
+  }
+}
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .navHeadlineMobile {
+    margin-left: 32px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -23,6 +49,15 @@ a:hover {
   margin-bottom: 40px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+  }
+}
+
 .paragraph {
   display: flex;
   flex-direction: column;
@@ -31,10 +66,24 @@ a:hover {
   width: 60vw;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .paragraph {
+    width: fit-content;
+    height: auto;
+  }
+}
+
 h1 {
   color: white;
   margin-bottom: 32px;
   font-size: 56px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
 }
 
 .paragraph p {
@@ -43,6 +92,12 @@ h1 {
   margin-right: 140px;
   font-size: 24px;
   font-weight: lighter;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .paragraph p {
+    font-size: 16px;
+  }
 }
 
 .column {
@@ -58,6 +113,12 @@ span {
   font-size: 32px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  span {
+    font-size: 20px;
+  }
+}
+
 .row1 {
   display: flex;
   flex-direction: row;
@@ -71,6 +132,12 @@ span {
   color: white;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .nameInput {
+    font-size: 16px;
+  }
+}
+
 .nameInput input {
   width: 400px;
   height: 56px;
@@ -79,10 +146,23 @@ span {
   padding-left: 16px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .nameInput input {
+    font-size: 16px;
+    width: 200px;
+  }
+}
+
 .emailInput {
   display: flex;
   flex-direction: column;
   color: white;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .emailInput {
+    font-size: 16px;
+  }
 }
 
 .emailInput input {
@@ -91,6 +171,13 @@ span {
   font-size: 20px;
   margin-top: 10px;
   padding-left: 16px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .emailInput input {
+    font-size: 16px;
+    width: 200px;
+  }
 }
 
 .row2 {
@@ -105,6 +192,12 @@ span {
   color: white;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .messageInput {
+    font-size: 16px;
+  }
+}
+
 .messageInput textarea {
   width: 400px;
   height: 200px;
@@ -115,10 +208,23 @@ span {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .messageInput textarea {
+    font-size: 16px;
+    width: 200px;
+  }
+}
+
 .submit {
   color: white;
   margin-left: 364px;
   margin-top: 210px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .submit {
+    margin: 200px 0px 0px 160px;
+  }
 }
 
 .submit input {
