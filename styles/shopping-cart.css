@@ -1,13 +1,32 @@
 .layout {
-  max-width: 100vw;
-  max-height: 100vh;
+  /* max-width: 100vw;
+  max-height: 100vh; */
   background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
   background-size: 120% 120%;
   background-position: right bottom;
 }
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .headerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
-@media only screen and (max-width: 400px) {
-  .nav {
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .menuButton .menuIcon {
+    color: white;
+  }
+}
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .navHeadlineMobile {
+    margin-left: 32px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  nav {
     display: none;
   }
 }
@@ -33,6 +52,18 @@ a:hover {
   margin-left: 200px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 0px 10px;
+    padding: 0px;
+  }
+}
+
 .divider {
   border-width: 100px;
   border: 1px solid white;
@@ -40,6 +71,14 @@ a:hover {
   margin-bottom: 40px;
   margin-left: 50px;
   width: 74.5vw;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .divider {
+    margin: 0px;
+    border-width: 1px;
+    width: 90vw;
+  }
 }
 
 .headline {
@@ -50,6 +89,16 @@ a:hover {
   color: white;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0px;
+    font-size: 32px;
+  }
+}
+
 .overview {
   display: flex;
   flex-direction: row;
@@ -57,6 +106,19 @@ a:hover {
   width: auto;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+  }
+
+  .overviewName {
+    margin: 5px;
+  }
 }
 
 .overviewName {
@@ -71,9 +133,31 @@ a:hover {
   justify-content: left;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .cartItem {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 300px;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 .itemContainer {
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .itemContainer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
 }
 
 .remove {
@@ -83,6 +167,18 @@ a:hover {
   margin-right: 64px;
   margin-left: 50px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .remove {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 12px;
+    margin: 20px 10px 10px 10px;
+    overflow-y: hidden;
+  }
 }
 
 .remove:hover {
@@ -97,12 +193,32 @@ a:hover {
   border-radius: 30px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    border-radius: 16px;
+    margin-right: 12px;
+    margin-top: 10px;
+  }
+}
+
 .nameItem {
   color: white;
   font-size: 24px;
   font-weight: lighter;
   margin-top: 64px;
   margin-right: 82px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .nameItem {
+    margin: 20px 0px;
+    padding: 0px;
+    font-size: 16px;
+  }
 }
 
 .quantity {
@@ -113,11 +229,29 @@ a:hover {
   margin-right: 300px;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .quantity {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 30px;
+    padding-top: 120px;
+  }
+}
+
 .price {
   color: white;
   font-size: 24px;
   margin-left: 280px;
   margin-top: 64px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .price {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 40px;
+    padding-top: 120px;
+  }
 }
 
 .finish {
@@ -126,10 +260,23 @@ a:hover {
   justify-items: right;
 }
 
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .finish {
+    width: 500px;
+    height: auto;
+  }
+}
+
 .finishOverview {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 120px;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .finishOverview {
+    margin: 80px 100px 0px 0px;
+  }
 }
 
 .subtotal {
@@ -148,6 +295,12 @@ a:hover {
 .checkoutContainer {
   display: flex;
   flex-direction: row-reverse;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .checkoutContainer {
+    margin: 40px 100px 120px 0px;
+  }
 }
 
 .checkout {
