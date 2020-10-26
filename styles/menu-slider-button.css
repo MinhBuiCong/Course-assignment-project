@@ -1,5 +1,4 @@
 .layout {
-  margin: 200px;
   height: 100vh;
   width: 100vw;
 }
@@ -8,14 +7,30 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 
-.navImage {
+.profile svg {
   margin-left: 20px;
   cursor: pointer;
 }
+.profile svg:hover {
+  fill: #ff8600;
+}
+.favourite svg {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.favourite svg:hover {
+  fill: #ff8600;
+}
 
-.navImage:hover {
-  color: black;
+a {
+  text-decoration: none;
+  color: #0b3641;
+  font-size: 36px;
+}
+
+a:hover {
+  color: #ff8600;
 }
