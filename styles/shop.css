@@ -6,13 +6,13 @@
 }
 
 .headerDivider {
-  background-color: gray;
+  background-color: white;
   padding: 1px;
   margin: 20px;
 }
 
 .pageHeaderDivider {
-  background-color: gray;
+  background-color: white;
   padding: 1px;
   margin: 20px;
 }
@@ -97,14 +97,14 @@ span .arrow {
   flex-direction: column;
   padding: 100px 50px 10px 50px;
   width: 160px;
-  border-right: 2px solid gray;
+  border-right: 2px solid white;
 }
 
 .dirButton {
   background: none;
   padding: 5px 0px;
   border: none;
-  margin: 0;
+  margin: 0px;
   color: white;
   cursor: pointer;
   font-size: 16px;
@@ -163,7 +163,7 @@ span .arrow {
 .productCard {
   width: fit-content;
   border: 2px solid white;
-  margin: 0;
+  margin: 0px;
   background-color: white;
   padding: 10px 0px 20px 12px;
   margin: 36px;
@@ -198,41 +198,42 @@ img:hover {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   border: none;
 }
 
 .row1 .brandName {
   font-size: 12px;
+  width: 180px;
   border: none;
-  margin: 0;
-  color: black;
-  padding: 10px 100px 10px 0px;
+  margin-left: 10px;
+  color: #0b3641;
+  padding: 10px 0px 10px 0px;
 }
 
 .row1 .price {
   font-size: 12px;
   border: none;
-  margin: 0;
-  color: black;
+  margin-right: 10px;
+  color: #0b3641;
   padding-top: 10px;
 }
 
 .row2 {
   display: flex;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   border: none;
 }
 
 .row2 p {
   font-size: 12px;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin-left: 10px;
   border: none;
-  color: black;
+  color: #0b3641;
 }
 
 .page {
