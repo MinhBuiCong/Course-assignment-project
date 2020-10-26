@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .layout {
   height: 100vh;
   width: 100vw;
@@ -8,18 +12,38 @@
   flex-direction: column;
   width: 100vw;
   height: auto;
+  padding-top: 40px;
+}
+
+ul {
+  background: none;
+  border: none;
+  font-size: 36px;
+  color: #0b3641;
+  margin-left: 8px;
+}
+
+ul:hover {
+  color: #ff8600;
 }
 
 .profile svg {
-  margin-left: 20px;
+  margin-left: 40px;
   cursor: pointer;
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
 }
 .profile svg:hover {
   fill: #ff8600;
 }
 .favourite svg {
-  margin-left: 20px;
+  margin-left: 40px;
   cursor: pointer;
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
 }
 .favourite svg:hover {
   fill: #ff8600;
@@ -29,6 +53,7 @@ a {
   text-decoration: none;
   color: #0b3641;
   font-size: 36px;
+  transition: 0.3s;
 }
 
 a:hover {
