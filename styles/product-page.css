@@ -3,31 +3,6 @@
   background-size: 120% 120%;
   background-position: right bottom;
 }
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .headerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .menuButton .menuIcon {
-    color: white;
-  }
-}
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navHeadlineMobile {
-    margin-left: 32px;
-    color: white;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  nav {
-    display: none;
-  }
-}
 
 .headerDivider {
   background-color: gray;
@@ -35,28 +10,10 @@
   margin: 20px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .headerDivider {
-    display: none;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-  }
-}
-
 .pageHeaderDivider {
   background-color: gray;
   padding: 1px;
   margin: 20px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .pageHeaderDivider {
-    display: none;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-  }
 }
 
 a {
@@ -77,25 +34,10 @@ a:hover {
   color: white;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .pageHeader {
-    font-size: 32px;
-    margin: 20px 0px;
-  }
-}
-
 .contentContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .contentContainer {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
 }
 
 .imageContainer {
@@ -105,32 +47,10 @@ a:hover {
   margin-bottom: 80px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .imageContainer {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    margin: 0px;
-  }
-}
-
 .sideImageContainer {
   display: flex;
   flex-direction: column;
   padding-top: 40px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .sideImageContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 0px;
-  }
 }
 
 .sideImage {
@@ -142,25 +62,8 @@ a:hover {
   border-radius: 16px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .sideImage {
-    margin: 0px 5px;
-    padding: 0px;
-    width: 9%;
-    height: auto;
-  }
-}
-
 .sideImageContainer img:hover {
   border: 2px solid #ff8600;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .mainImageContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .mainImage {
@@ -170,27 +73,8 @@ a:hover {
   border-radius: 16px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .mainImage {
-    width: 60%;
-    height: auto;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
-  }
-}
-
 .infoContainer {
   padding-top: 20px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .infoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-  }
 }
 
 .brand {

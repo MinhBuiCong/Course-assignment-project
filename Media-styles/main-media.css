@@ -1,0 +1,104 @@
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
+  .headerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menuContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: max-content;
+    margin: 0px;
+    padding: 0px;
+  }
+  .menuButton {
+    width: 40px;
+    height: 40px;
+    background: none;
+    margin-top: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .cartContentMobile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navCartMobile {
+    width: 40px;
+    height: 40px;
+    background: none;
+    margin-top: 20px;
+    margin-right: 8px;
+  }
+  nav {
+    display: none;
+  }
+  .navText {
+    display: none;
+  }
+  .navIcon {
+    display: none;
+  }
+  .navHeadlineMobile {
+    display: block;
+    align-items: center;
+    margin-right: 32px;
+    margin-left: 30px;
+  }
+
+  .navHeaderMobile {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  .navHeadline {
+    display: none;
+  }
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .section {
+    margin: 16px 0px;
+    border: none;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .section h3 {
+    width: fit-content;
+  }
+  .section .contactInfo {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section .giftCards {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section .delivery {
+    width: fit-content;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

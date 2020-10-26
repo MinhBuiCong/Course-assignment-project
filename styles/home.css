@@ -5,16 +5,6 @@
   background-position: center;
   background-position-y: 20%;
 }
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .layout {
-    background-image: url(../images/Rainydays\ logo.png);
-    background-repeat: no-repeat;
-    background-size: 360px 120px;
-    background-position: center;
-    background-position-y: 20%;
-    height: 100vh;
-  }
-}
 
 a {
   text-decoration: none;
@@ -36,15 +26,6 @@ a:hover {
   flex-direction: row;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .allContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .content {
   width: 80vw;
   height: 90vh;
@@ -56,14 +37,6 @@ a:hover {
   margin: 0;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 h2 {
   font-size: 48px;
   font-weight: bold;
@@ -73,25 +46,12 @@ h2 {
   z-index: -10;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  h2 {
-    font-size: 24px;
-  }
-}
-
 .buttonContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin-top: 80px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 button {
@@ -105,15 +65,6 @@ button {
   border-radius: 33px;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  button {
-    width: 180px;
-    height: 48px;
-    margin: 0px 20px 20px 20px;
-    font-size: 18px;
-  }
 }
 
 .men {
@@ -156,21 +107,8 @@ button {
   border: none;
   margin: 0;
   background-color: #0b3641;
-  /* background: linear-gradient(to right, #0b3641 40%, white 90%);
-  background-size: 100% 50%;
-  background-position: left; */
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .whiteSpace1 {
-    display: none;
-  }
-}
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .whiteSpace2 {
-    display: none;
-  }
-}
 .whiteSpace2 {
   height: 90vh;
   width: 20vw;
@@ -178,7 +116,4 @@ button {
   border: none;
   margin: 0;
   background-color: #0b3641;
-  /* background: linear-gradient(to left, #0b3641 40%, white 90%);
-  background-size: 100% 50%;
-  background-position: right; */
 }

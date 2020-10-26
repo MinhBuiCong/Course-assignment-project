@@ -5,34 +5,10 @@
   background-position: right bottom;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .menuButton .menuIcon {
-    color: white;
-  }
-}
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navHeadlineMobile {
-    margin-left: 32px;
-    color: white;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  nav {
-    display: none;
-  }
-}
-
 .headerDivider {
   background-color: gray;
   padding: 1px;
   margin: 20px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .headerDivider {
-    display: none;
-  }
 }
 
 .pageHeaderDivider {
@@ -59,26 +35,8 @@ a:hover {
   justify-content: space-between;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navigation {
-    display: none;
-  }
-}
-
 .mobileFilter {
   display: none;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .mobileFilter {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    background: none;
-    border: 1px solid white;
-    color: white;
-    align-items: flex-start;
-  }
 }
 
 .pageHeader {
@@ -87,13 +45,6 @@ a:hover {
   font-size: 48px;
   color: white;
   width: 84%;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .pageHeader {
-    font-size: 32px;
-    margin: 20px 0px;
-  }
 }
 
 .filtersContainer {
@@ -124,12 +75,6 @@ a:hover {
   padding-top: 10px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .dirContainer {
-    display: none;
-  }
-}
-
 .dirText {
   padding-right: 10px;
   font-weight: bold;
@@ -147,27 +92,12 @@ span .arrow {
   max-width: 100vw;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .shopContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 .filter {
   display: flex;
   flex-direction: column;
   padding: 100px 50px 10px 50px;
   width: 160px;
   border-right: 2px solid gray;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .filter {
-    display: none;
-  }
 }
 
 .dirButton {
@@ -195,24 +125,9 @@ span .arrow {
   width: 100vw;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .productPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 .firstRow {
   display: flex;
   flex-direction: row;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .firstRow {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .secondRow {
@@ -220,18 +135,12 @@ span .arrow {
   flex-direction: row;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .secondRow {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .imageContainer {
   position: relative;
   width: 100%;
   max-width: fit-content;
   border-radius: 30px;
+  overflow-y: hidden;
 }
 
 .imageContainer .favourite {

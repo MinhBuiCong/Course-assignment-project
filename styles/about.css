@@ -4,32 +4,6 @@
   background-position: right bottom;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .headerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .menuButton .menuIcon {
-    color: white;
-  }
-}
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navHeadlineMobile {
-    margin-left: 32px;
-    color: white;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  nav {
-    display: none;
-  }
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -48,14 +22,6 @@ a:hover {
   flex-direction: row;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 .paragraph {
   display: flex;
   flex-direction: column;
@@ -64,30 +30,12 @@ a:hover {
   width: 60vw;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .paragraph {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-    margin: 0px;
-    padding-right: 16px;
-  }
-}
-
 h1 {
   color: white;
   margin-bottom: 40px;
   font-size: 56px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  h1 {
-    font-size: 36px;
-    margin-top: 40px;
-    overflow-y: hidden;
-  }
-}
 .paragraph p {
   margin-top: 20px;
   color: white;
@@ -96,32 +44,12 @@ h1 {
   font-weight: lighter;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .paragraph p {
-    margin: 10px;
-    font-size: 16px;
-    overflow-y: hidden;
-  }
-}
-
 .column {
   display: flex;
   flex-direction: column;
   width: 40vw;
   margin-top: 210px;
   margin-right: 50px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .column {
-    margin: 40px 0px 0px 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    align-items: center;
-  }
 }
 
 .column button {
@@ -138,12 +66,6 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .column button {
-    margin: 0px;
-  }
-}
-
 .column button:hover {
   border: 2px solid #3aafb9;
   color: #3aafb9;
@@ -156,12 +78,6 @@ h1 {
   flex-direction: row;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .signIn {
-    margin: 0px;
-  }
-}
-
 .signIn p {
   color: white;
   margin-left: 120px;
@@ -170,11 +86,6 @@ h1 {
   font-size: 16px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .signIn p {
-    margin: 20px 0px 0px 0px;
-  }
-}
 .signIn a {
   color: #ff8600;
   margin-left: 10px;
@@ -186,11 +97,6 @@ h1 {
   font-size: 16px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .signIn a {
-    margin: 20px 0px 0px 10px;
-  }
-}
 .signIn span:hover {
   font-style: italic;
 }
@@ -201,10 +107,4 @@ img {
   margin-left: 120px;
   margin-top: 80px;
   border-radius: 16px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  img {
-    margin: 40px 0px 0px 0px;
-  }
 }

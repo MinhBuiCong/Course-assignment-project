@@ -18,13 +18,6 @@ body {
   margin: auto;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .layout {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .menuContent {
   display: none;
 }
@@ -37,60 +30,9 @@ body {
   display: none;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .headerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .menuContent {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    max-width: max-content;
-    margin: 0px;
-    padding: 0px;
-  }
-  .menuButton {
-    width: 40px;
-    height: 40px;
-    background: none;
-    margin-top: 20px;
-    margin-left: 8px;
-    cursor: pointer;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .cartContentMobile {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: fit-content;
-    height: fit-content;
-    margin: 0px;
-    padding: 0px;
-  }
-  .navCartMobile {
-    width: 40px;
-    height: 40px;
-    background: none;
-    margin-top: 20px;
-    margin-right: 8px;
-  }
-}
-
 nav {
   display: flex;
   justify-content: space-between;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  nav {
-    display: none;
-  }
 }
 
 .navUl {
@@ -109,12 +51,6 @@ nav {
   font-size: 16px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navText {
-    display: none;
-  }
-}
-
 .navIcon {
   width: fit-content;
   display: flex;
@@ -122,40 +58,14 @@ nav {
   justify-content: flex-end;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navIcon {
-    display: none;
-  }
-}
-
 .navHeadlineMobile {
   display: none;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navHeadlineMobile {
-    display: block;
-    align-items: center;
-    margin-right: 32px;
-    margin-left: 30px;
-  }
-
-  .navHeaderMobile {
-    font-size: 36px;
-    margin-top: 20px;
-  }
 }
 
 .navHeadline {
   display: block;
   align-items: center;
   border: 0 80px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .navHeadline {
-    display: none;
-  }
 }
 
 .navHeader {
@@ -195,13 +105,6 @@ nav {
   font-weight: lighter;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .footerContent {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .section {
   display: flex;
   flex-direction: column;
@@ -209,21 +112,6 @@ nav {
   border-right: 1px solid #0b3641;
   padding-right: 50px;
   padding-left: 50px;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .section {
-    display: flex;
-    flex-direction: column;
-    margin: 16px 0px;
-    border: none;
-    padding: 0px;
-    align-items: center;
-    justify-content: center;
-  }
-  .section h3 {
-    width: fit-content;
-  }
 }
 
 .paymentImage {
@@ -237,33 +125,6 @@ nav {
   border: 0px;
   font-size: 16px;
   font-weight: lighter;
-}
-
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .section .contactInfo {
-    width: fit-content;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .section .giftCards {
-    width: fit-content;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .section .delivery {
-    width: fit-content;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 .footerImage {

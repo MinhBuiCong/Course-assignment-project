@@ -1,0 +1,78 @@
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  .headerMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menuButton .menuIcon {
+    color: white;
+  }
+  .navHeadlineMobile {
+    margin-left: 32px;
+    color: white;
+  }
+  nav {
+    display: none;
+  }
+  .headerDivider {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+  }
+  .pageHeaderDivider {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+  }
+  .pageHeader {
+    font-size: 32px;
+    margin: 20px 0px;
+  }
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .imageContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0px;
+  }
+  .sideImageContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 0px;
+  }
+  .sideImage {
+    margin: 0px 5px;
+    padding: 0px;
+    width: 9%;
+    height: auto;
+  }
+  .mainImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainImage {
+    width: 60%;
+    height: auto;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
