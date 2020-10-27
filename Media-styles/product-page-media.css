@@ -1,4 +1,4 @@
-@media only screen and (min-width: 412px) and (max-width: 767px) {
+@media only screen and (max-width: 1000px) {
   .headerMobile {
     display: flex;
     flex-direction: row;
@@ -28,25 +28,24 @@
   }
   .pageHeader {
     font-size: 32px;
-    margin: 20px 0px;
+    margin: 40px 0px;
   }
   .contentContainer {
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
   }
   .imageContainer {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    height: auto;
     margin: 0px;
   }
   .sideImageContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin: 0px;
     padding: 0px;
@@ -54,7 +53,7 @@
   .sideImage {
     margin: 0px 5px;
     padding: 0px;
-    width: 9%;
+    width: 8%;
     height: auto;
   }
   .mainImageContainer {
@@ -63,11 +62,14 @@
     align-items: center;
   }
   .mainImage {
-    width: 50%;
-    height: 40%;
+    width: 70%;
+    height: auto;
     align-items: center;
-    margin: 40px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 0px;
+  }
+  .incrementDecrement {
+    margin-right: 92px;
   }
   .infoContainer {
     display: flex;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 412px) and (max-width: 767px) {
+@media only screen and (max-width: 1000px) {
   .layout {
     background-image: url(../images/Rainydays\ logo.png);
     background-size: 360px 120px;

@@ -8,13 +8,13 @@
 .headerDivider {
   background-color: white;
   padding: 1px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .pageHeaderDivider {
   background-color: white;
   padding: 1px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 a {
@@ -44,11 +44,11 @@ a:hover {
   justify-content: center;
   font-size: 48px;
   color: white;
-  width: 84%;
+  margin-top: 20px;
 }
 
 .filtersContainer {
-  padding-right: 288px;
+  margin-right: 272px;
   padding-top: 40px;
 }
 
@@ -67,18 +67,23 @@ a:hover {
   text-decoration: #ff8600;
   font-size: 18px;
   border: 2px solid #ff8600;
-  transition: all 400ms ease;
+  color: #ff8600;
 }
 
 .dirContainer {
-  padding-left: 88px;
-  padding-top: 10px;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .dirText {
   padding-right: 10px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
+}
+
+.dirText:hover {
+  color: #ff8600;
 }
 
 span .arrow {
@@ -95,7 +100,7 @@ span .arrow {
 .filter {
   display: flex;
   flex-direction: column;
-  padding: 100px 50px 10px 50px;
+  padding: 42px 0px 0px 50px;
   width: 160px;
   border-right: 2px solid white;
 }
@@ -112,10 +117,10 @@ span .arrow {
 }
 
 .dirButton:hover {
-  text-transform: uppercase;
   font-weight: bold;
+  font-size: 20;
   width: max-content;
-  transition: all 400ms ease;
+  color: #ff8600;
 }
 
 .productPage {
@@ -128,11 +133,13 @@ span .arrow {
 .firstRow {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
 }
 
 .secondRow {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
 }
 
 .imageContainer {
@@ -174,6 +181,7 @@ span .arrow {
 
 .productCard:hover {
   border: 2px solid #ff8600;
+  background-color: #ff8600;
 }
 
 .productCard img {
@@ -185,7 +193,7 @@ span .arrow {
 
 img:hover {
   transition: all 400ms ease;
-  transform: scale(1.05);
+  transform: scale(1.02);
   border-radius: 30px;
 }
 
@@ -210,6 +218,7 @@ img:hover {
   margin-left: 10px;
   color: #0b3641;
   padding: 10px 0px 10px 0px;
+  font-weight: bold;
 }
 
 .row1 .price {
@@ -218,6 +227,7 @@ img:hover {
   margin-right: 10px;
   color: #0b3641;
   padding-top: 10px;
+  font-weight: bold;
 }
 
 .row2 {
@@ -234,19 +244,31 @@ img:hover {
   margin-left: 10px;
   border: none;
   color: #0b3641;
+  font-weight: bold;
 }
 
-.page {
+.pageSelector {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-bottom: 40px;
-}
-
-.page span {
+  margin-left: 16px;
   color: white;
 }
 
-.page p {
+.pageSelector span {
   color: white;
+  margin: 0px 10px;
+}
+
+.pageSelector p {
+  color: white;
+}
+
+.pageSelector svg {
+  cursor: pointer;
+}
+
+.pageSelector svg:hover {
+  fill: #ff8600;
 }

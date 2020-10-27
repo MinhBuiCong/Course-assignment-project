@@ -1,4 +1,4 @@
-@media only screen and (min-width: 412px) and (max-width: 767px) {
+@media only screen and (max-width: 1000px) {
   .headerMobile {
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
   .divider {
     margin: 0px;
     border-width: 1px;
-    width: 90vw;
+    width: 100vw;
   }
   .headline {
     display: flex;
@@ -38,72 +38,111 @@
   .overview {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 90vw;
+    justify-content: space-around;
+    width: 100vw;
   }
 
   .overviewName {
     margin: 5px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   .cartItem {
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 100vw;
     height: 300px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px;
     padding: 0px;
   }
   .itemContainer {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: auto;
+    justify-content: center;
     align-items: center;
+    width: 160px;
+    height: 300px;
   }
   .remove {
     display: flex;
-    flex-direction: column;
-    width: fit-content;
-    height: fit-content;
-    padding-right: 12px;
-    margin: 20px 10px 10px 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     overflow-y: hidden;
+    height: fit-content;
+    width: fit-content;
+    margin: 0px;
+    padding: 0px;
+    width: 160px;
   }
   .item {
     display: flex;
-    flex-direction: column;
-    width: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
     height: auto;
     border-radius: 16px;
-    margin-right: 12px;
+    margin: 0px;
+    padding: 0px;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .nameItem {
-    margin: 20px 0px;
+    margin: 0px;
     padding: 0px;
     font-size: 16px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .quantity {
     margin: 0px;
     padding: 0px;
-    padding-right: 30px;
-    padding-top: 120px;
+    width: 160px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .price {
     margin: 0px;
     padding: 0px;
-    padding-right: 40px;
-    padding-top: 120px;
+    width: 160px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .finish {
-    width: 500px;
+    width: 100vw;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
   }
   .finishOverview {
-    margin: 80px 100px 0px 0px;
+    margin: 0px;
+  }
+  .finalPrice {
+    margin: 0px;
   }
   .checkoutContainer {
-    margin: 40px 100px 120px 0px;
+    margin: 0px;
+    margin-top: 40px;
+  }
+  .checkout {
+    margin: 0px;
+    margin-bottom: 40px;
   }
 }

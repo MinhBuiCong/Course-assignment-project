@@ -1,4 +1,4 @@
-@media only screen and (min-width: 412px) and (max-width: 767px) {
+@media only screen and (max-width: 1000px) {
   .menuButton .menuIcon {
     color: white;
   }
@@ -10,6 +10,9 @@
     display: none;
   }
   .headerDivider {
+    display: none;
+  }
+  .pageHeaderDivider {
     display: none;
   }
   .navigation {
@@ -35,7 +38,7 @@
   }
   .pageHeader {
     font-size: 32px;
-    margin: 20px 0px;
+    margin: 40px 0px;
   }
   .dirContainer {
     display: none;
@@ -54,12 +57,18 @@
     flex-direction: column;
     align-items: center;
   }
+
   .firstRow {
     display: flex;
     flex-direction: column;
+    margin-left: 0px;
   }
   .secondRow {
     display: flex;
     flex-direction: column;
+    margin-left: 0px;
+  }
+  .pageSelector {
+    margin-left: 0px;
   }
 }

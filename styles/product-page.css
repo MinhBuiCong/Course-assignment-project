@@ -5,13 +5,13 @@
 }
 
 .headerDivider {
-  background-color: gray;
+  background-color: white;
   padding: 1px;
   margin: 20px;
 }
 
 .pageHeaderDivider {
-  background-color: gray;
+  background-color: white;
   padding: 1px;
   margin: 20px;
 }
@@ -82,6 +82,11 @@ a:hover {
   font-size: 16px;
   padding-bottom: 5px;
   cursor: pointer;
+}
+
+.brand:hover {
+  color: #ff8600;
+  font-size: 20px;
 }
 
 .product {
@@ -356,12 +361,12 @@ span {
 
 .dropInfo p {
   font-size: 16px;
-  margin: 0;
+  margin-top: 4px;
 }
 
 .dropInfo span {
   font-size: 16px;
-  margin: 0;
+  transform: rotate(180deg);
 }
 
 .dropInfo:hover p {
