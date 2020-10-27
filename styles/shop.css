@@ -61,7 +61,6 @@ a:hover {
   height: 40px;
   border-radius: 30px;
   cursor: pointer;
-  /* margin-right: 140px; */
 }
 
 .filterButton:hover {
@@ -100,17 +99,13 @@ span .arrow {
 .productPage {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   width: 100vw;
+  height: 100vh;
 }
 
-.firstRow {
-  display: flex;
-  flex-direction: row;
-}
-
-.secondRow {
+.row {
   display: flex;
   flex-direction: row;
 }

@@ -34,7 +34,11 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
+    margin: 0px;
+    height: fit-content;
+  }
+  .productPage {
+    height: 100vh;
   }
   .imageContainer {
     display: flex;

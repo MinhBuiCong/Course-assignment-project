@@ -38,6 +38,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  height: 100vh;
 }
 
 .imageContainer {

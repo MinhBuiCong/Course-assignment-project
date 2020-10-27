@@ -17,12 +17,13 @@
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: auto;
-    height: 80vh;
+    height: 100vh;
   }
   h1 {
     font-size: 36px;
+    margin-top: 40px;
   }
   .paragraph {
     display: flex;

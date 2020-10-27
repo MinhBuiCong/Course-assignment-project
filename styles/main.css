@@ -101,29 +101,36 @@ nav {
   background-color: #ff8600;
   color: #0b3641;
   width: auto;
-  height: auto;
+  height: fit-content;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   font-weight: lighter;
+  padding-bottom: 40px;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  margin: 40px 0px 40px 0px;
-  border-right: 1px solid #0b3641;
-  padding-right: 50px;
-  padding-left: 50px;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .paymentImage {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .info {
-  margin: 0px 0px 16px 0px;
+  margin: 5px 0px;
   padding: 0px;
   border: 0px;
   font-size: 16px;
@@ -133,19 +140,35 @@ nav {
 .footerImage {
   height: 40px;
   width: 64px;
-  margin: 0px 16px 0px 0px;
+  margin: 0px 5px;
+}
+
+.giftCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .giftCardsText {
-  margin: 0px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
   padding: 0px;
   border: 0px;
   font-size: 16px;
   font-weight: lighter;
 }
 
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .deliveryPartners {
-  margin: 0px 0px 16px 0px;
+  margin: 5px 0px;
   padding: 0px;
   border: 0px;
   font-size: 16px;
@@ -155,6 +178,6 @@ nav {
 h3 {
   font-size: 24px;
   font-weight: bold;
-  width: 300px;
-  padding-bottom: 16px;
+  width: fit-content;
+  margin: 40px 0px 20px 0px;
 }
