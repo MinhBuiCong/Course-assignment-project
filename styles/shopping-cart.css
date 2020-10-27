@@ -19,62 +19,70 @@ a:hover {
   color: white;
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  align-content: center;
+  width: 100vw;
   height: 100vh;
-  margin: 0;
-  margin-left: 200px;
+  margin: 40px 0px 0px 0px;
 }
 
 .divider {
-  border-width: 100px;
   border: 1px solid white;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 50px;
-  width: 74.5vw;
+  margin: 40px 0px 0px 0px;
+  width: 100vw;
 }
 
 .headline {
-  display: block;
-  margin-top: 80px;
-  margin-left: 50px;
-  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 0px 0px;
   color: white;
 }
 
 .overview {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   width: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0px 0px 0px;
 }
 
 .overviewName {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0px;
   color: white;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .cartItem {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-around;
 }
 
 .itemContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
 }
 
 .remove {
   color: white;
   font-size: 24px;
   background: none;
-  margin-right: 64px;
-  margin-left: 50px;
+  margin: 40px 0px 0px 0px;
   cursor: pointer;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .remove:hover {
@@ -84,44 +92,62 @@ a:hover {
 
 .item {
   width: 160px;
-  height: 160px;
-  margin-right: 36px;
+  height: auto;
+  margin: 40px 0px 0px 0px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .nameItem {
   color: white;
   font-size: 24px;
   font-weight: lighter;
-  margin-top: 64px;
-  margin-right: 82px;
+  width: 240px;
+  margin: 40px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .quantity {
   color: white;
   font-size: 24px;
-  margin-left: 82px;
-  margin-top: 64px;
-  margin-right: 300px;
+  margin: 0px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .price {
   color: white;
   font-size: 24px;
-  margin-left: 280px;
-  margin-top: 64px;
+  margin: 0px;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .finish {
   display: flex;
   flex-direction: column;
-  justify-items: right;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  margin: 40px 0px 0px 0px;
 }
 
 .finishOverview {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 120px;
+  margin: 0px;
 }
 
 .subtotal {
@@ -134,20 +160,19 @@ a:hover {
   color: white;
   font-size: 24px;
   font-weight: bold;
-  margin-right: 48px;
+  margin: 0px;
 }
 
 .checkoutContainer {
-  display: flex;
-  flex-direction: row-reverse;
+  margin-top: 40px;
 }
 
 .checkout {
-  margin-top: 40px;
+  margin: 0px;
   height: 48px;
   width: 200px;
   border-radius: 30px;
-  margin-right: 48px;
+
   background-color: #ff8600;
   color: white;
   font-size: 24px;

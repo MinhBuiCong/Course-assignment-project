@@ -33,20 +33,19 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  width: 100vw;
 }
 
 .navUl {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 0px 40px 0px;
+  justify-content: space-around;
+  margin: 80px 0px 0px 40px;
   padding: 0px;
-  width: fit-content;
+  width: 400px;
 }
 
 .navText {
-  margin-left: 56px;
-  margin-top: 80px;
   padding: 0px;
   cursor: pointer;
   font-weight: bold;
@@ -57,8 +56,17 @@ nav {
   display: none;
 }
 
+.navHeadline {
+  width: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .navHeader {
-  margin: 50px 50px 0px 0px;
+  margin: 0px;
   padding: 0px;
   align-items: center;
   border: 0px;
@@ -70,11 +78,17 @@ nav {
   color: #ff8600;
 }
 
+.navIcon {
+  width: 400px;
+  margin: 70px 40px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .navImage {
   width: 48px;
   height: 48px;
-  margin-top: 56px;
-  margin-right: 56px;
   cursor: pointer;
 }
 

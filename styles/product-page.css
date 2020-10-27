@@ -7,13 +7,13 @@
 .headerDivider {
   background-color: white;
   padding: 1px;
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 .pageHeaderDivider {
   background-color: white;
   padding: 1px;
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 a {
@@ -54,8 +54,8 @@ a:hover {
 }
 
 .sideImage {
-  width: 98px;
-  height: 116px;
+  width: 80px;
+  height: auto;
   margin: 0px 20px 10px 50px;
   cursor: pointer;
   border: 2px solid #0b3641;
@@ -67,8 +67,8 @@ a:hover {
 }
 
 .mainImage {
-  height: 637px;
-  width: 480px;
+  height: auto;
+  width: 440px;
   margin: 40px 40px 10px 0px;
   border-radius: 16px;
 }
