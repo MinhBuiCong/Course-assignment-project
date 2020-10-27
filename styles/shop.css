@@ -61,7 +61,7 @@ a:hover {
   height: 40px;
   border-radius: 30px;
   cursor: pointer;
-  margin-right: 140px;
+  /* margin-right: 140px; */
 }
 
 .filterButton:hover {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .dirContainer {
-  margin: 40px 0px 0px 140px;
+  margin: 40px 0px 0px 0px;
 }
 
 .dirText {
@@ -130,23 +130,22 @@ span .arrow {
   background-color: none;
   border: none;
   cursor: pointer;
-  fill: #ff8600;
+  fill: #ffffff;
   width: 32px;
   height: 32px;
 }
 
 .favourite:hover {
-  fill: #ffffff;
+  fill: #ff8600;
   transition: all 400ms ease;
 }
 
 .productCard {
   width: fit-content;
   border: 2px solid white;
-  margin: 0px;
   background-color: white;
   padding: 10px 0px 20px 12px;
-  margin: 36px;
+  margin: 24px;
   margin-bottom: 80px;
   border-radius: 30px;
   cursor: pointer;
@@ -164,7 +163,7 @@ span .arrow {
   cursor: pointer;
 }
 
-img:hover {
+.productCard:hover img {
   transition: all 400ms ease;
   transform: scale(1.02);
   border-radius: 30px;

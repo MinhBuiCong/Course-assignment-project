@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
   }
   .menuButton .menuIcon {
     color: white;
@@ -18,18 +19,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
   }
   .paragraph {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    height: fit-content;
     margin: 0px;
     padding-right: 16px;
   }
-  h1 {
-    font-size: 36px;
-    margin-top: 40px;
+  .pageHeader {
+    font-size: 30px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     overflow-y: hidden;
   }
   .paragraph p {
@@ -59,6 +67,6 @@
     margin: 20px 0px 0px 10px;
   }
   img {
-    margin: 80px 0px 0px 0px;
+    margin: 80px 0px 80px 0px;
   }
 }

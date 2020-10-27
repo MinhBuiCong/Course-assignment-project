@@ -20,17 +20,19 @@ a:hover {
   height: 90vh;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .paragraph {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 80px;
-  margin-left: 50px;
-  width: 60vw;
+  margin-left: 72px;
+  width: 50vw;
 }
 
-h1 {
+.pageHeader {
   color: white;
   margin-bottom: 40px;
   font-size: 56px;
@@ -39,15 +41,20 @@ h1 {
 .paragraph p {
   margin-top: 20px;
   color: white;
-  margin-right: 140px;
+
   font-size: 24px;
   font-weight: lighter;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  align-items: center;
+  width: 50vw;
   margin-top: 210px;
   margin-right: 50px;
 }
@@ -62,7 +69,6 @@ h1 {
   font-size: 16px;
   border-radius: 16px;
   text-transform: uppercase;
-  margin-left: 120px;
   cursor: pointer;
 }
 
@@ -80,7 +86,6 @@ h1 {
 
 .signIn p {
   color: white;
-  margin-left: 120px;
   margin-top: 20px;
   text-transform: uppercase;
   font-size: 16px;
@@ -102,9 +107,8 @@ h1 {
 }
 
 img {
-  width: 480px;
-  height: 120px;
-  margin-left: 120px;
+  width: 320px;
+  height: auto;
   margin-top: 80px;
   border-radius: 16px;
 }

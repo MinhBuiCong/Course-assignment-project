@@ -17,18 +17,34 @@
   .content {
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    height: auto;
+    width: 100vw;
+    height: fit-content;
   }
   .paragraph {
     width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 20px 0px 20px;
   }
-  h1 {
+  .pageHeader {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .paragraph p {
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .row2 {
+    display: flex;
+    flex-direction: column;
   }
   .column {
     margin: 60px 0px 0px 50px;
@@ -38,27 +54,27 @@
   }
   .nameInput {
     font-size: 16px;
+    width: fit-content;
   }
   .nameInput input {
     font-size: 16px;
-    width: 200px;
   }
   .emailInput {
     font-size: 16px;
+    width: fit-content;
   }
   .emailInput input {
     font-size: 16px;
-    width: 200px;
   }
   .messageInput {
     font-size: 16px;
+    width: fit-content;
   }
   .messageInput textarea {
     font-size: 16px;
-    width: 200px;
   }
   .submit {
-    margin: 200px 0px 0px 160px;
+    margin: 20px;
   }
   .redText {
     font-size: 16px;

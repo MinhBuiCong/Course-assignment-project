@@ -27,7 +27,7 @@ a:hover {
 }
 
 .content {
-  width: 80vw;
+  width: 100vw;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -55,13 +55,13 @@ h2 {
 }
 
 button {
-  width: 240px;
-  height: 80px;
+  width: 200px;
+  height: 60px;
   margin: none;
   padding: none;
   border: none;
   font-size: 24px;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 20px;
   border-radius: 33px;
   text-transform: uppercase;
   cursor: pointer;
@@ -102,18 +102,18 @@ button {
 
 .whiteSpace1 {
   height: 90vh;
-  width: 20vw;
+  width: 200px;
   padding: 0;
   border: none;
-  margin: 0;
+  margin: 0px;
   background-color: #0b3641;
 }
 
 .whiteSpace2 {
   height: 90vh;
-  width: 20vw;
+  width: 200px;
   padding: 0;
   border: none;
-  margin: 0;
+  margin: 0px;
   background-color: #0b3641;
 }

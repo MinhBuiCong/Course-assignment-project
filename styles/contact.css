@@ -17,10 +17,11 @@ a:hover {
 
 .content {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .paragraph {
@@ -31,16 +32,23 @@ a:hover {
   width: 60vw;
 }
 
-h1 {
+.pageHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: white;
   margin-bottom: 32px;
   font-size: 56px;
 }
 
 .paragraph p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   color: white;
-  margin-right: 140px;
   font-size: 24px;
   font-weight: lighter;
 }
@@ -48,9 +56,9 @@ h1 {
 .column {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 40vw;
-  margin-top: 196px;
-  margin-right: 50px;
 }
 
 span {
@@ -119,6 +127,7 @@ span {
   color: white;
   margin-left: 364px;
   margin-top: 210px;
+  margin-right: 10px;
 }
 
 .submit input {
@@ -141,17 +150,29 @@ span {
 }
 
 .redText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: red;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 .infoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
   font-size: 24px;
 }
 
 .infoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 56px;
   margin-left: 200px;
 }
