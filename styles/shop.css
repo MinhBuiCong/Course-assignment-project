@@ -150,13 +150,13 @@ span .arrow {
   background-color: none;
   border: none;
   cursor: pointer;
-  color: #ffffff;
-  width: 24px;
-  height: 24px;
+  fill: #ff8600;
+  width: 32px;
+  height: 32px;
 }
 
 .favourite:hover {
-  fill: #ff8600;
+  fill: #ffffff;
   transition: all 400ms ease;
 }
 
