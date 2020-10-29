@@ -40,12 +40,77 @@ a:hover {
   display: none;
 }
 
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.backButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 200px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.backButton svg {
+  width: 40px;
+  height: auto;
+}
+
 .pageHeader {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   font-size: 48px;
   color: white;
-  margin-top: 20px;
+  width: 200px;
+}
+
+.searchContent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: end;
+  width: fit-content;
+  width: 200px;
+  border-radius: 16px;
+  height: 60px;
+}
+
+.searchContent input[type="text"] {
+  height: 40px;
+  font-size: 17px;
+  padding-left: 10px;
+  width: fit-content;
+}
+
+.searchContent button {
+  width: 80px;
+  height: 40px;
+  background: #0b3641;
+  color: white;
+  font-size: 17px;
+  border: 2px solid white;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+
+.searchContent button:hover {
+  background: #ff8600;
+}
+
+.searchContent::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .filtersContainer {
@@ -53,21 +118,21 @@ a:hover {
 }
 
 .filterButton {
-  background-color: white;
-  color: #0b3641;
+  background-color: #0b3641;
+  color: white;
   font-weight: bold;
   font-size: 16px;
   width: 80px;
   height: 40px;
-  border-radius: 30px;
+  border: 2px solid white;
+  border-radius: 16px;
   cursor: pointer;
 }
 
 .filterButton:hover {
   text-decoration: #ff8600;
   font-size: 18px;
-  border: 2px solid #ff8600;
-  color: #ff8600;
+  background: #ff8600;
 }
 
 .dirContainer {
@@ -99,7 +164,6 @@ span .arrow {
 .productPage {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   width: 100vw;
   height: 100vh;
@@ -112,8 +176,12 @@ span .arrow {
 
 .imageContainer {
   position: relative;
-  width: 100%;
-  max-width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
   border-radius: 30px;
   overflow-y: hidden;
 }
@@ -136,10 +204,14 @@ span .arrow {
 }
 
 .productCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: fit-content;
   border: 2px solid white;
   background-color: white;
-  padding: 10px 0px 20px 12px;
+  padding: 10px;
   margin: 24px;
   margin-bottom: 80px;
   border-radius: 30px;
@@ -179,22 +251,23 @@ span .arrow {
 }
 
 .row1 .brandName {
-  font-size: 12px;
+  font-size: 16px;
   width: 180px;
   border: none;
   margin-left: 10px;
   color: #0b3641;
   padding: 10px 0px 10px 0px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .row1 .price {
-  font-size: 12px;
+  font-size: 16px;
   border: none;
-  margin-right: 10px;
   color: #0b3641;
   padding-top: 10px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .row2 {
@@ -206,12 +279,13 @@ span .arrow {
 }
 
 .row2 p {
-  font-size: 12px;
+  font-size: 16px;
   padding: 0px;
   margin-left: 10px;
   border: none;
   color: #0b3641;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .pageSelector {

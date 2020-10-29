@@ -78,19 +78,4 @@
     font-size: 16px;
   }
   .column {
-    margin: 0px;
-    padding: 0px;
-  }
-  .redText {
-    font-size: 16px;
-  }
-  .infoText {
-    font-size: 16px;
-  }
-  .infoSection {
-    align-items: flex-start;
-    width: fit-content;
-    height: auto;
-    margin: 10px 0px;
-  }
-}
+    display:none;

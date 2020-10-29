@@ -40,7 +40,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 80px 0px 0px 40px;
+  margin: 80px 0px 0px 50px;
   padding: 0px;
   width: 400px;
 }
