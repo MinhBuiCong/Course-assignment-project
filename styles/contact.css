@@ -102,7 +102,7 @@ span {
 
 .row2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 40px;
 }
 
@@ -124,9 +124,8 @@ span {
 
 .submit {
   color: white;
-  margin-left: 364px;
-  margin-top: 210px;
-  margin-right: 10px;
+  width: fit-content;
+  margin: 40px 0px;
 }
 
 .submit input {

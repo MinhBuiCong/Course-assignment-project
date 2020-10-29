@@ -4,6 +4,12 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .headerDivider {
+    display: none;
+  }
+  .pageHeaderDivider {
+    display: none;
+  }
   .menuButton .menuIcon {
     color: white;
   }
@@ -28,7 +34,7 @@
     border-width: 1px;
     width: 100vw;
   }
-  .headline {
+  .pageHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,7 +141,7 @@
     margin: 0px;
   }
   .finalPrice {
-    margin: 0px;
+    margin: 40px 0px;
   }
   .checkoutContainer {
     margin: 0px;

@@ -21,15 +21,18 @@
   .mobileFilter {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 40px 0px;
     background: none;
     border: 2px solid white;
     color: white;
     align-items: flex-start;
-    width: 160px;
-    height: 24px;
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
     border-radius: 16px;
-    padding-left: 5px;
+    padding-left: 8px;
+    padding-top: 4px;
+
     cursor: pointer;
   }
   .mobileFilter:hover {
@@ -67,5 +70,6 @@
 
   .pageSelector {
     margin-left: 0px;
+    margin-bottom: 40px;
   }
 }

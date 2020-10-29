@@ -19,13 +19,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: fit-content;
+    height: 100vh;
+    justify-content: start;
+    margin-top: 40px;
   }
   .paragraph {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: fit-content;
     margin: 0px;
     padding-right: 16px;
   }
@@ -37,7 +38,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     overflow-y: hidden;
   }
   .paragraph p {
@@ -46,16 +46,16 @@
     overflow-y: hidden;
   }
   .column {
-    margin: 40px 0px 0px 0px;
+    margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
     width: auto;
-    height: auto;
+    height: fit-content;
     align-items: center;
   }
   .column button {
-    margin: 0px;
+    margin: 40px 0px;
   }
   .signIn {
     margin: 0px;

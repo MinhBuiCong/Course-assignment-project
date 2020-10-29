@@ -14,7 +14,17 @@ a:hover {
   color: #ff8600;
   transition: all 400ms ease;
 }
+.headerDivider {
+  background-color: white;
+  padding: 1px;
+  margin: 40px 0px;
+}
 
+.pageHeaderDivider {
+  background-color: white;
+  padding: 1px;
+  margin: 40px 0px;
+}
 .content {
   color: white;
   display: flex;
@@ -22,21 +32,16 @@ a:hover {
   align-content: center;
   width: 100vw;
   height: 100vh;
-  margin: 40px 0px 0px 0px;
+  margin: 0px;
 }
 
-.divider {
-  border: 1px solid white;
-  margin: 40px 0px 0px 0px;
-  width: 100vw;
-}
-
-.headline {
+.pageHeader {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 40px 0px 0px 0px;
+  margin: 0px;
+  font-size: 48px;
   color: white;
 }
 
@@ -45,12 +50,13 @@ a:hover {
   flex-direction: row;
   justify-content: space-around;
   width: auto;
-  margin: 40px 0px 0px 0px;
+  margin: 40px 0px 40px 0px;
 }
 
 .overviewName {
   margin: 0px;
   color: white;
+  font-size: 32px;
   width: 240px;
   display: flex;
   flex-direction: row;
@@ -62,6 +68,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 40px 0px;
+  background: white;
 }
 
 .itemContainer {
@@ -73,10 +81,10 @@ a:hover {
 }
 
 .remove {
-  color: white;
-  font-size: 24px;
+  color: #0b3641;
+  font-size: 32px;
   background: none;
-  margin: 40px 0px 0px 0px;
+  margin: 0px;
   cursor: pointer;
   width: 240px;
   display: flex;
@@ -102,7 +110,7 @@ a:hover {
 }
 
 .nameItem {
-  color: white;
+  color: #0b3641;
   font-size: 24px;
   font-weight: lighter;
   width: 240px;
@@ -114,8 +122,8 @@ a:hover {
 }
 
 .quantity {
-  color: white;
-  font-size: 24px;
+  color: #0b3641;
+  font-size: 32px;
   margin: 0px;
   width: 240px;
   display: flex;
@@ -125,8 +133,8 @@ a:hover {
 }
 
 .price {
-  color: white;
-  font-size: 24px;
+  color: #0b3641;
+  font-size: 32px;
   margin: 0px;
   width: 240px;
   display: flex;
@@ -153,29 +161,29 @@ a:hover {
 .subtotal {
   color: white;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 40px;
+  margin: 40px 0px;
 }
 
 .finalPrice {
   color: white;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
-  margin: 0px;
+  margin: 40px 0px;
 }
 
 .checkoutContainer {
-  margin-top: 40px;
+  margin: 40px 0px;
 }
 
 .checkout {
   margin: 0px;
-  height: 48px;
-  width: 200px;
+  height: 64px;
+  width: 240px;
   border-radius: 30px;
-
   background-color: #ff8600;
   color: white;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   border: 2px solid white;
   cursor: pointer;
