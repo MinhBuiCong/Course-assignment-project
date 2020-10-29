@@ -1,9 +1,9 @@
 .layout {
-  background-image: url(../images/Rainydays\ logo.png);
+  /* background-image: url(../images/Rainydays\ logo.png);
   background-repeat: no-repeat;
-  background-size: 720px 240px;
+  background-size: 720px auto;
   background-position: center;
-  background-position-y: 20%;
+  background-position-y: 20%; */
 }
 
 a {
@@ -16,6 +16,7 @@ a {
 header {
   height: fit-content;
   overflow-y: hidden;
+  margin-bottom: 40px;
 }
 
 a:hover {
@@ -30,7 +31,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  margin-top: 40px;
 }
 
 .searchContent {
@@ -42,7 +42,7 @@ a:hover {
   width: 300px;
   border-radius: 16px;
   height: 60px;
-
+  margin-bottom: 80px;
   border: 2px solid #0b3641;
 }
 
@@ -93,13 +93,18 @@ a:hover {
   padding: 0;
   margin: 0;
 }
+.imageContainer img {
+  width: 720px;
+  height: auto;
+  margin-bottom: 80px;
+}
 
 h2 {
   font-size: 48px;
   font-weight: bold;
   font-style: italic;
   margin-bottom: 0;
-  margin-top: 500px;
+  margin-top: 40px;
   z-index: -10;
 }
 

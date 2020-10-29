@@ -56,6 +56,7 @@
     width: 160px;
     height: 30px;
     border-radius: 16px;
+    overflow-y: hidden;
   }
   .searchContent button {
     display: none;

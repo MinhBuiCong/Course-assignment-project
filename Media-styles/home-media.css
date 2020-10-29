@@ -1,10 +1,10 @@
 @media only screen and (max-width: 1000px) {
   .layout {
-    background-image: url(../images/Rainydays\ logo.png);
+    /* background-image: url(../images/Rainydays\ logo.png);
     background-size: 320px auto;
     background-position: center;
     background-position-y: 30%;
-    background-position-x: center;
+    background-position-x: center; */
     height: 100vh;
   }
   .allContent {
@@ -19,6 +19,7 @@
     height: 40px;
     border: 2px solid #0b3641;
     overflow-y: hidden;
+    margin-bottom: 40px;
   }
 
   .searchContent input[type="text"] {
@@ -37,14 +38,20 @@
     overflow-y: hidden;
     cursor: pointer;
   }
+  .imageContainer img {
+    width: 320px;
+    height: auto;
+    margin-bottom: 40px;
+  }
 
   h2 {
     font-size: 24px;
-    margin-top: 240px;
+    margin-bottom: 40px;
   }
   .buttonContainer {
     display: flex;
     flex-direction: column;
+    margin: 0px;
   }
   .buttonContainer button {
     width: 180px;
