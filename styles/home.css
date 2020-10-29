@@ -1,16 +1,12 @@
-.layout {
-  /* background-image: url(../images/Rainydays\ logo.png);
-  background-repeat: no-repeat;
-  background-size: 720px auto;
-  background-position: center;
-  background-position-y: 20%; */
-}
-
 a {
   text-decoration: none;
   color: #0b3641;
-
   cursor: pointer;
+}
+
+a:hover {
+  color: #ff8600;
+  transition: all 400ms ease;
 }
 
 header {
@@ -19,18 +15,11 @@ header {
   margin-bottom: 40px;
 }
 
-a:hover {
-  color: #ff8600;
-
-  transition: all 400ms ease;
-}
-
 .searchContainer {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  width: 100vw;
 }
 
 .searchContent {
@@ -38,10 +27,9 @@ a:hover {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  width: fit-content;
   width: 300px;
-  border-radius: 16px;
-  height: 60px;
+  border-radius: 30px;
+  height: 40px;
   margin-bottom: 80px;
   border: 2px solid #0b3641;
 }
@@ -80,19 +68,15 @@ a:hover {
 .allContent {
   display: flex;
   flex-direction: row;
-  height: 100vh;
 }
 
 .content {
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: none;
-  padding: 0;
-  margin: 0;
 }
+
 .imageContainer img {
   width: 720px;
   height: auto;
@@ -100,12 +84,10 @@ a:hover {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 0;
   margin-top: 40px;
-  z-index: -10;
 }
 
 .buttonContainer {
@@ -113,20 +95,20 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 80px;
+  margin-top: 160px;
 }
 
 .buttonContainer button {
-  width: 200px;
-  height: 60px;
-  border: none;
-  font-size: 24px;
-  margin: 80px 20px;
-  border-radius: 33px;
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  margin: 0px 20px;
+  border-radius: 30px;
   text-transform: uppercase;
   cursor: pointer;
   background: #0b3641;
   color: white;
+  transition: all 400ms ease;
 }
 
 .buttonContainer button:hover {
@@ -135,20 +117,8 @@ h2 {
   border: 2px solid #0b3641;
 }
 
-.whiteSpace1 {
+.whiteSpace {
   height: 100vh;
   width: 200px;
-  padding: 0;
-  border: none;
-  margin: 0px;
-  background-color: #0b3641;
-}
-
-.whiteSpace2 {
-  height: 100vh;
-  width: 200px;
-  padding: 0;
-  border: none;
-  margin: 0px;
   background-color: #0b3641;
 }
