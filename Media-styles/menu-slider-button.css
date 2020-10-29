@@ -2,17 +2,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: white;
   background-image: url(../images/Rainydays\ logo.png);
-  background-size: 460px auto;
+  background-size: 240px auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 4%;
+  background-position-y: 5%;
   height: 100vh;
 }
 
 .layout {
   height: 100vh;
   width: 100vw;
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 .navigation {
@@ -26,7 +26,7 @@ body {
 ul {
   background: none;
   border: none;
-  font-size: 36px;
+  font-size: 24px;
   margin-left: 8px;
 }
 
@@ -59,7 +59,7 @@ ul:hover {
 a {
   text-decoration: none;
   color: #0b3641;
-  font-size: 36px;
+  font-size: 24px;
   transition: 0.3s;
 }
 

@@ -7,12 +7,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-y: hidden;
+    height: max-content;
+    margin: 10px 0px;
   }
   .menuContent {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     max-width: max-content;
+    height: fit-content;
     margin: 0px;
     padding: 0px;
   }
@@ -20,7 +24,6 @@
     width: 40px;
     height: 40px;
     background: none;
-    margin-top: 20px;
     margin-left: 24px;
     cursor: pointer;
   }
@@ -37,7 +40,6 @@
     width: 40px;
     height: 40px;
     background: none;
-    margin-top: 20px;
     margin-right: 24px;
   }
   nav {
@@ -52,13 +54,13 @@
   .navHeadlineMobile {
     display: block;
     align-items: center;
+    height: fit-content;
     margin-right: 32px;
     margin-left: 30px;
   }
 
   .navHeaderMobile {
     font-size: 36px;
-    margin-top: 20px;
   }
   .navHeadline {
     display: none;

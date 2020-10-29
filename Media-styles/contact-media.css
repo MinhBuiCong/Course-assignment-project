@@ -42,7 +42,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
   }
   .paragraph {
     width: fit-content;
@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 0px;
+    margin: 2px 0px;
   }
   .row1 {
     display: flex;

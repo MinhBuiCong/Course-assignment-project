@@ -64,8 +64,17 @@ span {
   font-weight: lighter;
   cursor: pointer;
 }
+.link {
+  display: inline-block;
+  justify-content: center;
+  color: #ff8600;
+  text-decoration: underline;
+  margin: 0px 8px;
+  font-weight: lighter;
+  cursor: pointer;
+}
 
-span:hover {
+.link:hover {
   font-style: italic;
   font-weight: bold;
 }

@@ -54,8 +54,11 @@
   }
   .searchContent {
     width: 160px;
-    height: 40px;
+    height: 30px;
     border-radius: 16px;
+  }
+  .searchContent button {
+    display: none;
   }
   .dirContainer {
     display: none;

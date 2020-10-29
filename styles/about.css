@@ -86,6 +86,7 @@ a:hover {
 .paragraph p {
   color: white;
   font-size: 24px;
+  margin-top: 8px;
   font-weight: lighter;
   align-items: center;
   display: flex;
