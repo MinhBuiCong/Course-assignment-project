@@ -37,8 +37,8 @@
   }
   .searchContent {
     width: 160px;
-    height: auto;
-    border-radius: 0px;
+    height: 40px;
+    border-radius: 16px;
   }
   .contentContainer {
     display: flex;

@@ -28,9 +28,10 @@
     align-items: flex-start;
     width: 200px;
     height: 40px;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 16px;
-    padding: 4px 8px 0px 8px;
+    border: 2px solid white;
+    padding: 6px 8px 0px 8px;
     cursor: pointer;
   }
   .mobileFilter:hover {
@@ -53,8 +54,8 @@
   }
   .searchContent {
     width: 160px;
-    height: auto;
-    border-radius: 0px;
+    height: 40px;
+    border-radius: 16px;
   }
   .dirContainer {
     display: none;
