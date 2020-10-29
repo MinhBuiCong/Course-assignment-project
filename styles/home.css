@@ -58,8 +58,11 @@ a:hover {
   cursor: pointer;
 }
 
-.searchContent .search:hover {
-  background: #ff8600;
+.searchContent:hover {
+  border: 2px solid #ff8600;
+}
+.searchContent:hover button {
+  color: #ff8600;
 }
 
 .searchContent::after {

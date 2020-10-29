@@ -107,8 +107,11 @@ a:hover {
   cursor: pointer;
 }
 
-.searchContent button:hover {
-  background: #ff8600;
+.searchContent:hover {
+  border: 2px solid #ff8600;
+}
+.searchContent:hover button {
+  color: #ff8600;
 }
 
 .searchContent::after {
@@ -170,7 +173,7 @@ span .arrow {
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
 }
 
 .row {

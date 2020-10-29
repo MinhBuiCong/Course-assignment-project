@@ -76,6 +76,13 @@ a:hover {
   border: 2px solid white;
 }
 
+.searchContent:hover {
+  border: 2px solid #ff8600;
+}
+.searchContent:hover button {
+  color: #ff8600;
+}
+
 .searchContent input[type="text"] {
   height: 60px;
   font-size: 17px;
@@ -91,10 +98,6 @@ a:hover {
   font-size: 17px;
   overflow-y: hidden;
   cursor: pointer;
-}
-
-.searchContent button:hover {
-  background: #ff8600;
 }
 
 .searchContent::after {
@@ -156,6 +159,7 @@ a:hover {
 
 .brand:hover {
   color: #ff8600;
+  transition: all 400ms ease;
   font-size: 20px;
 }
 
@@ -425,7 +429,7 @@ span {
   border-top: 1px solid white;
   padding-top: 10px;
   padding-bottom: 0px;
-  margin: 0;
+  margin: 5px 0px;
   cursor: pointer;
 }
 
