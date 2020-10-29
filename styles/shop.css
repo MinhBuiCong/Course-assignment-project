@@ -5,29 +5,6 @@
   background-position: right bottom;
 }
 
-.headerDivider {
-  background-color: white;
-  padding: 1px;
-  margin: 40px 0px;
-}
-
-.pageHeaderDivider {
-  background-color: white;
-  padding: 1px;
-  margin: 40px 0px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
-a:hover {
-  color: #ff8600;
-  transition: all 400ms ease;
-}
-
 .navigation {
   display: flex;
   flex-direction: row;
@@ -59,7 +36,7 @@ a:hover {
 }
 
 .backButton svg {
-  width: 40px;
+  width: 20px;
   height: auto;
   cursor: pointer;
 }
@@ -73,53 +50,10 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 48px;
+  font-size: 40px;
   color: white;
   width: 300px;
 }
-
-.searchContent {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: end;
-  width: fit-content;
-  width: 300px;
-  border-radius: 30px;
-  height: 60px;
-  border: 2px solid white;
-}
-
-.searchContent input[type="text"] {
-  height: 60px;
-  font-size: 17px;
-  padding-left: 10px;
-  width: 300px;
-}
-
-.searchContent button {
-  width: 80px;
-  height: 40px;
-  background: #0b3641;
-  color: white;
-  font-size: 17px;
-  overflow-y: hidden;
-  cursor: pointer;
-}
-
-.searchContent:hover {
-  border: 2px solid #ff8600;
-}
-.searchContent:hover button {
-  color: #ff8600;
-}
-
-.searchContent::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .filtersContainer {
   padding-top: 40px;
 }
@@ -134,21 +68,20 @@ a:hover {
   border: 2px solid white;
   border-radius: 16px;
   cursor: pointer;
+  transition: all 400ms ease;
 }
 
 .filterButton:hover {
-  text-decoration: #ff8600;
-  font-size: 18px;
+  font-size: 16px;
   background: #ff8600;
 }
 
 .dirContainer {
-  margin: 40px 0px 0px 0px;
+  margin-top: 40px;
 }
 
 .dirText {
   padding-right: 10px;
-  font-weight: bold;
   color: white;
   cursor: pointer;
 }
@@ -165,15 +98,12 @@ span .arrow {
 .shopContent {
   display: flex;
   flex-direction: row;
-  max-width: 100vw;
 }
 
 .productPage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: fit-content;
 }
 
 .row {
@@ -187,8 +117,6 @@ span .arrow {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0px;
-  padding: 0px;
   border-radius: 30px;
   overflow-y: hidden;
 }
@@ -200,7 +128,7 @@ span .arrow {
   background-color: none;
   border: none;
   cursor: pointer;
-  fill: #ffffff;
+  fill: #f8bc78;
   width: 32px;
   height: 32px;
 }
@@ -211,22 +139,14 @@ span .arrow {
 }
 
 .productCard {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  border: 2px solid white;
   background-color: white;
-  padding: 10px;
-  margin: 24px;
-  margin-bottom: 80px;
+  padding: 8px;
+  margin: 0px 24px 80px 24px;
   border-radius: 30px;
   cursor: pointer;
 }
 
 .productCard:hover {
-  border: 2px solid #ff8600;
   background-color: #ff8600;
 }
 
@@ -239,37 +159,28 @@ span .arrow {
 
 .productCard:hover img {
   transition: all 400ms ease;
-  transform: scale(1.02);
+  transform: scale(1.2);
   border-radius: 30px;
-}
-
-.productDetails {
-  width: 240px;
-  height: fit-content;
 }
 
 .row1 {
   display: flex;
   flex-direction: row;
-  justify-content: start;
-  margin: 0px;
-  padding: 0px;
-  border: none;
 }
 
 .row1 .brandName {
-  font-size: 16px;
+  font-size: 12px;
   width: 180px;
   border: none;
   margin-left: 10px;
   color: #0b3641;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px;
   font-weight: bold;
   text-transform: capitalize;
 }
 
 .row1 .price {
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   color: #0b3641;
   padding-top: 10px;
@@ -280,16 +191,11 @@ span .arrow {
 .row2 {
   display: flex;
   flex-direction: row;
-  margin: 0px;
-  padding: 0px;
-  border: none;
 }
 
 .row2 p {
-  font-size: 16px;
-  padding: 0px;
+  font-size: 12px;
   margin-left: 10px;
-  border: none;
   color: #0b3641;
   font-weight: bold;
   text-transform: capitalize;
@@ -299,7 +205,7 @@ span .arrow {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   margin-left: 16px;
   color: white;
 }

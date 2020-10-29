@@ -4,17 +4,6 @@
   background-position: right bottom;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
-a:hover {
-  color: #ff8600;
-  transition: all 400ms ease;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -24,7 +13,7 @@ a:hover {
   margin-bottom: 220px;
 }
 
-h1 {
+.content h1 {
   display: flex;
   justify-content: center;
   color: white;

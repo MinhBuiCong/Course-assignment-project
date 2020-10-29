@@ -4,35 +4,12 @@
   background-position: right bottom;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
-a:hover {
-  color: #ff8600;
-  transition: all 400ms ease;
-}
-
 .content {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-.headerDivider {
-  background-color: white;
-  padding: 1px;
-  margin: 40px 0px;
-}
-
-.pageHeaderDivider {
-  background-color: white;
-  padding: 1px;
-  margin: 40px 0px;
 }
 
 .headerContent {

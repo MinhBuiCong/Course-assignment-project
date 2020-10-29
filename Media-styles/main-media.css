@@ -18,12 +18,14 @@
   .headerMobile {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin: 10px 0px;
   }
   .menuContent {
     display: flex;
     flex-direction: row;
+    width: 100px;
   }
   .menuButton {
     width: 40px;
@@ -34,7 +36,8 @@
   }
   .cartContentMobile {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    width: 100px;
   }
   .navCartMobile {
     width: 40px;
@@ -42,7 +45,10 @@
     margin-right: 24px;
   }
   .navHeadlineMobile {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
   }
 
   .navHeaderMobile {

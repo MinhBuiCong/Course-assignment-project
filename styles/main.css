@@ -29,6 +29,73 @@ body {
   display: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff8600;
+  transition: all 400ms ease;
+}
+
+.headerDivider {
+  background-color: white;
+  padding: 1px;
+  margin: 40px 0px;
+}
+
+.pageHeaderDivider {
+  background-color: white;
+  padding: 1px;
+  margin: 40px 0px;
+}
+
+.searchContent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: end;
+  width: fit-content;
+  width: 300px;
+  border-radius: 30px;
+  height: 40px;
+  border: 2px solid white;
+}
+
+.searchContent input[type="text"] {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+  width: 300px;
+}
+
+.searchContent button {
+  width: 80px;
+  height: 40px;
+  background: #0b3641;
+  color: white;
+  font-size: 16px;
+  overflow-y: hidden;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.searchContent:hover {
+  border: 2px solid #ff8600;
+}
+.searchContent:hover button {
+  background-color: #ff8600;
+  color: #ffffff;
+}
+
+.searchContent::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 nav {
   display: flex;
   justify-content: space-between;

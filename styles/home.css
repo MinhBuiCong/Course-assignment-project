@@ -1,4 +1,4 @@
-a {
+.navText a {
   text-decoration: none;
   color: #0b3641;
   cursor: pointer;
@@ -15,54 +15,9 @@ header {
   margin-bottom: 40px;
 }
 
-.searchContainer {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-}
-
-.searchContent {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  border-radius: 30px;
-  height: 40px;
-  margin-bottom: 80px;
+.searchContainer .searchContent {
   border: 2px solid #0b3641;
-}
-
-.searchContent input[type="text"] {
-  width: 300px;
-  height: 40px;
-  font-size: 17px;
-  padding-left: 10px;
-  color: #0b3641;
-}
-
-.searchContent .search {
-  width: 60px;
-  height: 60px;
-  background: #0b3641;
-  color: white;
-  font-size: 17px;
-  overflow-y: hidden;
-  cursor: pointer;
-}
-
-.searchContent:hover {
-  border: 2px solid #ff8600;
-}
-.searchContent:hover button {
-  color: #ff8600;
-}
-
-.searchContent::after {
-  content: "";
-  clear: both;
-  display: table;
+  margin: 40px 0px;
 }
 
 .allContent {
