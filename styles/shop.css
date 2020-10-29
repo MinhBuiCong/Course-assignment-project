@@ -56,12 +56,16 @@ a:hover {
   width: 200px;
   height: 40px;
   border: none;
-  cursor: pointer;
 }
 
 .backButton svg {
   width: 40px;
   height: auto;
+  cursor: pointer;
+}
+
+.backButton svg:hover {
+  fill: #ff8600;
 }
 
 .pageHeader {

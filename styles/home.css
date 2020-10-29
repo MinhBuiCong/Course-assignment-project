@@ -21,6 +21,53 @@ a:hover {
   transition: all 400ms ease;
 }
 
+.searchContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.searchContent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  width: 300px;
+  border-radius: 16px;
+  height: 60px;
+  border: 2px solid #0b3641;
+}
+
+.searchContent input[type="text"] {
+  width: 300px;
+  height: 40px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.searchContent .search {
+  width: 60px;
+  height: 60px;
+  background: #0b3641;
+  color: white;
+  font-size: 17px;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+
+.searchContent .search:hover {
+  background: #ff8600;
+}
+
+.searchContent::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .allContent {
   display: flex;
   flex-direction: row;
@@ -55,7 +102,7 @@ h2 {
   margin-top: 80px;
 }
 
-button {
+.buttonContainer button {
   width: 200px;
   height: 60px;
   border: none;

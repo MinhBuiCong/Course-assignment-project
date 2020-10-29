@@ -14,6 +14,15 @@ a:hover {
   color: #ff8600;
   transition: all 400ms ease;
 }
+.content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
 .headerDivider {
   background-color: white;
   padding: 1px;
@@ -25,21 +34,41 @@ a:hover {
   padding: 1px;
   margin: 40px 0px;
 }
-.content {
-  color: white;
+
+.headerContent {
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  width: 100vw;
-  height: 100vh;
-  margin: 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 120px 0px 80px;
+}
+
+.backButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: fit-content;
+  height: 40px;
+  border: none;
+}
+
+.backButton svg {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.backButton svg:hover {
+  fill: #ff8600;
 }
 
 .pageHeader {
   display: flex;
-  flex-direction: row;
+  flex: 1;
   align-items: center;
   justify-content: center;
+  width: fit-content;
   margin: 0px;
   font-size: 48px;
   color: white;
@@ -50,7 +79,7 @@ a:hover {
   flex-direction: row;
   justify-content: space-around;
   width: auto;
-  margin: 40px 0px 40px 0px;
+  margin: 40px 80px;
 }
 
 .overviewName {
@@ -70,6 +99,9 @@ a:hover {
   justify-content: space-around;
   padding: 40px 0px;
   background: white;
+  margin: 0px 80px;
+  border-radius: 30px;
+  border: 4px solid #ff8600;
 }
 
 .itemContainer {
@@ -103,10 +135,15 @@ a:hover {
   height: auto;
   margin: 40px 0px 0px 0px;
   border-radius: 30px;
+  border: 2px solid white;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.item:hover {
+  border: 2px solid #ff8600;
 }
 
 .nameItem {

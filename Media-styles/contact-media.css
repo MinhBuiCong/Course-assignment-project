@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 40px;
   }
   .menuButton .menuIcon {
     color: white;
@@ -13,6 +14,28 @@
   }
   nav {
     display: none;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .headerContent {
+    padding: 0px 80px 0px 40px;
+  }
+
+  .backButton svg {
+    width: 32px;
+    height: auto;
+  }
+  .pageHeader {
+    font-size: 32px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y: hidden;
   }
   .content {
     display: flex;
@@ -26,11 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px 20px 0px 20px;
-  }
-  .pageHeader {
-    font-size: 36px;
-    margin-bottom: 40px;
+    margin: 40px 20px 0px 20px;
   }
   .paragraph p {
     font-size: 16px;
@@ -61,6 +80,7 @@
   }
   .nameInput input {
     font-size: 16px;
+    width: 300px;
   }
   .emailInput {
     font-size: 16px;
@@ -69,6 +89,7 @@
   }
   .emailInput input {
     font-size: 16px;
+    width: 300px;
   }
   .messageInput {
     font-size: 16px;
@@ -76,6 +97,9 @@
   }
   .messageInput textarea {
     font-size: 16px;
+    width: 300px;
   }
   .column {
-    display:none;
+    display: none;
+  }
+}
