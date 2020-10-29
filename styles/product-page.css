@@ -27,11 +27,77 @@ a:hover {
   transition: all 400ms ease;
 }
 
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.backButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 200px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.backButton svg {
+  width: 40px;
+  height: auto;
+}
+
 .pageHeader {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   font-size: 48px;
   color: white;
+  width: 200px;
+}
+
+.searchContent {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: end;
+  width: fit-content;
+  width: 200px;
+  border-radius: 16px;
+  height: 60px;
+}
+
+.searchContent input[type="text"] {
+  height: 40px;
+  font-size: 17px;
+  padding-left: 10px;
+  width: fit-content;
+}
+
+.searchContent button {
+  width: 80px;
+  height: 40px;
+  background: #0b3641;
+  color: white;
+  font-size: 17px;
+  border: 2px solid white;
+  overflow-y: hidden;
+  cursor: pointer;
+}
+
+.searchContent button:hover {
+  background: #ff8600;
+}
+
+.searchContent::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .contentContainer {
