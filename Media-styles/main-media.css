@@ -1,4 +1,16 @@
 @media only screen and (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+  .navText {
+    display: none;
+  }
+  .navIcon {
+    display: none;
+  }
+  .navHeadline {
+    display: none;
+  }
   .layout {
     display: flex;
     flex-direction: column;
@@ -7,18 +19,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow-y: hidden;
-    height: max-content;
     margin: 10px 0px;
   }
   .menuContent {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    max-width: max-content;
-    height: fit-content;
-    margin: 0px;
-    padding: 0px;
   }
   .menuButton {
     width: 40px;
@@ -30,45 +35,22 @@
   .cartContentMobile {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    width: fit-content;
-    height: fit-content;
-    margin: 0px;
-    padding: 0px;
   }
   .navCartMobile {
     width: 40px;
     height: 40px;
-    background: none;
     margin-right: 24px;
-  }
-  nav {
-    display: none;
-  }
-  .navText {
-    display: none;
-  }
-  .navIcon {
-    display: none;
   }
   .navHeadlineMobile {
     display: block;
-    align-items: center;
-    height: fit-content;
-    margin-right: 32px;
-    margin-left: 30px;
   }
 
   .navHeaderMobile {
     font-size: 36px;
   }
-  .navHeadline {
-    display: none;
-  }
   .footerContent {
     display: flex;
     flex-direction: column;
-    height: auto;
     padding-bottom: 40px;
   }
 }
