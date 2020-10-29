@@ -9,15 +9,18 @@
 a {
   text-decoration: none;
   color: #0b3641;
+
   cursor: pointer;
 }
 
 header {
-  margin-bottom: 40px;
+  height: fit-content;
+  overflow-y: hidden;
 }
 
 a:hover {
   color: #ff8600;
+
   transition: all 400ms ease;
 }
 
@@ -27,6 +30,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   width: 100vw;
+  margin-top: 40px;
 }
 
 .searchContent {
@@ -38,6 +42,7 @@ a:hover {
   width: 300px;
   border-radius: 16px;
   height: 60px;
+
   border: 2px solid #0b3641;
 }
 
@@ -46,6 +51,7 @@ a:hover {
   height: 40px;
   font-size: 17px;
   padding-left: 10px;
+  color: #0b3641;
 }
 
 .searchContent .search {
@@ -114,37 +120,12 @@ h2 {
   border-radius: 33px;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.men {
-  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
+  background: #0b3641;
   color: white;
 }
 
-.men:hover {
-  background: linear-gradient(to left top, white 40%, white 90%);
-  color: #0b3641;
-  border: 2px solid #0b3641;
-}
-
-.woman {
-  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
-  color: white;
-}
-
-.woman:hover {
-  background: linear-gradient(to left top, white 40%, white 90%);
-  color: #0b3641;
-  border: 2px solid #0b3641;
-}
-
-.children {
-  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
-  color: white;
-}
-
-.children:hover {
-  background: linear-gradient(to left top, white 40%, white 90%);
+.buttonContainer button:hover {
+  background: white;
   color: #0b3641;
   border: 2px solid #0b3641;
 }
