@@ -140,7 +140,7 @@ span .arrow {
 
 .productCard {
   background-color: white;
-  padding: 8px;
+  padding: 2px 2px 12px 2px;
   margin: 0px 24px 80px 24px;
   border-radius: 30px;
   cursor: pointer;
@@ -171,7 +171,6 @@ span .arrow {
 .row1 .brandName {
   font-size: 12px;
   width: 180px;
-  border: none;
   margin-left: 10px;
   color: #0b3641;
   padding: 10px 0px;
@@ -181,7 +180,6 @@ span .arrow {
 
 .row1 .price {
   font-size: 12px;
-  border: none;
   color: #0b3641;
   padding-top: 10px;
   font-weight: bold;
@@ -213,10 +211,6 @@ span .arrow {
 .pageSelector span {
   color: white;
   margin: 0px 10px;
-}
-
-.pageSelector p {
-  color: white;
 }
 
 .pageSelector svg {

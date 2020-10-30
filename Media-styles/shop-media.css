@@ -17,6 +17,15 @@
   .navigation {
     display: none;
   }
+  .searchContent button {
+    display: none;
+  }
+  .dirContainer {
+    display: none;
+  }
+  .filter {
+    display: none;
+  }
   .mobileFilter {
     display: flex;
     flex-direction: column;
@@ -57,36 +66,20 @@
     border-radius: 16px;
     overflow-y: hidden;
   }
-  .searchContent button {
-    display: none;
-  }
-  .dirContainer {
-    display: none;
-  }
+
   .shopContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .filter {
-    display: none;
-  }
-  .productPage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: fit-content;
-  }
 
   .row {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
   }
 
   .pageSelector {
     margin-left: 0px;
-    margin-bottom: 40px;
   }
 }
