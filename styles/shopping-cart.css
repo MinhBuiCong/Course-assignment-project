@@ -4,16 +4,6 @@
   background-position: right bottom;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-
-a:hover {
-  color: #ff8600;
-  transition: all 400ms ease;
-}
 .content {
   color: white;
   display: flex;
@@ -23,23 +13,8 @@ a:hover {
   height: 100vh;
   margin: 0px;
 }
-.headerDivider {
-  background-color: white;
-  padding: 1px;
-  margin: 40px 0px;
-}
-
-.pageHeaderDivider {
-  background-color: white;
-  padding: 1px;
-  margin: 40px 0px;
-}
 
 .headerContent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   padding: 0px 120px 0px 80px;
 }
 
@@ -64,14 +39,7 @@ a:hover {
 }
 
 .pageHeader {
-  display: flex;
   flex: 1;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  margin: 0px;
-  font-size: 48px;
-  color: white;
 }
 
 .overview {
@@ -79,13 +47,12 @@ a:hover {
   flex-direction: row;
   justify-content: space-around;
   width: auto;
-  margin: 40px 80px;
+  margin: 40px 120px;
 }
 
 .overviewName {
-  margin: 0px;
   color: white;
-  font-size: 32px;
+  font-size: 16px;
   width: 240px;
   display: flex;
   flex-direction: row;
@@ -97,11 +64,11 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 40px 0px;
+  padding: 20px 0px;
+  margin: 0px 120px;
   background: white;
-  margin: 0px 80px;
   border-radius: 30px;
-  border: 4px solid #ff8600;
+  border: 4px solid #0b3641;
 }
 
 .itemContainer {
@@ -114,32 +81,21 @@ a:hover {
 
 .remove {
   color: #0b3641;
-  font-size: 32px;
+  font-size: 16px;
   background: none;
-  margin: 0px;
   cursor: pointer;
-  width: 240px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .remove:hover {
   color: #ff8600;
-  border-radius: 50%;
 }
 
 .item {
   width: 160px;
   height: auto;
-  margin: 40px 0px 0px 0px;
+  margin: 20px 0px;
   border-radius: 30px;
-  border: 2px solid white;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  border: 2px solid #0b3641;
 }
 
 .item:hover {
@@ -148,20 +104,13 @@ a:hover {
 
 .nameItem {
   color: #0b3641;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: lighter;
-  width: 240px;
-  margin: 40px 0px 0px 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .quantity {
   color: #0b3641;
-  font-size: 32px;
-  margin: 0px;
+  font-size: 24px;
   width: 240px;
   display: flex;
   flex-direction: row;
@@ -171,8 +120,7 @@ a:hover {
 
 .price {
   color: #0b3641;
-  font-size: 32px;
-  margin: 0px;
+  font-size: 24px;
   width: 240px;
   display: flex;
   flex-direction: row;
@@ -186,41 +134,36 @@ a:hover {
   justify-items: center;
   align-items: center;
   width: 100vw;
-  margin: 40px 0px 0px 0px;
+  margin: 40px 0px;
 }
 
 .finishOverview {
   display: flex;
   flex-direction: row-reverse;
-  margin: 0px;
 }
 
 .subtotal {
   color: white;
   font-weight: bold;
-  font-size: 40px;
-  margin: 40px 0px;
+  font-size: 24px;
 }
 
 .finalPrice {
   color: white;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: bold;
-  margin: 40px 0px;
 }
-
 .checkoutContainer {
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 
 .checkout {
-  margin: 0px;
-  height: 64px;
-  width: 240px;
+  height: 40px;
+  font-size: 24px;
+  width: 180px;
   border-radius: 30px;
   background-color: #ff8600;
   color: white;
-  font-size: 32px;
   font-weight: bold;
   border: 2px solid white;
   cursor: pointer;

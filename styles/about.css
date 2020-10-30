@@ -13,10 +13,6 @@
 }
 
 .headerContent {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   padding: 0px 120px 0px 80px;
 }
 
@@ -41,14 +37,7 @@
 }
 
 .pageHeader {
-  display: flex;
   flex: 1;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  margin: 0px;
-  font-size: 48px;
-  color: white;
 }
 
 .paragraph {

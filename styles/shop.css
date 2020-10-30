@@ -45,15 +45,6 @@
   fill: #ff8600;
 }
 
-.pageHeader {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-  color: white;
-  width: 300px;
-}
 .filtersContainer {
   padding-top: 40px;
 }

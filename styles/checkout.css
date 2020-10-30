@@ -13,11 +13,10 @@
   margin-bottom: 220px;
 }
 
-.content h1 {
-  display: flex;
-  justify-content: center;
+.content .pageHeader {
   color: white;
-  font-size: 56px;
+  width: 100vw;
+  font-size: 40px;
   margin-top: 80px;
 }
 
@@ -27,7 +26,7 @@
   justify-items: center;
   color: white;
   margin-top: 40px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: lighter;
 }
 
@@ -41,12 +40,10 @@ h2 {
   justify-content: center;
   color: white;
   margin-top: 40px;
-  font-size: 40px;
+  font-size: 24px;
 }
 
 span {
-  display: inline-block;
-  justify-content: center;
   color: #ff8600;
   text-decoration: underline;
   margin: 0px 8px;
@@ -64,7 +61,6 @@ span {
 }
 
 .link:hover {
-  font-style: italic;
   font-weight: bold;
 }
 
@@ -72,21 +68,23 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px 0px;
+}
+
+.buttonContainer button {
+  cursor: pointer;
+  border-radius: 30px;
+  height: 40px;
+  width: 180px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: white;
 }
 
 .homePage {
   background-color: #0b3641;
-  color: white;
   border: 2px solid white;
-  cursor: pointer;
-  border-radius: 30px;
-  height: 64px;
-  width: 220px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-right: 20px;
 }
 
 .homePage:hover {
@@ -98,15 +96,7 @@ span {
 
 .continue {
   background-color: #ff8600;
-  color: white;
   border: 2px solid white;
-  cursor: pointer;
-  border-radius: 30px;
-  height: 64px;
-  width: 220px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 20px;
 }
 
 .continue:hover {
@@ -116,6 +106,6 @@ span {
   transition: all 400ms ease;
 }
 
-h2 span {
+h2 span:hover {
   font-weight: bold;
 }

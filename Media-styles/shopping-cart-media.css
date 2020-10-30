@@ -21,67 +21,39 @@
   }
   .headerContent {
     padding: 0px 80px 0px 40px;
+    height: fit-content;
   }
 
   .backButton svg {
     width: 32px;
     height: auto;
   }
-  .pageHeader {
+  .headerContent .pageHeader {
     font-size: 32px;
     width: 300px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    overflow-y: hidden;
+    margin: 40px 0px;
   }
   .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    width: auto;
-    margin: 0px 10px;
-    padding: 0px;
-  }
-  .divider {
-    margin: 0px;
-    border-width: 1px;
-    width: 100vw;
-  }
-  .pageHeader {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 60px 0px;
-    font-size: 32px;
   }
   .overview {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 70vw;
-    margin: 20px 40px;
+    width: fit-content;
+    margin: 20px 0px;
   }
 
   .overviewName {
-    margin: 5px;
     width: 160px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 16px;
+    font-size: 12px;
   }
   .cartItem {
-    display: flex;
-    flex-direction: row;
-    width: 70vw;
-    height: 300px;
-    justify-content: space-around;
+    width: fit-content;
+    height: fit-content;
     border-radius: 16px;
-    margin: 0px 20px;
-    padding: 0px 20px;
+    padding: 10px;
+    margin: 20px;
   }
   .itemContainer {
     display: flex;
@@ -89,53 +61,26 @@
     justify-content: center;
     align-items: center;
     width: 160px;
-    height: 300px;
   }
   .remove {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow-y: hidden;
-    height: fit-content;
-    width: fit-content;
-    margin: 0px;
-    padding: 0px;
     width: 160px;
     font-size: 16px;
   }
   .item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     width: 120px;
-    height: auto;
-
-    margin: 0px;
-    padding: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 140px;
   }
 
   .item img {
-    border-radius: 16px;
+    width: 120px;
+    height: 120px;
   }
   .nameItem {
-    margin: 0px;
-    padding: 0px;
-    font-size: 16px;
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 12px;
   }
   .quantity {
-    margin: 0px;
-    padding: 0px;
     width: 160px;
-    height: 300px;
     font-size: 16px;
     display: flex;
     flex-direction: row;
@@ -143,10 +88,7 @@
     justify-content: center;
   }
   .price {
-    margin: 0px;
-    padding: 0px;
     width: 160px;
-    height: 300px;
     font-size: 16px;
     display: flex;
     flex-direction: row;
@@ -154,33 +96,28 @@
     justify-content: center;
   }
   .finish {
-    width: 100vw;
+    width: fit-content;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0px;
   }
-  .finishOverview {
-    margin: 0px;
-  }
+
   .finishOverview p {
-    font-size: 16px;
+    font-size: 12px;
   }
   .finalPrice {
-    margin: 40px 0px;
-    font-size: 16px;
+    font-size: 12px;
   }
   .checkoutContainer {
-    margin: 0px;
+    margin: 20px;
   }
 
   .checkout {
-    margin: 0px;
-    margin-bottom: 40px;
     border-radius: 16px;
-    font-size: 16px;
-    height: 40px;
-    width: 120px;
+    font-size: 12px;
+    height: 20px;
+    width: 100px;
   }
 }
