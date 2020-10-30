@@ -1,3 +1,7 @@
+body .layout {
+  background: white;
+}
+
 .navText a {
   text-decoration: none;
   color: #0b3641;

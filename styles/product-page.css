@@ -1,32 +1,11 @@
-.layout {
-  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
-  background-size: 120% 120%;
-  background-position: right bottom;
-}
-
 .headerContent {
   padding: 0px 80px;
 }
-.backButton {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
+.headerContent .backButton {
   width: 300px;
   height: 40px;
   border: none;
 }
-
-.backButton svg {
-  width: 40px;
-  height: auto;
-  cursor: pointer;
-}
-
-.backButton svg:hover {
-  fill: #ff8600;
-}
-
 .contentContainer {
   display: flex;
   flex-direction: row;

@@ -1,31 +1,5 @@
-.layout {
-  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
-  background-size: 120% 120%;
-  background-position: right bottom;
-}
-
 .headerContent {
   padding: 0px 120px 0px 80px;
-}
-
-.backButton {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  width: fit-content;
-  height: 40px;
-  border: none;
-}
-
-.backButton svg {
-  width: 40px;
-  height: auto;
-  cursor: pointer;
-}
-
-.backButton svg:hover {
-  fill: #ff8600;
 }
 
 .pageHeader {
@@ -37,7 +11,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  align-content: space-around;
+  align-content: space-evenly;
 }
 
 .paragraph {
@@ -45,7 +19,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
-  margin-left: 50px;
   width: 50vw;
 }
 
@@ -54,10 +27,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   color: white;
-  font-size: 24px;
-  font-weight: lighter;
 }
 
 .column {
@@ -68,9 +39,13 @@
   width: 50vw;
 }
 
+label {
+  font-size: 16px;
+}
+
 span {
   color: red;
-  font-size: 32px;
+  font-size: 16px;
 }
 
 .row1 {
@@ -87,10 +62,11 @@ span {
 
 .nameInput input {
   width: 400px;
-  height: 56px;
-  font-size: 20px;
+  height: 40px;
+  font-size: 16px;
   margin-top: 10px;
-  padding-left: 16px;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .emailInput {
@@ -101,16 +77,17 @@ span {
 
 .emailInput input {
   width: 400px;
-  height: 56px;
-  font-size: 20px;
+  height: 40px;
+  font-size: 16px;
   margin-top: 10px;
-  padding-left: 16px;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .row2 {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .messageInput {
@@ -122,9 +99,9 @@ span {
 .messageInput textarea {
   width: 400px;
   height: 200px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 10px;
-  padding-left: 16px;
+  padding-left: 10px;
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -136,13 +113,12 @@ span {
 }
 
 .submit input {
-  width: 100px;
-  height: 40px;
-  border-radius: 16px;
+  width: 80px;
+  height: 20px;
+  border-radius: 30px;
   border: 2px solid white;
   background-color: #3aafb9;
   color: white;
-  font-size: 20px;
   cursor: pointer;
 }
 
@@ -160,8 +136,7 @@ span {
   align-items: center;
   justify-content: center;
   color: red;
-  font-size: 24px;
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
 
 .infoText {
@@ -170,7 +145,6 @@ span {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 24px;
 }
 
 .infoSection {
@@ -178,6 +152,4 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 56px;
-  margin-left: 200px;
 }

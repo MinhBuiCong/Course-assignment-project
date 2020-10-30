@@ -1,9 +1,3 @@
-.layout {
-  background: linear-gradient(to left top, #0b3641 40%, #3aafb9 90%);
-  background-size: 120% 120%;
-  background-position: right bottom;
-}
-
 .content {
   width: 100vw;
   height: 100vh;
@@ -16,26 +10,6 @@
   padding: 0px 120px 0px 80px;
 }
 
-.backButton {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  width: fit-content;
-  height: 40px;
-  border: none;
-}
-
-.backButton svg {
-  width: 40px;
-  height: auto;
-  cursor: pointer;
-}
-
-.backButton svg:hover {
-  fill: #ff8600;
-}
-
 .pageHeader {
   flex: 1;
 }
@@ -45,19 +19,15 @@
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
-  margin-left: 72px;
+
   width: 50vw;
 }
 
 .paragraph p {
   color: white;
-  font-size: 24px;
-  margin-top: 8px;
+  margin-top: 4px;
   font-weight: lighter;
   align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .column {
@@ -66,18 +36,15 @@
   align-items: center;
   margin-top: 80px;
   width: 50vw;
-  margin-right: 50px;
 }
 
 .column button {
-  height: 64px;
-  width: 240px;
+  height: 40px;
+  width: 200px;
   border: 2px solid white;
   background-color: #3aafb9;
   color: white;
-  font-weight: lighter;
-  font-size: 16px;
-  border-radius: 16px;
+  border-radius: 30px;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -86,7 +53,6 @@
   border: 2px solid #3aafb9;
   color: #3aafb9;
   background-color: white;
-  transition: all 400ms ease;
 }
 
 .signIn {
@@ -96,15 +62,13 @@
 
 .signIn p {
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
   text-transform: uppercase;
-  font-size: 16px;
 }
 
 .signIn a {
   color: #ff8600;
-  margin-left: 10px;
-  margin-top: 20px;
+  margin: 10px;
   text-transform: uppercase;
   text-decoration: underline;
   cursor: pointer;
@@ -117,8 +81,8 @@
 }
 
 img {
-  width: 320px;
+  width: 240px;
   height: auto;
-  margin-top: 80px;
-  border-radius: 16px;
+  margin-top: 40px;
+  border-radius: 30px;
 }
