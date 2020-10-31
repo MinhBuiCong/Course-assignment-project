@@ -58,4 +58,7 @@
     width: 300px;
     padding-left: 5px;
   }
+  .submit {
+    margin-top: 20px;
+  }
 }
