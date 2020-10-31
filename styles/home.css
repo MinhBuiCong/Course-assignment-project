@@ -51,20 +51,22 @@ h2 {
   margin-top: 160px;
 }
 
-.buttonContainer button {
+.buttonContainer a {
   width: 160px;
   height: 40px;
   font-size: 16px;
   margin: 0px 20px;
   border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  cursor: pointer;
   background: #0b3641;
   color: white;
-  transition: all 400ms ease;
 }
 
-.buttonContainer button:hover {
+.buttonContainer a:hover {
   background: white;
   color: #0b3641;
   border: 2px solid #0b3641;

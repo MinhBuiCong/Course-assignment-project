@@ -48,7 +48,7 @@
     flex-direction: column;
     margin: 0px;
   }
-  .buttonContainer button {
+  .buttonContainer a {
     width: 160px;
     height: 24px;
     font-size: 12px;
