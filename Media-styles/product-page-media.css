@@ -1,24 +1,6 @@
 @media only screen and (max-width: 1000px) {
-  .headerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .menuButton .menuIcon {
-    color: white;
-  }
-  .navHeadlineMobile {
-    color: white;
-  }
-  nav {
-    display: none;
-  }
-  .headerDivider {
-    display: none;
-  }
-
-  .pageHeaderDivider {
-    display: none;
+  .headerContent .searchContent {
+    border-radius: 16px;
   }
   .headerContent {
     padding: 0px 30px;
@@ -26,12 +8,7 @@
   .headerContent .backButton {
     width: 100px;
   }
-  .backButton svg {
-    width: 32px;
-    height: auto;
-  }
   .pageHeader {
-    font-size: 32px;
     margin: 40px 10px;
     width: 100px;
   }
@@ -41,28 +18,23 @@
     border-radius: 16px;
     overflow-y: hidden;
   }
-  .searchContent button {
-    display: none;
-  }
+
   .contentContainer {
-    display: flex;
     flex-direction: column;
     align-content: center;
     margin: 0px;
     height: fit-content;
   }
   .productPage {
-    height: 100vh;
+    height: fit-content;
   }
   .imageContainer {
-    display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     margin: 0px;
   }
   .sideImageContainer {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0px;
@@ -73,7 +45,6 @@
     padding: 0px;
     width: 10%;
     border-radius: 16px;
-    height: auto;
   }
   .mainImageContainer {
     display: flex;
@@ -82,29 +53,10 @@
   }
   .mainImage {
     width: 70%;
-    height: auto;
     align-items: center;
     margin: 0px 0px 20px 0px;
     padding: 0px;
-  }
-  .colorContainer {
-    align-items: center;
-    justify-content: space-between;
-  }
-  .colorContainer button {
-    margin: 20px 10px;
-  }
-  .dropDown {
-    margin: 20px 0px;
-  }
-  .dropDown select {
-    margin: 0px;
-  }
-  .addFavourite {
-    margin: 20px 0px;
-  }
-  .incrementDecrement {
-    margin: 20px 92px 20px 0px;
+    border-radius: 16px;
   }
   .infoContainer {
     display: flex;
@@ -115,5 +67,106 @@
   }
   .infoContainer .dropInfo {
     margin: 10px 0px;
+  }
+  .brand {
+    font-size: 12px;
+  }
+  .brand:hover {
+    font-size: 16px;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .color {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .product {
+    font-size: 16px;
+  }
+  .colorContainer {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .colorContainer button {
+    margin: 12px 10px;
+    border-radius: 16px;
+    height: 20px;
+    width: 20px;
+  }
+  .dropDown {
+    margin: 12px 0px;
+  }
+  .dropDown select {
+    margin: 0px;
+    font-size: 12px;
+    height: 20px;
+    width: 160px;
+  }
+  .addFavourite {
+    margin: 12px 0px;
+  }
+  .shoppingButton {
+    height: 20px;
+    width: 120px;
+    overflow-y: hidden;
+  }
+  .shoppingButton p {
+    font-size: 12px;
+  }
+  .shoppingCart {
+    width: 10px;
+    height: 10px;
+    padding-top: 16px;
+  }
+  .buttonContainer {
+    margin-right: 4px;
+  }
+  .favouriteButton {
+    width: 30px;
+    height: 20px;
+    border-radius: 16px;
+    padding: 0px;
+  }
+  .favouriteButton .favouriteIcon {
+    width: 10px;
+    height: 10px;
+    padding: 0px;
+  }
+  .incrementDecrement {
+    margin-right: 36px;
+    padding-bottom: 0px;
+    height: 16px;
+    width: 116px;
+    overflow-y: hidden;
+  }
+  .count {
+    margin: 0px;
+    font-size: 12px;
+    padding-top: 2px;
+  }
+  .additionalInfo {
+    margin: 16px 0px 0px 0px;
+    padding: 0px;
+    height: fit-content;
+    border-bottom: none;
+  }
+  .dropInfo {
+    height: 20px;
+    width: 160px;
+    margin: 0px;
+    padding: 0px;
+    border-top: none;
+  }
+  .dropInfo p {
+    font-size: 12px;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+  }
+  .dropInfo span {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
   }
 }

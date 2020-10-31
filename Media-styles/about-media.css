@@ -1,21 +1,5 @@
 @media only screen and (max-width: 1000px) {
-  .headerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-  .menuButton .menuIcon {
-    color: white;
-  }
-  .navHeadlineMobile {
-    color: white;
-  }
-  nav {
-    display: none;
-  }
   .content {
-    display: flex;
     flex-direction: column;
     align-items: center;
     height: fit-content;
@@ -23,12 +7,8 @@
     margin-top: 40px;
   }
 
-  hr {
-    display: none;
-  }
-
   .headerContent {
-    padding: 0px 80px 0px 40px;
+    padding: 0px 70px 0px 30px;
   }
 
   .backButton svg {
@@ -36,18 +16,10 @@
     height: auto;
   }
   .pageHeader {
-    font-size: 32px;
-    width: 300px;
     height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     overflow-y: hidden;
   }
   .paragraph {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: fit-content;
     height: auto;
     margin: 0px;
@@ -55,11 +27,9 @@
   }
   .paragraph p {
     margin: 5px;
-    font-size: 12px;
   }
   .column {
     margin: 0px;
-    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,7 +47,6 @@
   }
   .signIn p {
     margin: 0px;
-    font-size: 12px;
   }
   .signIn a {
     margin: 0px 10px;

@@ -1,23 +1,5 @@
 @media only screen and (max-width: 1000px) {
-  .menuButton .menuIcon {
-    color: white;
-  }
-  .navHeadlineMobile {
-    color: white;
-  }
-  nav {
-    display: none;
-  }
-  .headerDivider {
-    display: none;
-  }
-  .pageHeaderDivider {
-    display: none;
-  }
   .navigation {
-    display: none;
-  }
-  .searchContent button {
     display: none;
   }
   .dirContainer {
@@ -29,18 +11,17 @@
   .mobileFilter {
     display: flex;
     flex-direction: column;
-    margin: 40px 0px;
+    margin-bottom: 20px;
     background: none;
     border: 2px solid white;
     color: white;
     align-items: flex-start;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
+    width: 160px;
+    height: 20px;
+    font-size: 12px;
     border-radius: 16px;
     border: 2px solid white;
-    padding: 6px 8px 0px 8px;
-    cursor: pointer;
+    padding: 0px 8px 0px 8px;
   }
   .mobileFilter:hover {
     color: #ff8600;
@@ -52,12 +33,7 @@
   .headerContent .backButton {
     width: 100px;
   }
-  .backButton svg {
-    width: 32px;
-    height: auto;
-  }
   .pageHeader {
-    font-size: 32px;
     margin: 40px 10px;
     width: 100px;
   }
@@ -69,14 +45,11 @@
   }
 
   .shopContent {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
   .row {
-    display: flex;
     flex-direction: column;
   }
 

@@ -1,69 +1,27 @@
 @media only screen and (max-width: 1000px) {
-  .headerMobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-  .menuButton .menuIcon {
-    color: white;
-  }
-  .navHeadlineMobile {
-    color: white;
-  }
-  nav {
+  .column {
     display: none;
   }
-
-  hr {
-    display: none;
-  }
-
   .headerContent {
-    padding: 0px 80px 0px 40px;
-  }
-
-  .backButton svg {
-    width: 32px;
-    height: auto;
+    padding: 0px 70px 0px 30px;
   }
   .pageHeader {
-    font-size: 32px;
-    width: 300px;
     height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     overflow-y: hidden;
   }
   .content {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
     height: fit-content;
   }
   .paragraph {
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 40px 20px 0px 20px;
   }
   .paragraph p {
-    font-size: 12px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2px 0px;
-  }
-  .row1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .row2 {
-    display: flex;
-    flex-direction: column;
   }
   .column {
     margin: 60px 0px 0px 50px;
@@ -76,9 +34,7 @@
     font-size: 12px;
   }
   .nameInput {
-    font-size: 12px;
     width: fit-content;
-    margin: 0px;
   }
   .nameInput input {
     font-size: 12px;
@@ -86,9 +42,7 @@
     padding-left: 5px;
   }
   .emailInput {
-    font-size: 12px;
     width: fit-content;
-    margin: 0px;
   }
   .emailInput input {
     font-size: 12px;
@@ -103,8 +57,5 @@
     font-size: 12px;
     width: 300px;
     padding-left: 5px;
-  }
-  .column {
-    display: none;
   }
 }

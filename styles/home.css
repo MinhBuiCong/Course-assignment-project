@@ -7,12 +7,6 @@ body .layout {
   color: #0b3641;
   cursor: pointer;
 }
-
-a:hover {
-  color: #ff8600;
-  transition: all 400ms ease;
-}
-
 header {
   height: fit-content;
   overflow-y: hidden;
@@ -43,7 +37,7 @@ header {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 24px;
   font-weight: bold;
   font-style: italic;
   margin-top: 40px;

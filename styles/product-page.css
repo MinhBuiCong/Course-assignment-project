@@ -32,7 +32,7 @@
   margin: 0px 20px 10px 0px;
   cursor: pointer;
   border: 2px solid #0b3641;
-  border-radius: 16px;
+  border-radius: 30px;
 }
 
 .sideImageContainer img:hover {
@@ -43,7 +43,7 @@
   height: auto;
   width: 440px;
   margin: 40px 0px 10px 0px;
-  border-radius: 16px;
+  border-radius: 30px;
 }
 
 .infoContainer {
@@ -59,7 +59,6 @@
 
 .brand:hover {
   color: #ff8600;
-  transition: all 400ms ease;
   font-size: 20px;
 }
 
@@ -72,13 +71,13 @@
 .price {
   font-size: 16px;
   font-weight: lighter;
-  padding-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .color {
   font-size: 16px;
   font-weight: bold;
-  padding-bottom: 5px;
+  margin-bottom: 16px;
 }
 
 .colorText {
@@ -105,48 +104,42 @@ span {
   margin-right: 20px;
   width: 40px;
   height: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
+  border: 2px solid auto;
+  border-radius: 16px;
+  cursor: pointer;
 }
 
 .color1 {
   background-color: red;
-  border: 2px;
-  cursor: pointer;
 }
 
 .color1:hover {
   background-color: rgb(121, 17, 17);
-  transition: all 200ms ease;
 }
 
 .color2 {
   background-color: yellow;
-  border: 2px;
 }
 
 .color2:hover {
   background-color: rgb(133, 133, 19);
-  transition: all 200ms ease;
 }
 
 .color3 {
   background-color: blue;
-  border: 2px;
 }
 
 .color3:hover {
   background-color: rgb(10, 10, 161);
-  transition: all 200ms ease;
 }
 
 .color4 {
   background-color: green;
-  border: 2px;
 }
 
 .color4:hover {
   background-color: rgb(7, 85, 7);
-  transition: all 200ms ease;
 }
 
 .dropDown {
@@ -156,25 +149,25 @@ span {
 }
 
 .dropDown select {
-  height: 48px;
+  height: 40px;
   width: 240px;
-  border-radius: 16px;
+  border-radius: 30px;
   border: 2px solid #0b3641;
-  color: black;
+  color: #0b3641;
   background-color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: lighter;
   margin-bottom: 16px;
-  padding-left: 5px;
+  padding-left: 16px;
   cursor: pointer;
 }
 
 .dropDown:hover select {
-  border: 3px solid black;
+  border: 3px solid #0b3641;
 }
 
 .dropDown span {
-  color: black;
+  color: #0b3641;
   margin-left: 100px;
 }
 
@@ -184,21 +177,21 @@ span {
 }
 
 .shoppingButton {
-  height: 48px;
+  height: 40px;
   width: 180px;
-  border-radius: 16px;
-  border: 1px solid white;
+  border-radius: 30px;
+  padding-bottom: 16px;
+  border: 2px solid white;
   background-color: #ff8600;
-  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   cursor: pointer;
 }
 
 .shoppingButton p {
-  font-size: 16px;
-  font-weight: bold;
+  font-weight: lighter;
   color: white;
   padding-top: 15px;
   padding-left: 20px;
@@ -215,18 +208,15 @@ span {
 
 .shoppingButton:hover {
   background-color: white;
-  border: 1px solid #ff8600;
-  transition: all 400ms ease;
+  border: 2px solid #ff8600;
 }
 
 .shoppingButton:hover p {
   color: #ff8600;
-  transition: all 400ms ease;
 }
 
 .shoppingButton:hover .shoppingCart {
   fill: #ff8600;
-  transition: all 400ms ease;
 }
 
 .buttonContainer {
@@ -235,83 +225,77 @@ span {
   justify-content: space-evenly;
   margin-right: 10px;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
 }
 
 .favouriteButton {
-  height: 48px;
+  height: 40px;
   width: 48px;
-  border-radius: 16px;
-  border: 1px solid #ffffff;
+  padding-top: 3px;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
   color: white;
   background-color: #ff8600;
-  font-size: 16px;
   font-weight: bold;
-  padding-bottom: 10px;
   cursor: pointer;
-  padding-top: 8px;
   overflow-y: hidden;
 }
 
 .favouriteButton:hover {
   background-color: #ffffff;
   border: 1px solid #ff8600;
-  transition: all 400ms ease;
 }
 
 .favouriteButton:hover .favouriteIcon {
   fill: #ff8600;
-  transition: all 400ms ease;
 }
 
 .incrementDecrement {
-  margin-top: 8px;
   background-color: white;
   border: 2px solid white;
-  border-radius: 16px;
+  border-radius: 30px;
   width: 140px;
+  height: 36px;
   display: flex;
   flex-direction: row;
 }
 
 .minusButton {
-  height: 46px;
   width: 48px;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #0b3641;
   color: white;
   cursor: pointer;
+  overflow-y: hidden;
 }
 
 .minusButton:hover {
   background-color: #115464;
-  font-size: 40px;
-  transition: all 400ms ease;
+  font-size: 20px;
 }
 
 .count {
-  height: 46px;
   width: 48px;
   color: #0b3641;
   justify-content: center;
   display: flex;
   flex-direction: row;
   height: fit-content;
-  margin-top: 12px;
+  margin-top: 10px;
+  overflow-y: hidden;
 }
 
 .plusButton {
-  height: 46px;
   width: 48px;
-  font-size: 20px;
+  font-size: 16px;
   background-color: #0b3641;
   color: white;
+  overflow-y: hidden;
 }
 
 .plusButton:hover {
   background-color: #115464;
-  font-size: 40px;
-  transition: all 400ms ease;
+  font-size: 20px;
 }
 
 .additionalInfo {

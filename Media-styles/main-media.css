@@ -15,12 +15,42 @@
     display: flex;
     flex-direction: column;
   }
+  .headerDivider {
+    display: none;
+  }
+
+  .pageHeaderDivider {
+    display: none;
+  }
   .headerMobile {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin: 10px 0px;
+  }
+  .backButton svg {
+    width: 32px;
+    height: auto;
+  }
+  .menuButton .menuIcon {
+    color: white;
+  }
+  .navHeadlineMobile {
+    color: white;
+  }
+  .searchContent button {
+    display: none;
+  }
+
+  button {
+    font-size: 12px;
+  }
+  span {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
   }
   .menuContent {
     display: flex;
@@ -52,11 +82,20 @@
   }
 
   .navHeaderMobile {
-    font-size: 36px;
+    font-size: 32px;
+  }
+  .headerContent .pageHeader {
+    font-size: 24px;
   }
   .footerContent {
     display: flex;
     flex-direction: column;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+  }
+  .footerContent h3 {
+    font-size: 16px;
+  }
+  .footerContent ul {
+    font-size: 12px;
   }
 }

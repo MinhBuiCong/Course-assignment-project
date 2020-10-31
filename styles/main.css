@@ -21,6 +21,7 @@ body {
 
 button {
   transition: all 400ms ease;
+  cursor: pointer;
 }
 span {
   transition: all 400ms ease;
