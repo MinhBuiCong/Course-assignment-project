@@ -12,26 +12,6 @@
   padding: 0px 120px 0px 80px;
 }
 
-.backButton {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  width: fit-content;
-  height: 40px;
-  border: none;
-}
-
-.backButton svg {
-  width: 40px;
-  height: auto;
-  cursor: pointer;
-}
-
-.backButton svg:hover {
-  fill: #ff8600;
-}
-
 .pageHeader {
   flex: 1;
 }
