@@ -13,7 +13,7 @@
   }
   .searchContent {
     width: 200px;
-    height: 24px;
+    height: 20px;
     border-radius: 16px;
     border: 2px solid #0b3641;
     overflow-y: hidden;
@@ -43,7 +43,7 @@
 
   h2 {
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .buttonContainer {
     display: flex;
@@ -53,7 +53,8 @@
   .buttonContainer button {
     width: 160px;
     height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 12px;
+    border-radius: 16px;
   }
 }

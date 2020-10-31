@@ -49,8 +49,8 @@
   .headerContent {
     padding: 0px 30px;
   }
-  .backButton {
-    width: 160px;
+  .headerContent .backButton {
+    width: 100px;
   }
   .backButton svg {
     width: 32px;
@@ -59,10 +59,11 @@
   .pageHeader {
     font-size: 32px;
     margin: 40px 10px;
+    width: 100px;
   }
-  .searchContent {
-    width: 160px;
-    height: 30px;
+  .headerContent .searchContent {
+    width: 100px;
+    height: 20px;
     border-radius: 16px;
     overflow-y: hidden;
   }

@@ -55,37 +55,36 @@
   }
   .paragraph p {
     margin: 5px;
-    font-size: 16px;
-    overflow-y: hidden;
-    width: fit-content;
-    height: fit-content;
-    word-break: break-all;
+    font-size: 12px;
   }
   .column {
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: auto;
     align-items: center;
+    width: fit-content;
   }
   .column button {
-    margin: 40px 0px;
-    height: 40px;
-    width: 180px;
+    margin: 20px 0px;
+    height: 20px;
+    width: 160px;
+    border-radius: 16px;
+    font-size: 12px;
   }
   .signIn {
     margin: 0px;
   }
   .signIn p {
     margin: 0px;
-    font-size: 16px;
+    font-size: 12px;
   }
   .signIn a {
     margin: 0px 10px;
+    font-size: 12px;
   }
   img {
-    margin: 40px 0px 80px 0px;
+    margin: 20px 0px 80px 0px;
+    border-radius: 16px;
   }
 }
