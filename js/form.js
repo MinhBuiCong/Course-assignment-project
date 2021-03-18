@@ -17,7 +17,7 @@ const submit = document.querySelector("#submit");
 function validateForm() {
   event.preventDefault();
 
-  const form = true;
+  let form = true;
 
   if (checkLength(fullName.value, 0) === true) {
     fullNameError.style.display = "none";
