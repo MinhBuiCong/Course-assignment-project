@@ -24,7 +24,7 @@
 form {
   align-items: center;
   border: 2px solid white;
-  margin: 0px 500px;
+  margin: 0px 400px;
   padding: 20px;
 }
 
@@ -35,35 +35,34 @@ form {
 .formValid {
   display: none;
   color: green;
-  margin-left: 8px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .formError {
   display: none;
   color: red;
-  margin-left: 8px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .formContainer {
   margin-top: 20px;
-  margin-left: 20px;
 }
 
 .formInput {
   color: white;
   margin: 10px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: capitalize;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 input {
   height: 40px;
   width: 300px;
   margin-top: 10px;
+  padding: 5px;
 }
 
 #subject {
@@ -71,11 +70,12 @@ input {
   width: 300px;
   margin-top: 20px;
   padding: 5px;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #submit {
-  margin-top: 20px;
-  margin-left: 28px;
+  margin: 20px;
   height: 40px;
   width: 120px;
   font-size: 16px;
@@ -105,4 +105,16 @@ input {
 .backSuccess:hover {
   text-decoration: underline;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+  form {
+    margin: 0px 200px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .formTitle {
+    margin: 20px;
+    font-size: 24px;
+  }
 }

@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1000px) {
-  .column {
+  /* .column {
     display: none;
   }
   .headerContent {
@@ -60,5 +60,5 @@
   }
   .submit {
     margin-top: 20px;
-  }
+  } */
 }
