@@ -20,7 +20,7 @@
     <title>Rainydays contact</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="stylesheet" href="../Media-styles/main-media.css" />
   </head>
@@ -138,7 +138,7 @@
       </header>
       <hr class="headerDivider" />
       <main class="contactContainer">
-        <h1 class="formTitle">You will need to sign in first</h1>
+        <h1 class="formTitle">Already have an account?</h1>
         <div class="message"></div>
         <form>
           <div class="formContainer">
@@ -158,10 +158,13 @@
               Your password is valid
             </div>
             <div class="formError" id="passwordError">
-              Your password is wrong
+              Your password is invalid
             </div>
           </div>
           <input type="submit" id="submit" />
+          <a href="../Checkout/billing-page.html" class="guestButton"
+            >Checkout as guest</a
+          >
         </form>
       </main>
       <footer>
