@@ -67,7 +67,7 @@ span {
 
 .buttonContainer button {
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 5px;
   height: 40px;
   width: 180px;
   font-size: 16px;

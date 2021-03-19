@@ -99,7 +99,8 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: normal;
   color: white;
   width: 300px;
 }
@@ -111,7 +112,7 @@ a:hover {
   justify-content: end;
   width: fit-content;
   width: 300px;
-  border-radius: 30px;
+  border-radius: 5px;
   height: 40px;
   border: 2px solid white;
 }

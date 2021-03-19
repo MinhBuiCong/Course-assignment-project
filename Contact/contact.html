@@ -143,7 +143,7 @@
         <form>
           <div class="formContainer">
             <label class="formInput">
-              name (required) *
+              name *
               <input name="name" id="name" placeholder="Name" />
             </label>
             <div class="formValid" id="nameValid">Your name is valid</div>
@@ -151,7 +151,7 @@
           </div>
           <div class="formContainer">
             <label class="formInput">
-              subject (minimum 10 characters) *
+              subject *
               <textarea
                 name="subject"
                 id="subject"
@@ -162,7 +162,7 @@
             </label>
             <div class="formValid" id="subjectValid">Your subject is valid</div>
             <div class="formError" id="subjectError">
-              Your subject must have 10 characters
+              Invalid (minimum 10 characters)
             </div>
           </div>
           <div class="formContainer">
@@ -175,12 +175,19 @@
           </div>
           <div class="formContainer">
             <label class="formInput">
-              address (minimum 25 character) *
-              <input name="address" id="address" placeholder="Address" />
+              Phone number *
+              <input
+                name="phone"
+                type="number"
+                id="phone"
+                placeholder="Phone number"
+              />
             </label>
-            <div class="formValid" id="addressValid">Your address is valid</div>
-            <div class="formError" id="addressError">
-              Your address must have 25 characters
+            <div class="formValid" id="phoneValid">
+              Your phone number is valid
+            </div>
+            <div class="formError" id="phoneError">
+              Invalid (minimum 8 number)
             </div>
           </div>
           <input type="submit" id="submit" />

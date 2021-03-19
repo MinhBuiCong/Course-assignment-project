@@ -93,19 +93,16 @@ input {
 .successMessage {
   color: white;
   font-size: 24px;
-  margin-left: 30px;
   margin-bottom: 20px;
 }
 
 .backSuccess {
-  margin-left: 30px;
-  font-size: 24px;
-  color: yellow;
+  font-size: 20px;
+  color: #ff8600;
   cursor: pointer;
 }
 
 .backSuccess:hover {
-  text-decoration: underline;
   font-weight: bold;
 }
 

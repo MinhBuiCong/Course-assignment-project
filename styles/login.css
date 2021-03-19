@@ -98,19 +98,6 @@ p {
   margin: 20px;
 }
 
-.buttonContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#returnCart {
-  height: 40px;
-  border: 2px solid white;
-  width: 40px;
-  color: black;
-}
-
 .guestButton {
   margin: 20px;
   font-size: 16px;

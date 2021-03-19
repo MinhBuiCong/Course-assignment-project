@@ -43,9 +43,10 @@
   border: 2px solid white;
   background-color: #3aafb9;
   color: white;
-  border-radius: 30px;
+  border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .column button:hover {
@@ -83,5 +84,5 @@ img {
   width: 240px;
   height: auto;
   margin-top: 40px;
-  border-radius: 30px;
+  border-radius: 5px;
 }

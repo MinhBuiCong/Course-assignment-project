@@ -9,9 +9,9 @@ const subject = document.querySelector("#subject");
 const emailValid = document.querySelector("#emailValid");
 const emailError = document.querySelector("#emailError");
 const email = document.querySelector("#email");
-const addressValid = document.querySelector("#addressValid");
-const addressError = document.querySelector("#addressError");
-const address = document.querySelector("#address");
+const phoneValid = document.querySelector("#phoneValid");
+const phoneError = document.querySelector("#phoneError");
+const phone = document.querySelector("#phone");
 const submit = document.querySelector("#submit");
 
 function validateForm() {
@@ -43,12 +43,12 @@ function validateForm() {
     emailValid.style.display = "none";
     form = false;
   }
-  if (checkLength(address.value, 24) === true) {
-    addressError.style.display = "none";
-    addressValid.style.display = "block";
+  if (checkLength(phone.value, 7) === true) {
+    phoneError.style.display = "none";
+    phoneValid.style.display = "block";
   } else {
-    addressError.style.display = "block";
-    addressValid.style.display = "none";
+    phoneError.style.display = "block";
+    phoneValid.style.display = "none";
     form = false;
   }
   if (form === true) {
