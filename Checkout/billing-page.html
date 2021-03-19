@@ -147,7 +147,6 @@
               <label class="formInput">
                 <input name="email" id="email" placeholder="Email *" />
               </label>
-              <div class="formValid" id="emailValid">Your email is valid</div>
               <div class="formError" id="emailError">Your email is invalid</div>
             </div>
             <div class="formContainer">
@@ -159,8 +158,9 @@
                   placeholder="Phone number *"
                 />
               </label>
-              <div class="formValid" id="phoneValid">Your email is valid</div>
-              <div class="formError" id="phoneError">Your email is invalid</div>
+              <div class="formError" id="phoneError">
+                Invalid (minimum 8 numbers)
+              </div>
             </div>
           </div>
           <h2 class="formHeader">Shipping address</h2>
@@ -169,19 +169,13 @@
               <label class="formInput">
                 <input name="first" id="first" placeholder="First name *" />
               </label>
-              <div class="formValid" id="firstValid">Your name is valid</div>
-              <div class="formError" id="firstError">
-                You need to type your name
-              </div>
+              <div class="formError" id="firstError">Invalid name</div>
             </div>
             <div class="formContainer">
               <label class="formInput">
                 <input name="last" id="last" placeholder="Last name *" />
               </label>
-              <div class="formValid" id="lastValid">Your name is valid</div>
-              <div class="formError" id="lastError">
-                You need to type your name
-              </div>
+              <div class="formError" id="lastError">Invalid name</div>
             </div>
           </div>
           <div class="inputContainer">
@@ -189,11 +183,8 @@
               <label class="formInput">
                 <input name="address" id="address" placeholder="Address *" />
               </label>
-              <div class="formValid" id="addressValid">
-                Your address is valid
-              </div>
               <div class="formError" id="addressError">
-                Your address is invalid
+                Invalid (minimum 8 character)
               </div>
             </div>
             <div class="formContainer">
@@ -205,18 +196,20 @@
                   placeholder="ZIP code *"
                 />
               </label>
-              <div class="formValid" id="zipValid">
-                Your postal code is valid
-              </div>
               <div class="formError" id="zipError">
-                Your postal code is invalid
+                Invalid (minimum 4 characters)
               </div>
             </div>
           </div>
           <div class="inputContainer">
             <div class="formContainer">
               <label class="formInput">
-                <input list="country" type="country" placeholder="Country *" />
+                <input
+                  list="country"
+                  type="country"
+                  id="country"
+                  placeholder="Country"
+                />
                 <datalist id="country">
                   <option value="Norway"></option>
                   <option value="England"></option>
@@ -225,21 +218,20 @@
                   <option value="China"></option>
                 </datalist>
               </label>
-              <div class="formValid" id="countryValid">
-                Your country is valid
-              </div>
               <div class="formError" id="countryError">
-                Your country is invalid
+                Invalid (minimum 4 characters)
               </div>
             </div>
             <div class="formContainer">
               <label class="formInput">
                 <input name="state" id="state" placeholder="State *" />
               </label>
-              <div class="formValid" id="stateValid">Your state is valid</div>
-              <div class="formError" id="stateError">Your state is invalid</div>
+              <div class="formError" id="stateError">
+                Invalid (minimum 4 characters)
+              </div>
             </div>
           </div>
+
           <input type="submit" id="submit" />
         </form>
       </main>
@@ -306,6 +298,6 @@
         </div>
       </footer>
     </div>
-    <script src="../js/login.js"></script>
+    <script src="../js/billing-form.js"></script>
   </body>
 </html>

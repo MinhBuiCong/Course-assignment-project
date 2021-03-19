@@ -42,14 +42,9 @@ form {
   color: white;
 }
 
-.formValid {
-  display: none;
-  color: green;
-  font-size: 16px;
-}
-
 .formError {
   display: none;
+  margin-left: 10px;
   color: red;
   font-size: 16px;
 }
@@ -74,6 +69,7 @@ input {
   width: 300px;
   margin-bottom: 10px;
   padding: 5px;
+  border-radius: 5px;
 }
 
 #subject {
@@ -91,8 +87,9 @@ input {
   width: 120px;
   font-size: 16px;
   color: white;
-  background-color: rgb(41, 41, 209);
-  border-radius: 10px;
+  background-color: #ff8600;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 #submit:hover {
   background-color: white;
