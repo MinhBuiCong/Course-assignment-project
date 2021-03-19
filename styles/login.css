@@ -90,6 +90,11 @@ input {
   color: black;
 }
 
+p {
+  color: white;
+  text-transform: uppercase;
+  margin: 20px;
+}
 .guestButton {
   margin: 20px;
   border: 1px solid white;

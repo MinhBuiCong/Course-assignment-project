@@ -141,72 +141,104 @@
         <h1 class="formTitle">Checkout</h1>
         <div class="message"></div>
         <form>
-          <div class="formContainer">
-            <label class="formInput">
-              First name *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
+          <h2 class="formHeader">Contact information</h2>
+          <div class="inputContainer">
+            <div class="formContainer">
+              <label class="formInput">
+                <input name="email" id="email" placeholder="Email *" />
+              </label>
+              <div class="formValid" id="emailValid">Your email is valid</div>
+              <div class="formError" id="emailError">Your email is invalid</div>
+            </div>
+            <div class="formContainer">
+              <label class="formInput">
+                <input
+                  type="number"
+                  name="phone"
+                  id="phone"
+                  placeholder="Phone number *"
+                />
+              </label>
+              <div class="formValid" id="phoneValid">Your email is valid</div>
+              <div class="formError" id="phoneError">Your email is invalid</div>
+            </div>
           </div>
-          <div class="formContainer">
-          <div class="formContainer">
-            <label class="formInput">
-              Last name *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
+          <h2 class="formHeader">Shipping address</h2>
+          <div class="inputContainer">
+            <div class="formContainer">
+              <label class="formInput">
+                <input name="first" id="first" placeholder="First name *" />
+              </label>
+              <div class="formValid" id="firstValid">Your name is valid</div>
+              <div class="formError" id="firstError">
+                You need to type your name
+              </div>
+            </div>
+            <div class="formContainer">
+              <label class="formInput">
+                <input name="last" id="last" placeholder="Last name *" />
+              </label>
+              <div class="formValid" id="lastValid">Your name is valid</div>
+              <div class="formError" id="lastError">
+                You need to type your name
+              </div>
+            </div>
           </div>
-          <div class="formContainer">
-          <div class="formContainer">
-            <label class="formInput">
-              Address *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
+          <div class="inputContainer">
+            <div class="formContainer">
+              <label class="formInput">
+                <input name="address" id="address" placeholder="Address *" />
+              </label>
+              <div class="formValid" id="addressValid">
+                Your address is valid
+              </div>
+              <div class="formError" id="addressError">
+                Your address is invalid
+              </div>
+            </div>
+            <div class="formContainer">
+              <label class="formInput">
+                <input
+                  name="name"
+                  type="number"
+                  id="zip"
+                  placeholder="ZIP code *"
+                />
+              </label>
+              <div class="formValid" id="zipValid">
+                Your postal code is valid
+              </div>
+              <div class="formError" id="zipError">
+                Your postal code is invalid
+              </div>
+            </div>
           </div>
-          <div class="formContainer">
-          <div class="formContainer">
-            <label class="formInput">
-              e-mail *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
-          </div>
-          <div class="formContainer">
-            <label class="formInput">
-              City *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
-          </div>
-          <div class="formContainer">
-            <label class="formInput">
-              Country *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
-          </div>
-          <div class="formContainer">
-            <label class="formInput">
-              State *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
-          </div>
-          <div class="formContainer">
-            <label class="formInput">
-              Postal code *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
+          <div class="inputContainer">
+            <div class="formContainer">
+              <label class="formInput">
+                <input list="country" type="country" placeholder="Country *" />
+                <datalist id="country">
+                  <option value="Norway"></option>
+                  <option value="England"></option>
+                  <option value="Canada"></option>
+                  <option value="Sweden"></option>
+                  <option value="China"></option>
+                </datalist>
+              </label>
+              <div class="formValid" id="countryValid">
+                Your country is valid
+              </div>
+              <div class="formError" id="countryError">
+                Your country is invalid
+              </div>
+            </div>
+            <div class="formContainer">
+              <label class="formInput">
+                <input name="state" id="state" placeholder="State *" />
+              </label>
+              <div class="formValid" id="stateValid">Your state is valid</div>
+              <div class="formError" id="stateError">Your state is invalid</div>
+            </div>
           </div>
           <input type="submit" id="submit" />
         </form>
