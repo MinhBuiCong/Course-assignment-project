@@ -8,7 +8,7 @@
 
 .contactContainer {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -19,7 +19,7 @@
 .formTitle {
   color: white;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 form {
