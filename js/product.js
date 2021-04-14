@@ -21,7 +21,6 @@ function createHTML(products) {
         <h2 class="productTitle">${product.name}</h2>
         <img src="${product.images[0].src}" alt="${product.name}"/>
         <p class="productPrice">£${product.prices.price}</p>
-        ${product.description}
         </div>
         </a>`;
   });

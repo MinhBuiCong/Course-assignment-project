@@ -15,35 +15,13 @@
 
 .imageContainer {
   display: flex;
-  flex-direction: row;
-  width: fit-content;
-  margin-bottom: 80px;
-}
-
-.sideImageContainer {
-  display: flex;
   flex-direction: column;
-  padding-top: 40px;
+  margin-bottom: 80px;
+  width: 50%;
 }
 
-.sideImage {
-  width: 80px;
-  height: auto;
-  margin: 0px 20px 10px 0px;
-  cursor: pointer;
-  border: 2px solid #0b3641;
-  border-radius: 30px;
-}
-
-.sideImageContainer img:hover {
-  border: 2px solid #ff8600;
-}
-
-.mainImage {
-  height: auto;
-  width: 440px;
-  margin: 40px 0px 10px 0px;
-  border-radius: 30px;
+img {
+  width: 80%;
 }
 
 .infoContainer {

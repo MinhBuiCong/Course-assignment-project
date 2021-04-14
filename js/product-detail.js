@@ -20,13 +20,7 @@ async function getProductId() {
     productTitle.innerHTML = `<p>${product.name}</p>`;
     price.innerHTML = `<p>£${product.prices.price}</p>`;
     description.innerHTML = `<p>${product.description}</p>`;
-
-    // imageContainer.innerHTML = `
-    //                             <img src="${product.images[1].src}">
-    //                             <img src="${product.images[2].src}">
-    //                             <img src="${product.images[3].src}">
-
-    //                             `;
+    imageContainer.innerHTML = `<img src="${product.images[0].src}">`;
   } catch (error) {
     ContentContainer.innerHTML = "something went wrong";
   }
