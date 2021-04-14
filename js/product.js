@@ -16,7 +16,7 @@ getProducts();
 
 function createHTML(products) {
   products.forEach(function (product) {
-    productContainer.innerHTML += `<a href="../Shop/product-page.html">
+    productContainer.innerHTML += `<a href="../Shop/product-page.html?id=${product.id}">
         <div class="product">
         <h2 class="productTitle">${product.name}</h2>
         <img src="${product.images[0].src}" alt="${product.name}"/>

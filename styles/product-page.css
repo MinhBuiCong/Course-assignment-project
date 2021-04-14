@@ -3,7 +3,7 @@
 }
 .headerContent .backButton {
   width: 300px;
-  height: 40px;
+  height: auto;
   border: none;
 }
 .contentContainer {
@@ -188,6 +188,7 @@ span {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .shoppingButton p {
