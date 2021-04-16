@@ -2,7 +2,7 @@ const url = " https://royals-shop.com/rainydays/wp-json/wc/store/products/";
 
 const productContainer = document.querySelector(".products");
 const infoContainer = document.querySelector(".infoContainer");
-const cartQuantity = document.querySelector(".cartQuantity");
+let cartQuantity = document.querySelector(".cartQuantity");
 
 async function getProducts() {
   try {
@@ -35,5 +35,7 @@ function createHTML(products) {
 function addItemCart() {
   cartQuantity.innerHTML++;
   console.log(addItemCart);
-  windows.sessionStorage.setItem("cartQuantity", cartQuantity);
 }
+
+windows.sessionStorage.setItem("cartQuantity", cartQuantity);
+console.log("cartQuantity :>> ", cartQuantity);

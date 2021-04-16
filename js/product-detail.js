@@ -13,7 +13,7 @@ const price = document.querySelector(".price");
 const imageContainer = document.querySelector(".imageContainer");
 const description = document.querySelector(".productInfo");
 const cartButton = document.querySelector(".shoppingButton");
-const cartQuantity = document.querySelector(".cartQuantity");
+let cartQuantity = document.querySelector(".cartQuantity");
 
 async function getProductId() {
   try {
@@ -37,4 +37,4 @@ function addProduct() {
   document.getElementById("cart").innerHTML = 1;
 }
 
-cart = window.sessionStorage.getItem("cart");
+let data = window.sessionStorage.getItem("cartQuantity");
