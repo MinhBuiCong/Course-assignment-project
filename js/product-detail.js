@@ -4,7 +4,8 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-const url = "http://localhost/wordpress/wp-json/wc/store/products/" + id;
+const url =
+  " http://royals-shop.com/rainydays//wp-json/wc/store/products/" + id;
 
 const contentContainer = document.querySelector(".contentContainer");
 const productTitle = document.querySelector(".product");
