@@ -1,4 +1,4 @@
-const url = " http://royals-shop.com/rainydays//wp-json/wc/store/products/";
+const url = " http://royals-shop.com/rainydays/wp-json/wc/store/products/";
 
 const productContainer = document.querySelector(".products");
 const infoContainer = document.querySelector(".infoContainer");
