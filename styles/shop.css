@@ -34,6 +34,11 @@
   margin: 40px;
 }
 
+.item {
+  width: auto;
+  height: fit-content;
+}
+
 .productTitle {
   color: white;
   padding-bottom: 20px;
