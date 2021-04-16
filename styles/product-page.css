@@ -73,53 +73,6 @@ span {
   color: white;
 }
 
-.colorContainer {
-  display: flex;
-  flex-direction: row;
-}
-
-.colorContainer button {
-  margin-right: 20px;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 16px;
-  border: 2px solid auto;
-  border-radius: 16px;
-  cursor: pointer;
-}
-
-.color1 {
-  background-color: red;
-}
-
-.color1:hover {
-  background-color: rgb(121, 17, 17);
-}
-
-.color2 {
-  background-color: yellow;
-}
-
-.color2:hover {
-  background-color: rgb(133, 133, 19);
-}
-
-.color3 {
-  background-color: blue;
-}
-
-.color3:hover {
-  background-color: rgb(10, 10, 161);
-}
-
-.color4 {
-  background-color: green;
-}
-
-.color4:hover {
-  background-color: rgb(7, 85, 7);
-}
-
 .dropDown {
   display: flex;
   flex-direction: row;
@@ -129,14 +82,14 @@ span {
 .dropDown select {
   height: 40px;
   width: 240px;
-  border-radius: 30px;
+  border-radius: 5px;
   border: 2px solid #0b3641;
   color: #0b3641;
   background-color: white;
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 16px;
-  padding-left: 16px;
+  padding: 0px 16px;
   cursor: pointer;
 }
 
@@ -157,7 +110,7 @@ span {
 .shoppingButton {
   height: 40px;
   width: 180px;
-  border-radius: 30px;
+  border-radius: 5px;
   padding-bottom: 16px;
   border: 2px solid white;
   background-color: #ff8600;
@@ -211,7 +164,7 @@ span {
   height: 40px;
   width: 48px;
   padding-top: 3px;
-  border-radius: 30px;
+  border-radius: 5px;
   border: 2px solid #ffffff;
   color: white;
   background-color: #ff8600;
