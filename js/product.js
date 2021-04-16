@@ -2,7 +2,7 @@ const url = " https://royals-shop.com/rainydays/wp-json/wc/store/products/";
 
 const productContainer = document.querySelector(".products");
 const infoContainer = document.querySelector(".infoContainer");
-let cartQuantity = document.querySelector(".cartQuantity");
+const cartQuantity = document.querySelector(".cartQuantity");
 
 async function getProducts() {
   try {
