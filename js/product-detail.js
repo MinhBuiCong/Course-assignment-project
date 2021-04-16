@@ -14,6 +14,7 @@ const imageContainer = document.querySelector(".imageContainer");
 const description = document.querySelector(".productInfo");
 const cartButton = document.querySelector(".shoppingButton");
 let cartQuantity = document.querySelector(".cartQuantity");
+let favouriteQuantity = doucment.querySelector(".favouriteQuantity");
 
 async function getProductId() {
   try {
@@ -31,10 +32,10 @@ async function getProductId() {
 
 getProductId();
 
-cartButton.addEventListener("click", addProduct);
-
 function addProduct() {
-  document.getElementById("cart").innerHTML = 1;
+  cartQuantity.innerHTML++;
 }
 
-let data = window.sessionStorage.getItem("cartQuantity");
+function addFavourite() {
+  favourite.innerHTML++;
+}

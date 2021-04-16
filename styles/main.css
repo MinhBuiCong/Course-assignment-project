@@ -83,6 +83,7 @@ a:hover {
   width: fit-content;
   height: 40px;
   border: none;
+  overflow: hidden;
 }
 
 .backButton svg {
