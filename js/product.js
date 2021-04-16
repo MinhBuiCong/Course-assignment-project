@@ -35,4 +35,5 @@ function createHTML(products) {
 function addItemCart() {
   cartQuantity.innerHTML++;
   console.log(addItemCart);
+  windows.sessionStorage.setItem("cartQuantity", cartQuantity);
 }
