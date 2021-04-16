@@ -26,7 +26,7 @@ async function getProductId() {
     description.innerHTML = `<p>${product.description}</p>`;
     imageContainer.innerHTML = `<img src="${product.images[0].src}">`;
   } catch (error) {
-    ContentContainer.innerHTML = "something went wrong";
+    contentContainer.innerHTML = "something went wrong";
   }
 }
 

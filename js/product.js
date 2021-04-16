@@ -36,6 +36,3 @@ function addItemCart() {
   cartQuantity.innerHTML++;
   console.log(addItemCart);
 }
-
-windows.sessionStorage.setItem("cartQuantity", cartQuantity);
-console.log("cartQuantity :>> ", cartQuantity);
