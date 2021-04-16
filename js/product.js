@@ -2,6 +2,7 @@ const url = " https://royals-shop.com/rainydays/wp-json/wc/store/products/";
 
 const productContainer = document.querySelector(".products");
 const infoContainer = document.querySelector(".infoContainer");
+let cartQuantity = document.querySelector(".cartQuantity");
 
 async function getProducts() {
   try {
@@ -18,13 +19,20 @@ getProducts();
 
 function createHTML(products) {
   products.forEach(function (product) {
-    productContainer.innerHTML += `<a class="item" href="../Shop/product-page.html?id=${product.id}">
+    productContainer.innerHTML += `
         <div class="product">
+        <a class="item" href="../Shop/product-page.html?id=${product.id}">
         <h2 class="productTitle">${product.name}</h2>
         <img src="${product.images[0].src}" alt="${product.name}"/>
         <p class="productPrice">£${product.prices.price}</p>
-        <button class="productButton">View item</button>
+        </a>
+        <button class="productButton" onclick="addItemCart()">Add to cart</button>
         </div>
-        </a>`;
+        `;
   });
+}
+
+function addItemCart() {
+  cartQuantity.innerHTML++;
+  console.log(addItemCart);
 }
