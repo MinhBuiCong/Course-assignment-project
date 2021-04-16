@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 50px;
-  height: 100vh;
+  height: fit-content;
 }
 
 .product {
@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 40px;
+  margin: 60px;
 }
 
 .item {
@@ -57,12 +57,11 @@ img {
 
 .productButton {
   margin-top: 20px;
-  height: 40px;
-  font-size: 24px;
-  width: 180px;
+  height: 32px;
+  font-size: 16px;
+  width: 160px;
   border-radius: 5px;
   background-color: #ff8600;
   color: white;
-  border: 2px solid white;
   cursor: pointer;
 }
