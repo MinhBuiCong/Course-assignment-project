@@ -9,23 +9,45 @@
 .contentContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height: 100vh;
+  justify-content: space-between;
+  height: fit-content;
 }
 
 .imageContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin-bottom: 80px;
-  width: 50%;
+  width: fit-content;
+  align-items: center;
 }
 
-img {
-  width: 80%;
+.mainImage {
+  width: 50%;
+  height: auto;
+}
+.main {
+  width: 100%;
+}
+
+.sideImageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.side {
+  width: 10%;
+  margin: 20px;
 }
 
 .infoContainer {
-  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-right: auto;
 }
 
 .brand {
@@ -50,19 +72,6 @@ img {
   font-size: 16px;
   font-weight: lighter;
   margin-bottom: 16px;
-}
-
-.color {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 16px;
-}
-
-.colorText {
-  color: red;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-bottom: 5px;
 }
 
 p {
@@ -182,57 +191,8 @@ span {
   fill: #ff8600;
 }
 
-.incrementDecrement {
-  background-color: white;
-  border: 2px solid white;
-  border-radius: 30px;
-  width: 140px;
-  height: 36px;
-  display: flex;
-  flex-direction: row;
-}
-
-.minusButton {
-  width: 48px;
-  font-size: 16px;
-  background-color: #0b3641;
-  color: white;
-  cursor: pointer;
-  overflow-y: hidden;
-}
-
-.minusButton:hover {
-  background-color: #115464;
-  font-size: 20px;
-}
-
-.count {
-  width: 48px;
-  color: #0b3641;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  height: fit-content;
-  margin-top: 10px;
-  overflow-y: hidden;
-}
-
-.plusButton {
-  width: 48px;
-  font-size: 16px;
-  background-color: #0b3641;
-  color: white;
-  overflow-y: hidden;
-}
-
-.plusButton:hover {
-  background-color: #115464;
-  font-size: 20px;
-}
-
 .additionalInfo {
   margin-top: 16px;
-  border-bottom: 1px solid white;
 }
 
 .dropInfo {

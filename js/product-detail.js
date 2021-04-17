@@ -10,11 +10,14 @@ const url =
 const contentContainer = document.querySelector(".contentContainer");
 const productTitle = document.querySelector(".product");
 const price = document.querySelector(".price");
-const imageContainer = document.querySelector(".imageContainer");
+const mainImage = document.querySelector(".mainImage");
+const sideImage = document.querySelector(".sideImageContainer");
 const description = document.querySelector(".productInfo");
 const cartButton = document.querySelector(".shoppingButton");
 let cartQuantity = document.querySelector(".cartQuantity");
-let favouriteQuantity = doucment.querySelector(".favouriteQuantity");
+let favouriteQuantity = document.querySelector(".favouriteQuantity");
+const textQuantity = document.querySelector("#cartText");
+const textFavourite = document.querySelector("#favouriteText");
 
 async function getProductId() {
   try {
@@ -24,7 +27,11 @@ async function getProductId() {
     productTitle.innerHTML = `<p>${product.name}</p>`;
     price.innerHTML = `<p>£${product.prices.price}</p>`;
     description.innerHTML = `<p>${product.description}</p>`;
-    imageContainer.innerHTML = `<img src="${product.images[0].src}">`;
+    mainImage.innerHTML = `<img class="main" src="${product.images[0].src}" alt="${product.name}">`;
+    for (var i = 1; i < product.images.length; i++) {
+      var smallImage = product.images[i].src;
+      sideImage.innerHTML += `<img class="side" src="${smallImage}" alt="${product.name}">`;
+    }
   } catch (error) {
     contentContainer.innerHTML = "something went wrong";
   }
@@ -34,8 +41,10 @@ getProductId();
 
 function addProduct() {
   cartQuantity.innerHTML++;
+  document.getElementById("cartText").style.color = "#ff8600";
 }
 
 function addFavourite() {
-  favourite.innerHTML++;
+  favouriteQuantity.innerHTML = 1;
+  document.getElementById("favouriteText").style.color = "red";
 }
