@@ -75,3 +75,63 @@ img {
   color: white;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+  .navigation {
+    display: none;
+  }
+  .dirContainer {
+    display: none;
+  }
+  .filter {
+    display: none;
+  }
+  .mobileFilter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    align-items: flex-start;
+    width: 160px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 16px;
+    border: 2px solid white;
+    padding: 0px 8px 0px 8px;
+  }
+  .mobileFilter:hover {
+    color: #ff8600;
+    border: 2px solid #ff8600;
+  }
+  .headerContent {
+    padding: 0px 30px;
+  }
+  .headerContent .backButton {
+    width: 100px;
+  }
+  .pageHeader {
+    margin: 40px 10px;
+    width: 100px;
+  }
+  .headerContent .searchContent {
+    width: 100px;
+    height: 20px;
+    border-radius: 16px;
+    overflow-y: hidden;
+  }
+
+  .shopContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .pageSelector {
+    margin-left: 0px;
+  }
+}
