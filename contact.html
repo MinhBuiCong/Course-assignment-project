@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="language" content="English" />
     <meta name="description" content="Cross course project" />
-    <meta name="keywords" content="contact success page rainydays" />
+    <meta name="keywords" content="contact page rainydays" />
     <meta name="author" content="Minh Cong Bui" />
     <link rel="stylesheet" href="../styles/contact.css" />
     <link rel="stylesheet" href="../styles/main.css" />
@@ -21,7 +21,7 @@
       <header>
         <div class="headerMobile">
           <div class="menuContent">
-            <a href="../menu-slider-button.html">
+            <a href="menu-slider-button.html">
               <button class="menuButton">
                 <svg
                   fill="#0b3641"
@@ -43,7 +43,7 @@
           </div>
           <div class="navHeadlineMobile">
             <h1 class="navHeaderMobile">
-              <a href="../index.html">Rainydays</a>
+              <a href="index.html">Rainydays</a>
             </h1>
           </div>
           <div class="cartContentMobile">
@@ -67,17 +67,17 @@
         <nav>
           <div class="navUl">
             <ul class="navText">
-              <a href="../Shop/shop.html">Shop</a>
+              <a href="/shop.html">Shop</a>
             </ul>
             <ul class="navText">
-              <a href="../about.html">About</a>
+              <a href="about.html">About</a>
             </ul>
             <ul class="navText">
-              <a href="../Contact/contact.html">Contact</a>
+              <a href="contact.html">Contact</a>
             </ul>
           </div>
           <div class="navHeadline">
-            <h1 class="navHeader"><a href="../index.html">Rainydays</a></h1>
+            <h1 class="navHeader"><a href="index.html">Rainydays</a></h1>
           </div>
           <div class="navIcon">
             <a href="../Profile-page/profile-page.html">
@@ -133,8 +133,56 @@
         <h1 class="formTitle">Contact us</h1>
         <div class="message"></div>
         <form>
-          <p class="successMessage">Your message has been sent!</p>
-          <a class="backSuccess" href="../index.html">Go back to home page</a>
+          <div class="formContainer">
+            <label class="formInput">
+              name *
+              <input name="name" id="name" placeholder="Name" />
+            </label>
+            <div class="formValid" id="nameValid">Your name is valid</div>
+            <div class="formError" id="nameError">Your name is required</div>
+          </div>
+          <div class="formContainer">
+            <label class="formInput">
+              subject *
+              <textarea
+                name="subject"
+                id="subject"
+                cols="30"
+                rows="10"
+                placeholder="Subject"
+              ></textarea>
+            </label>
+            <div class="formValid" id="subjectValid">Your subject is valid</div>
+            <div class="formError" id="subjectError">
+              Invalid (minimum 10 characters)
+            </div>
+          </div>
+          <div class="formContainer">
+            <label class="formInput">
+              e-mail *
+              <input name="email" id="email" placeholder="Email" />
+            </label>
+            <div class="formValid" id="emailValid">Your email is valid</div>
+            <div class="formError" id="emailError">Your email is invalid</div>
+          </div>
+          <div class="formContainer">
+            <label class="formInput">
+              Phone number *
+              <input
+                name="phone"
+                type="number"
+                id="phone"
+                placeholder="Phone number"
+              />
+            </label>
+            <div class="formValid" id="phoneValid">
+              Your phone number is valid
+            </div>
+            <div class="formError" id="phoneError">
+              Invalid (minimum 8 number)
+            </div>
+          </div>
+          <input type="submit" id="submit" />
         </form>
       </main>
       <footer>
