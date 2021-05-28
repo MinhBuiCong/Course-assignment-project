@@ -77,3 +77,62 @@ h2 {
   width: 200px;
   background-color: #0b3641;
 }
+
+@media only screen and (max-width: 1000px) {
+  .whiteSpace {
+    display: none;
+  }
+  .layout {
+    height: 100vh;
+  }
+  .allContent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navHeadlineMobile {
+    color: #0b3641;
+  }
+
+  .searchContent {
+    width: 200px;
+    height: 20px;
+    border-radius: 16px;
+    overflow-y: hidden;
+    margin-bottom: 40px;
+  }
+
+  .searchContent input[type="text"] {
+    height: 20px;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .searchContainer .searchContent button {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #0b3641;
+    color: white;
+  }
+  .imageContainer img {
+    width: 320px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .buttonContainer {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .buttonContainer a {
+    width: 160px;
+    height: 24px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+  }
+}
