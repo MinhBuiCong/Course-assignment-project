@@ -11,6 +11,7 @@ async function getProducts() {
     const getResults = await response.json();
     console.log("getResults :>> ", getResults);
     createHTML(getResults);
+    console.log("getResults :>> ", getResults);
   } catch (error) {
     console.log("error :>> ", error);
   }
