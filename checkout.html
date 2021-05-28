@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rainydays contact</title>
+    <title>Rainydays checkout</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="language" content="English" />
     <meta name="description" content="Cross course project" />
-    <meta name="keywords" content="profile page rainydays" />
+    <meta name="keywords" content="checkout page rainydays" />
     <meta name="author" content="Minh Cong Bui" />
-    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/checkout.css" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
@@ -21,7 +21,7 @@
       <header>
         <div class="headerMobile">
           <div class="menuContent">
-            <a href="../menu-slider-button.html">
+            <a href="menu-slider-button.html">
               <button class="menuButton">
                 <svg
                   fill="#0b3641"
@@ -42,12 +42,10 @@
             </a>
           </div>
           <div class="navHeadlineMobile">
-            <h1 class="navHeaderMobile">
-              <a href="../index.html">Rainydays</a>
-            </h1>
+            <h1 class="navHeaderMobile">Rainydays</h1>
           </div>
           <div class="cartContentMobile">
-            <a href="../Shopping-cart/shopping-cart.html">
+            <a href="shopping-cart.html">
               <svg
                 class="navCartMobile"
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,20 +65,20 @@
         <nav>
           <div class="navUl">
             <ul class="navText">
-              <a href="../Shop/shop.html">Shop</a>
+              <a href="shop.html">Shop</a>
             </ul>
             <ul class="navText">
-              <a href="../about.html">About</a>
+              <a href="about.html">About</a>
             </ul>
             <ul class="navText">
-              <a href="../contact.html">Contact</a>
+              <a href="contact.html">Contact</a>
             </ul>
           </div>
           <div class="navHeadline">
-            <h1 class="navHeader"><a href="../index.html">Rainydays</a></h1>
+            <h1 class="navHeader"><a href="index.html">Rainydays</a></h1>
           </div>
           <div class="navIcon">
-            <a href="../Profile-page/profile-page.html">
+            <a href="profile-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +93,7 @@
                 />
               </svg>
             </a>
-            <a href="../Favourite-page/favourite-page.html">
+            <a href="favourite-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +108,7 @@
                 />
               </svg>
             </a>
-            <a href="../Shopping-cart/shopping-cart.html">
+            <a href="shopping-cart.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -128,34 +126,43 @@
           </div>
         </nav>
       </header>
-      <hr class="headerDivider" />
-      <main class="contactContainer">
-        <h1 class="formTitle">Sign in</h1>
-        <div class="message"></div>
-        <form>
-          <div class="formContainer">
-            <label class="formInput">
-              e-mail *
-              <input name="email" id="email" placeholder="Email" />
-            </label>
-            <div class="formValid" id="emailValid">Your email is valid</div>
-            <div class="formError" id="emailError">Your email is invalid</div>
-          </div>
-          <div class="formContainer">
-            <label class="formInput">
-              Password *
-              <input type="password" id="password" placeholder="Password" />
-            </label>
-            <div class="formValid" id="passwordValid">
-              Your password is valid
-            </div>
-            <div class="formError" id="passwordError">
-              Your password is wrong
-            </div>
-          </div>
-          <input type="submit" id="submit" />
-        </form>
-      </main>
+      <div class="content">
+        <h1 class="pageHeader">Thank you for your order!</h1>
+        <div class="paragraph">
+          <p>Your order has been successfully processed!</p>
+          <p>
+            You can view your order history by going to
+            <a href="profile-page.html"> <span class="link">My profil</span></a>
+          </p>
+          <p>
+            page and by clicking on
+
+            <a href="profile-page.html"><span class="link">History.</span> </a>
+          </p>
+
+          <p>
+            If you have any question, then click on
+            <a href="contact.html">
+              <span class="link">Contact</span>
+            </a>
+          </p>
+          <p>to get more infromation about us.</p>
+          <p>Thanks for shopping with us online!</p>
+        </div>
+        <h2>
+          Your order ID is:
+          <a href="profile-page.html"><span>#123456789</span></a>
+        </h2>
+        <div class="buttonContainer">
+          <a href="index.html">
+            <button class="homePage">Home</button>
+          </a>
+          <a href="shop.html">
+            <button class="continue">Continue shopping</button>
+          </a>
+        </div>
+      </div>
+
       <footer>
         <div class="footerContent">
           <div class="section">
@@ -219,6 +226,5 @@
         </div>
       </footer>
     </div>
-    <script src="../js/login.js"></script>
   </body>
 </html>

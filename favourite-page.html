@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="language" content="English" />
     <meta name="description" content="Cross course project" />
-    <meta name="keywords" content="billing page rainydays" />
+    <meta name="keywords" content="favourite page rainydays" />
     <meta name="author" content="Minh Cong Bui" />
-    <link rel="stylesheet" href="../styles/billing-page.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
@@ -21,7 +21,7 @@
       <header>
         <div class="headerMobile">
           <div class="menuContent">
-            <a href="../menu-slider-button.html">
+            <a href="menu-slider-button.html">
               <button class="menuButton">
                 <svg
                   fill="#0b3641"
@@ -43,15 +43,15 @@
           </div>
           <div class="navHeadlineMobile">
             <h1 class="navHeaderMobile">
-              <a href="../index.html">Rainydays</a>
+              <a href="index.html">Rainydays</a>
             </h1>
           </div>
           <div class="cartContentMobile">
-            <a href="../Shopping-cart/shopping-cart.html">
+            <a href="shopping-cart.html">
               <svg
                 class="navCartMobile"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="#ff8600"
+                fill="#ffffff"
                 viewBox="0 0 24 24"
                 width="18px"
                 height="18px"
@@ -67,20 +67,20 @@
         <nav>
           <div class="navUl">
             <ul class="navText">
-              <a href="../Shop/shop.html">Shop</a>
+              <a href="shop.html">Shop</a>
             </ul>
             <ul class="navText">
-              <a href="../about.html">About</a>
+              <a href="about.html">About</a>
             </ul>
             <ul class="navText">
-              <a href="../contact.html">Contact</a>
+              <a href="contact.html">Contact</a>
             </ul>
           </div>
           <div class="navHeadline">
-            <h1 class="navHeader"><a href="../index.html">Rainydays</a></h1>
+            <h1 class="navHeader"><a href="index.html">Rainydays</a></h1>
           </div>
           <div class="navIcon">
-            <a href="../Profile-page/profile-page.html">
+            <a href="profile-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@
                 />
               </svg>
             </a>
-            <a href="../Favourite-page/favourite-page.html">
+            <a href="favourite-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,11 +110,11 @@
                 />
               </svg>
             </a>
-            <a href="../Shopping-cart/shopping-cart.html">
+            <a href="shopping-cart.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="#ff8600"
+                fill="#ffffff"
                 viewBox="0 0 24 24"
                 width="18px"
                 height="18px"
@@ -130,105 +130,30 @@
       </header>
       <hr class="headerDivider" />
       <main class="contactContainer">
-        <h1 class="formTitle">Checkout</h1>
+        <h1 class="formTitle">You will need to sign in first</h1>
         <div class="message"></div>
         <form>
-          <h2 class="formHeader">Contact information</h2>
-          <div class="inputContainer">
-            <div class="formContainer">
-              <label class="formInput">
-                <input name="email" id="email" placeholder="Email *" />
-              </label>
-              <div class="formError" id="emailError">Your email is invalid</div>
+          <div class="formContainer">
+            <label class="formInput">
+              e-mail *
+              <input name="email" id="email" placeholder="Email" />
+            </label>
+            <div class="formValid" id="emailValid">Your email is valid</div>
+            <div class="formError" id="emailError">Your email is invalid</div>
+          </div>
+          <div class="formContainer">
+            <label class="formInput">
+              Password *
+              <input type="password" id="password" placeholder="Password" />
+            </label>
+            <div class="formValid" id="passwordValid">
+              Your password is valid
             </div>
-            <div class="formContainer">
-              <label class="formInput">
-                <input
-                  type="number"
-                  name="phone"
-                  id="phone"
-                  placeholder="Phone number *"
-                />
-              </label>
-              <div class="formError" id="phoneError">
-                Invalid (minimum 8 numbers)
-              </div>
+            <div class="formError" id="passwordError">
+              Your password is wrong
             </div>
           </div>
-          <h2 class="formHeader">Shipping address</h2>
-          <div class="inputContainer">
-            <div class="formContainer">
-              <label class="formInput">
-                <input name="first" id="first" placeholder="First name *" />
-              </label>
-              <div class="formError" id="firstError">Invalid name</div>
-            </div>
-            <div class="formContainer">
-              <label class="formInput">
-                <input name="last" id="last" placeholder="Last name *" />
-              </label>
-              <div class="formError" id="lastError">Invalid name</div>
-            </div>
-          </div>
-          <div class="inputContainer">
-            <div class="formContainer">
-              <label class="formInput">
-                <input name="address" id="address" placeholder="Address *" />
-              </label>
-              <div class="formError" id="addressError">
-                Invalid (minimum 8 character)
-              </div>
-            </div>
-            <div class="formContainer">
-              <label class="formInput">
-                <input
-                  name="name"
-                  type="number"
-                  id="zip"
-                  placeholder="ZIP code *"
-                />
-              </label>
-              <div class="formError" id="zipError">
-                Invalid (minimum 4 characters)
-              </div>
-            </div>
-          </div>
-          <div class="inputContainer">
-            <div class="formContainer">
-              <label class="formInput">
-                <input
-                  list="country"
-                  type="country"
-                  id="country"
-                  placeholder="Country"
-                />
-                <datalist id="country">
-                  <option value="Norway"></option>
-                  <option value="England"></option>
-                  <option value="Canada"></option>
-                  <option value="Sweden"></option>
-                  <option value="China"></option>
-                </datalist>
-              </label>
-              <div class="formError" id="countryError">
-                Invalid (minimum 4 characters)
-              </div>
-            </div>
-            <div class="formContainer">
-              <label class="formInput">
-                <input name="state" id="state" placeholder="State *" />
-              </label>
-              <div class="formError" id="stateError">
-                Invalid (minimum 4 characters)
-              </div>
-            </div>
-          </div>
-          <div class="buttonContainer">
-            <a class="returnCart" href="../Shopping-cart/shopping-cart.html"
-              >Return to cart</a
-            >
-            <input type="submit" id="submit" />
-          </div>
+          <input type="submit" id="submit" />
         </form>
       </main>
       <footer>
@@ -294,6 +219,6 @@
         </div>
       </footer>
     </div>
-    <script src="../js/billing-form.js"></script>
+    <script src="../js/login.js"></script>
   </body>
 </html>

@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="language" content="English" />
     <meta name="description" content="Cross course project" />
-    <meta name="keywords" content="favourite page rainydays" />
+    <meta name="keywords" content="login page rainydays" />
     <meta name="author" content="Minh Cong Bui" />
-    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
@@ -21,7 +21,7 @@
       <header>
         <div class="headerMobile">
           <div class="menuContent">
-            <a href="../menu-slider-button.html">
+            <a href="menu-slider-button.html">
               <button class="menuButton">
                 <svg
                   fill="#0b3641"
@@ -43,15 +43,15 @@
           </div>
           <div class="navHeadlineMobile">
             <h1 class="navHeaderMobile">
-              <a href="../index.html">Rainydays</a>
+              <a href="index.html">Rainydays</a>
             </h1>
           </div>
           <div class="cartContentMobile">
-            <a href="../Shopping-cart/shopping-cart.html">
+            <a href="shopping-cart.html">
               <svg
                 class="navCartMobile"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="#ffffff"
+                fill="#ff8600"
                 viewBox="0 0 24 24"
                 width="18px"
                 height="18px"
@@ -67,20 +67,20 @@
         <nav>
           <div class="navUl">
             <ul class="navText">
-              <a href="../Shop/shop.html">Shop</a>
+              <a href="shop.html">Shop</a>
             </ul>
             <ul class="navText">
-              <a href="../about.html">About</a>
+              <a href="about.html">About</a>
             </ul>
             <ul class="navText">
-              <a href="../contact.html">Contact</a>
+              <a href="contact.html">Contact</a>
             </ul>
           </div>
           <div class="navHeadline">
-            <h1 class="navHeader"><a href="../index.html">Rainydays</a></h1>
+            <h1 class="navHeader"><a href="index.html">Rainydays</a></h1>
           </div>
           <div class="navIcon">
-            <a href="../Profile-page/profile-page.html">
+            <a href="profile-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@
                 />
               </svg>
             </a>
-            <a href="../Favourite-page/favourite-page.html">
+            <a href="favourite-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,11 +110,11 @@
                 />
               </svg>
             </a>
-            <a href="../Shopping-cart/shopping-cart.html">
+            <a href="shopping-cart.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="#ffffff"
+                fill="#ff8600"
                 viewBox="0 0 24 24"
                 width="18px"
                 height="18px"
@@ -130,7 +130,7 @@
       </header>
       <hr class="headerDivider" />
       <main class="contactContainer">
-        <h1 class="formTitle">You will need to sign in first</h1>
+        <h1 class="formTitle">Already have an account?</h1>
         <div class="message"></div>
         <form>
           <div class="formContainer">
@@ -150,10 +150,12 @@
               Your password is valid
             </div>
             <div class="formError" id="passwordError">
-              Your password is wrong
+              Your password is invalid
             </div>
           </div>
           <input type="submit" id="submit" />
+          <p>Or</p>
+          <a href="billing-page.html" class="guestButton">Checkout as guest</a>
         </form>
       </main>
       <footer>
