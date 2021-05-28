@@ -86,3 +86,60 @@ img {
   margin-top: 40px;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    justify-content: start;
+    margin-top: 40px;
+  }
+
+  .headerContent {
+    padding: 0px 70px 0px 30px;
+  }
+
+  .backButton svg {
+    width: 32px;
+    height: auto;
+  }
+  .pageHeader {
+    height: 40px;
+    overflow-y: hidden;
+  }
+  .paragraph {
+    width: fit-content;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  .paragraph p {
+    margin: 5px;
+  }
+  .column {
+    margin: 0px;
+    width: fit-content;
+  }
+  .column button {
+    margin: 20px 0px;
+    height: 20px;
+    width: 160px;
+    border-radius: 16px;
+    font-size: 12px;
+  }
+  .signIn {
+    margin: 0px;
+  }
+  .signIn p {
+    margin: 0px;
+  }
+  .signIn a {
+    margin: 0px 10px;
+    font-size: 12px;
+  }
+  img {
+    margin: 20px 0px 80px 0px;
+    border-radius: 16px;
+  }
+}
