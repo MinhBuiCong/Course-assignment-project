@@ -276,7 +276,7 @@ nav {
 }
 
 #mobile-link a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #ff8600;
 }
 
@@ -405,6 +405,10 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .menu-title {
+    font-style: normal;
   }
 
   .headerContent .pageHeader {
