@@ -23,49 +23,28 @@
   <body>
     <div class="layout">
       <header>
-        <div class="headerMobile">
-          <div class="menuContent">
-            <a href="menu-slider-button.html">
-              <button class="menuButton">
-                <svg
-                  fill="#0b3641"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 50 50"
-                  width="24px"
-                  height="24px"
-                >
-                  <path
-                    fill="none"
-                    stroke="#000000"
-                    stroke-miterlimit="10"
-                    stroke-width="2"
-                    d="M50 25L0 25M50 10L0 10M0 40L50 40"
-                  />
-                </svg>
-              </button>
+        <section class="nav-mobile">
+          <a href="index.html" class="active">Rainydays</a>
+          <div id="menu-button">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <div id="mobile-link">
+            <h2 class="menu-title">Rainydays</h2>
+            <a href="index.html">
+              <img
+                class="nav-logo"
+                src="./images/Rainydays logo.png"
+                alt="logo"
+              />
             </a>
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+            <span>&times;</span>
           </div>
-          <div class="navHeadlineMobile">
-            <h1 class="navHeaderMobile">Rainydays</h1>
-          </div>
-          <div class="cartContentMobile">
-            <a href="shopping-cart.html">
-              <svg
-                class="navCartMobile"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="#0B3641"
-                viewBox="0 0 24 24"
-                width="18px"
-                height="18px"
-              >
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path
-                  d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
+        </section>
         <nav>
           <div class="navUl">
             <ul class="navText">
@@ -154,7 +133,6 @@
         <div class="whiteSpace"></div>
       </div>
     </div>
-
     <footer>
       <div class="footerContent">
         <div class="section">
@@ -213,5 +191,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/navbar.js"></script>
   </body>
 </html>
