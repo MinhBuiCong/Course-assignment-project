@@ -7,13 +7,11 @@
 }
 
 .headerContent {
-  padding: 0px 80px;
-}
-
-.headerContent .backButton {
-  width: 300px;
-  height: 40px;
-  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .products {
@@ -37,7 +35,7 @@
 }
 
 .productTitle {
-  color: white;
+  color: #0b3641;
   padding-bottom: 20px;
   display: flex;
   align-items: center;
