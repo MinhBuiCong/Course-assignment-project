@@ -119,6 +119,15 @@ form {
   align-items: center;
 }
 
+.returnCart:hover {
+  background-color: #ff8600;
+  color: white;
+}
+
+.buttonContainer #submit {
+  color: white;
+}
+
 .guestButton:hover {
   background-color: rgb(75, 75, 75);
   color: #0b3641;

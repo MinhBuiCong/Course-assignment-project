@@ -1,5 +1,5 @@
 .content {
-  color: white;
+  color: #0b3641;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -8,12 +8,9 @@
   margin: 0px;
 }
 
-.headerContent {
-  padding: 0px 120px 0px 80px;
-}
-
 .pageHeader {
-  flex: 1;
+  width: 100%;
+  text-align: center;
 }
 
 .overview {
@@ -25,7 +22,7 @@
 }
 
 .overviewName {
-  color: white;
+  color: #0b3641;
   font-size: 16px;
   width: 240px;
   display: flex;
@@ -40,9 +37,9 @@
   justify-content: space-around;
   padding: 20px 0px;
   margin: 0px 120px;
-  background: rgb(212, 224, 228);
+  background: rgb(240, 240, 240);
   border-radius: 5px;
-  border: 2px solid #0b3641;
+  box-shadow: 2px 2px 2px rgb(165, 165, 165);
 }
 
 .itemContainer {
@@ -79,7 +76,6 @@
 .nameItem {
   color: #0b3641;
   font-size: 16px;
-  font-weight: lighter;
 }
 
 .quantity {
@@ -117,15 +113,13 @@
 }
 
 .subtotal {
-  color: white;
-  font-weight: bold;
+  color: #0b3641;
   font-size: 24px;
 }
 
 .finalPrice {
-  color: white;
+  color: #0b3641;
   font-size: 24px;
-  font-weight: bold;
 }
 .checkoutContainer {
   margin: 20px 0px;
@@ -138,16 +132,13 @@
   width: 180px;
   border-radius: 5px;
   background-color: #ff8600;
-  color: white;
-  font-weight: bold;
-  border: 2px solid white;
+  color: #0b3641;
   cursor: pointer;
 }
 
 .checkout:hover {
-  background-color: white;
+  background-color: #0b3641;
   color: #ff8600;
-  border: 2px solid #ff8600;
   transition: all 400ms ease;
 }
 

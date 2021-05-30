@@ -108,6 +108,11 @@ input {
   font-weight: bold;
 }
 
+form #submit {
+  border: none;
+  color: white;
+}
+
 @media only screen and (max-width: 1200px) {
   form {
     margin: 0px 200px;

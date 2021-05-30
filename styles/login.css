@@ -85,12 +85,12 @@ input {
   font-size: 16px;
   color: #0b3641;
   background-color: #ff8600;
-  border: 2px solid white;
   border-radius: 5px;
+  border: none;
 }
 #submit:hover {
-  background-color: white;
-  color: black;
+  background-color: #0b3641;
+  color: white;
 }
 
 p {
@@ -112,8 +112,8 @@ p {
 }
 
 .guestButton:hover {
-  background-color: rgb(75, 75, 75);
-  color: white;
+  background-color: #ff8600;
+  color: #0b3641;
 }
 
 @media only screen and (max-width: 1200px) {

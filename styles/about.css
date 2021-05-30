@@ -6,12 +6,9 @@
   justify-content: space-evenly;
 }
 
-.headerContent {
-  padding: 0px 120px 0px 80px;
-}
-
 .pageHeader {
-  flex: 1;
+  width: 100%;
+  text-align: center;
 }
 
 .paragraph {
@@ -24,8 +21,7 @@
 
 .paragraph p {
   color: #0b3641;
-  margin-top: 4px;
-  font-weight: lighter;
+
   align-items: center;
 }
 
@@ -40,9 +36,8 @@
 .column button {
   height: 40px;
   width: 200px;
-  border: 2px solid #0b3641;
   background-color: #3aafb9;
-  color: #0b3641;
+  color: white;
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
@@ -50,8 +45,6 @@
 }
 
 .column button:hover {
-  border: 2px solid #3aafb9;
-  color: #3aafb9;
   background-color: #0b3641;
 }
 
@@ -77,10 +70,10 @@
 }
 
 .signIn span:hover {
-  font-style: italic;
+  font-weight: bold;
 }
 
-img {
+.content img {
   width: 240px;
   height: auto;
   margin-top: 40px;
