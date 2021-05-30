@@ -8,7 +8,7 @@
 }
 
 .content .pageHeader {
-  color: white;
+  color: #0b3641;
   width: 100vw;
   font-size: 40px;
   margin-top: 80px;
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
-  color: white;
+  color: #0b3641;
   margin-top: 40px;
   font-size: 16px;
   font-weight: lighter;
@@ -32,7 +32,7 @@ p {
 h2 {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #0b3641;
   margin-top: 40px;
   font-size: 24px;
 }
@@ -73,16 +73,16 @@ span {
   font-size: 16px;
   font-weight: bold;
   margin-right: 20px;
-  color: white;
+  color: #0b3641;
 }
 
 .homePage {
   background-color: #0b3641;
-  border: 2px solid white;
+  border: 2px solid #0b3641;
 }
 
 .homePage:hover {
-  background-color: white;
+  background-color: #0b3641;
   color: #0b3641;
   border: 2px solid #0b3641;
   transition: all 400ms ease;
@@ -90,11 +90,11 @@ span {
 
 .continue {
   background-color: #ff8600;
-  border: 2px solid white;
+  border: 2px solid rgb(139, 136, 136);
 }
 
 .continue:hover {
-  background-color: white;
+  background-color: #0b3641;
   color: #ff8600;
   border: 2px solid #ff8600;
   transition: all 400ms ease;

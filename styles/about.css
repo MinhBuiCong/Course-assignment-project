@@ -23,7 +23,7 @@
 }
 
 .paragraph p {
-  color: white;
+  color: #0b3641;
   margin-top: 4px;
   font-weight: lighter;
   align-items: center;
@@ -40,9 +40,9 @@
 .column button {
   height: 40px;
   width: 200px;
-  border: 2px solid white;
+  border: 2px solid #0b3641;
   background-color: #3aafb9;
-  color: white;
+  color: #0b3641;
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
@@ -52,7 +52,7 @@
 .column button:hover {
   border: 2px solid #3aafb9;
   color: #3aafb9;
-  background-color: white;
+  background-color: #0b3641;
 }
 
 .signIn {
@@ -61,7 +61,7 @@
 }
 
 .signIn p {
-  color: white;
+  color: #0b3641;
   margin-top: 10px;
   text-transform: uppercase;
 }

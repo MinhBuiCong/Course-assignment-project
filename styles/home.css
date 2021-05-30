@@ -1,5 +1,5 @@
 body .layout {
-  background: white;
+  background: #0b3641;
 }
 
 .navText a {
@@ -61,8 +61,8 @@ body .layout {
 }
 
 .buttonContainer a:hover {
-  background: white;
-  color: #0b3641;
+  background: #0b3641;
+  color: white;
   border: 2px solid #0b3641;
 }
 

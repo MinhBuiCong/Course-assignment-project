@@ -1,5 +1,6 @@
 .productPage {
   width: 100vw;
+  margin-bottom: 50px;
 }
 .headerContent {
   width: 100vw;
@@ -17,17 +18,15 @@
   margin: 0px 50px;
   width: 80vw;
   margin: auto;
-  border: 1px solid black;
-  padding-top: 50px;
 }
 .imageContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: top;
   margin-bottom: 80px;
   width: 40%;
   align-items: center;
-  margin: 50px;
+  margin: 0px 50px;
 }
 .mainImage {
   width: 100%;
@@ -35,6 +34,7 @@
 }
 .main {
   width: 100%;
+  border-radius: 5px;
 }
 
 .sideImageContainer {
@@ -47,6 +47,7 @@
 .side {
   width: 10%;
   margin: 20px;
+  border-radius: 5px;
 }
 
 .infoContainer {
@@ -56,8 +57,9 @@
   width: 40%;
   height: fit-content;
   background-color: rgb(218, 218, 218);
-  margin: 50px;
+  margin: 0px 50px;
   padding: 50px 0px;
+  border-radius: 5px;
 }
 
 .brand {
@@ -75,12 +77,10 @@
 .product {
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 5px;
 }
 
 .price {
   font-size: 16px;
-  font-weight: lighter;
   margin-bottom: 16px;
 }
 
@@ -96,24 +96,19 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 300px;
 }
 
 .dropDown select {
   height: 40px;
-  width: 240px;
+  width: 300px;
   border-radius: 5px;
-  border: 2px solid #0b3641;
   color: #0b3641;
   background-color: white;
   font-size: 16px;
-  font-weight: lighter;
   margin-bottom: 16px;
   padding: 0px 16px;
   cursor: pointer;
-}
-
-.dropDown:hover select {
-  border: 3px solid #0b3641;
 }
 
 .dropDown span {
@@ -124,14 +119,15 @@ span {
 .addFavourite {
   display: flex;
   flex-direction: row;
+  height: fit-content;
 }
 
 .shoppingButton {
   height: 40px;
-  width: 180px;
+  width: 240px;
   border-radius: 5px;
   padding-bottom: 16px;
-  border: 2px solid white;
+
   background-color: #ff8600;
   display: flex;
   flex-direction: row;
@@ -142,7 +138,6 @@ span {
 }
 
 .shoppingButton p {
-  font-weight: lighter;
   color: white;
   padding-top: 15px;
   padding-left: 20px;
@@ -181,13 +176,11 @@ span {
 
 .favouriteButton {
   height: 40px;
-  width: 48px;
+  width: 50px;
   padding-top: 3px;
   border-radius: 5px;
-  border: 2px solid #ffffff;
   color: white;
   background-color: #ff8600;
-  font-weight: bold;
   cursor: pointer;
   overflow-y: hidden;
 }
@@ -202,41 +195,68 @@ span {
 }
 
 .additionalInfo {
-  margin-top: 16px;
+  width: 300px;
+  height: fit-content;
+}
+
+.info-section {
+  margin-bottom: 10px;
 }
 
 .dropInfo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: fit-content;
-  width: 240px;
+  width: 300px;
+  height: 40px;
   background-color: #0b3641;
-  border-top: 1px solid white;
-  padding-top: 10px;
-  padding-bottom: 0px;
-  margin: 5px 0px;
   cursor: pointer;
+  padding: 7.5px 0px;
+  border-radius: 5px;
 }
 
 .dropInfo p {
   font-size: 16px;
-  margin-top: 4px;
   color: white;
+  margin-left: 20px;
+}
+
+.product-text {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+.material-text {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+.delivery-text {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+.review-text {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .dropInfo span {
   font-size: 16px;
   transform: rotate(180deg);
   color: white;
+  margin-right: 10px;
 }
 
 .dropInfo:hover p {
-  font-weight: bold;
   transition: all 400ms ease;
 }
 .dropInfo:hover span {
-  font-weight: bold;
   transition: all 400ms ease;
 }
 

@@ -52,7 +52,7 @@ function validateForm() {
     form = false;
   }
   if (form === true) {
-    document.location.href = "./contact-success.html";
+    document.location.href = "contact-success.html";
   }
 }
 

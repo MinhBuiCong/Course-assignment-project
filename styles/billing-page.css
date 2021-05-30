@@ -17,7 +17,7 @@
 }
 
 .formTitle {
-  color: white;
+  color: #0b3641;
   font-size: 32px;
   margin-bottom: 40px;
 }
@@ -26,7 +26,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid white;
+  border: 2px solid #0b3641;
   margin: 0px auto;
   padding: 20px;
 }
@@ -39,7 +39,7 @@ form {
 }
 
 .message {
-  color: white;
+  color: #0b3641;
 }
 
 .formError {
@@ -55,7 +55,7 @@ form {
 }
 
 .formInput {
-  color: white;
+  color: #0b3641;
   margin: 10px;
   font-size: 16px;
   text-transform: capitalize;
@@ -86,13 +86,13 @@ input {
   height: 40px;
   width: 120px;
   font-size: 16px;
-  color: white;
+  color: #0b3641;
   background-color: #ff8600;
   border: 2px solid white;
   border-radius: 5px;
 }
 #submit:hover {
-  background-color: white;
+  background-color: #0b3641;
   color: black;
 }
 
@@ -104,10 +104,10 @@ input {
 .returnCart {
   height: 36px;
   margin: 20px;
-  border: 2px solid white;
+  border: 2px solid #0b3641;
   width: auto;
   font-size: 16px;
-  color: white;
+  color: #0b3641;
   background-color: black;
   padding: 0px 10px;
   border-radius: 5px;
@@ -117,7 +117,7 @@ input {
 
 .guestButton:hover {
   background-color: rgb(75, 75, 75);
-  color: white;
+  color: #0b3641;
 }
 
 @media only screen and (max-width: 1200px) {

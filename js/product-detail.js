@@ -27,7 +27,7 @@ async function getProductId() {
     console.log(product);
     header.innerHTML = `${product.name}`;
     productTitle.innerHTML = `<p>${product.name}</p>`;
-    price.innerHTML = `<p>£${product.prices.price}</p>`;
+    price.innerHTML = `<p>Price: £${product.prices.price}</p>`;
     mainImage.innerHTML = `<img class="main" src="${product.images[0].src}" alt="${product.name}">`;
     for (var i = 1; i < product.images.length; i++) {
       var smallImage = product.images[i].src;
