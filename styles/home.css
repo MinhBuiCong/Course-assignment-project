@@ -7,11 +7,6 @@ body .layout {
   color: #0b3641;
   cursor: pointer;
 }
-header {
-  height: fit-content;
-  overflow-y: hidden;
-  margin-bottom: 40px;
-}
 
 .searchContainer .searchContent {
   border: 2px solid #0b3641;
@@ -36,10 +31,9 @@ header {
   margin-bottom: 80px;
 }
 
-h2 {
+.content-title {
   font-size: 24px;
   font-weight: bold;
-  font-style: italic;
   margin-top: 40px;
 }
 

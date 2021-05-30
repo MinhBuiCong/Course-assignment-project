@@ -16,7 +16,6 @@ body {
   background-color: white;
   color: #0b3641;
   max-width: 100vw;
-  max-height: 100vh;
 }
 
 button {
@@ -129,33 +128,32 @@ a:hover {
   display: table;
 }
 
+nav {
+  width: 100vw;
+}
+
 .desktop-menu {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
-.navUl {
+.navLinks {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  margin: 80px 0px 0px 50px;
-  width: 400px;
+  width: 40%;
+  margin-top: 40px;
 }
 
 .navText {
   cursor: pointer;
-  font-weight: bold;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .navHeadline {
-  width: 400px;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  width: 20%;
+  text-align: center;
 }
 
 .navHeader {
@@ -170,17 +168,30 @@ a:hover {
 }
 
 .navIcon {
-  width: 400px;
-  margin: 64px 40px 0px 0px;
+  width: 40%;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
+.navIcon a {
+  height: fit-content;
+}
+
 .navImage {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: auto;
   cursor: pointer;
+}
+
+.search {
+  width: 40px;
+}
+
+.fa-search {
+  width: 40px;
+  height: auto;
 }
 
 .navImage:hover {
@@ -286,7 +297,7 @@ a:hover {
   padding-bottom: 40px;
 }
 
-.section {
+.footer-section {
   display: flex;
   flex-direction: column;
   align-items: center;
