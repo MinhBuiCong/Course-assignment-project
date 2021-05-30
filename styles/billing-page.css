@@ -32,7 +32,7 @@ form {
 }
 
 .formHeader {
-  color: white;
+  color: #0b3641;
   font-size: 24px;
   font-weight: normal;
   margin: 20px;
@@ -61,15 +61,16 @@ form {
   text-transform: capitalize;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: left;
 }
 
-input {
+.formInput input {
   height: 24px;
   width: 300px;
   margin-bottom: 10px;
   padding: 5px;
   border-radius: 5px;
+  border: 1px solid #0b3641;
 }
 
 #subject {
@@ -82,14 +83,13 @@ input {
 }
 
 #submit {
-  margin: 20px;
-  height: 40px;
-  width: 120px;
+  width: 200px;
   font-size: 16px;
   color: #0b3641;
   background-color: #ff8600;
-  border: 2px solid white;
   border-radius: 5px;
+  margin-left: 40px;
+  height: 40px;
 }
 #submit:hover {
   background-color: #0b3641;
@@ -99,20 +99,24 @@ input {
 .buttonContainer {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: 20px 0px;
 }
 
 .returnCart {
-  height: 36px;
-  margin: 20px;
-  border: 2px solid #0b3641;
-  width: auto;
+  width: 200px;
   font-size: 16px;
-  color: #0b3641;
-  background-color: black;
-  padding: 0px 10px;
+  color: white;
+  background-color: #0b3641;
   border-radius: 5px;
   text-align: center;
-  line-height: 34px;
+  margin-right: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .guestButton:hover {
