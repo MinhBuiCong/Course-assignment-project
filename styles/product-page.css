@@ -14,19 +14,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: fit-content;
+  margin: 0px 50px;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid black;
+  padding-top: 50px;
 }
 .imageContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-bottom: 80px;
-  width: fit-content;
+  width: 40%;
   align-items: center;
+  margin: 50px;
 }
-
 .mainImage {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 .main {
@@ -49,8 +53,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  margin-right: auto;
+  width: 40%;
+  height: fit-content;
+  background-color: rgb(218, 218, 218);
+  margin: 50px;
+  padding: 50px 0px;
 }
 
 .brand {
@@ -78,11 +85,11 @@
 }
 
 p {
-  color: white;
+  color: #0b3641;
 }
 
 span {
-  color: white;
+  color: #0b3641;
 }
 
 .dropDown {
@@ -215,11 +222,13 @@ span {
 .dropInfo p {
   font-size: 16px;
   margin-top: 4px;
+  color: white;
 }
 
 .dropInfo span {
   font-size: 16px;
   transform: rotate(180deg);
+  color: white;
 }
 
 .dropInfo:hover p {
