@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="layout">
-      <header>
+      <nav>
         <section class="nav-mobile">
           <a href="index.html" class="active">Rainydays</a>
           <div id="menu-button">
@@ -45,8 +45,8 @@
             <span>&times;</span>
           </div>
         </section>
-        <nav>
-          <div class="navUl">
+        <section class="desktop-menu">
+          <div class="navLinks">
             <ul class="navText">
               <a href="shop.html">Shop</a>
             </ul>
@@ -58,17 +58,17 @@
             </ul>
           </div>
           <div class="navHeadline">
-            <h1 class="navHeader"><a href="index.html">Rainydays</a></h1>
+            <h1 class="navHeader">Rainydays</h1>
           </div>
           <div class="navIcon">
             <a href="profile-page.html">
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
-                height="24"
-                fill="#ffffff"
+                height="18"
+                width="18"
+                fill="#0B3641"
                 viewBox="0 0 24 24"
-                width="24"
               >
                 <path d="M0 0h24v24H0z" fill="none" />
                 <path
@@ -81,9 +81,9 @@
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                fill="#ffffff"
-                width="18px"
-                height="18px"
+                fill="#0B3641"
+                width="12px"
+                height="12px"
               >
                 <path d="M0 0h24v24H0z" fill="none" />
                 <path
@@ -95,10 +95,10 @@
               <svg
                 class="navImage"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="#ffffff"
+                fill="#0B3641"
                 viewBox="0 0 24 24"
-                width="18px"
-                height="18px"
+                width="12px"
+                height="12px"
               >
                 <path d="M0 0h24v24H0z" fill="none" />
                 <path
@@ -106,9 +106,20 @@
                 />
               </svg>
             </a>
+            <form class="nav-search" action="shop.html">
+              <input
+                type="search"
+                placeholder="Search.."
+                name="search"
+                required
+              />
+            </form>
+            <button class="search" type="submit" onclick="searchBar()">
+              <img src="./images/search.png" alt="search" />
+            </button>
           </div>
-        </nav>
-      </header>
+        </section>
+      </nav>
       <hr class="headerDivider" />
       <main class="contactContainer">
         <h1 class="formTitle">Contact us</h1>

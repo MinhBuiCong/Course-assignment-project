@@ -100,10 +100,6 @@ img {
     padding: 0px 70px 0px 30px;
   }
 
-  .backButton svg {
-    width: 32px;
-    height: auto;
-  }
   .pageHeader {
     height: 40px;
     overflow-y: hidden;

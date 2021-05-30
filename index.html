@@ -94,9 +94,6 @@
               />
             </svg>
           </a>
-          <button class="search" type="submit">
-            <i class="fa fa-search"></i>
-          </button>
           <a href="shopping-cart.html">
             <svg
               class="navImage"
@@ -112,19 +109,22 @@
               />
             </svg>
           </a>
+          <form class="nav-search" action="shop.html">
+            <input
+              type="search"
+              placeholder="Search.."
+              name="search"
+              required
+            />
+          </form>
+          <button class="search" type="submit" onclick="searchBar()">
+            <img src="./images/search.png" alt="search" />
+          </button>
         </div>
       </section>
     </nav>
     <div class="allContent">
       <div class="content">
-        <div class="searchContainer">
-          <form class="searchContent" action="/action_page.php">
-            <button class="search" type="submit">
-              <i class="fa fa-search"></i>
-            </button>
-            <input type="text" placeholder="Search.." name="search" />
-          </form>
-        </div>
         <div class="imageContainer">
           <img src="images/Rainydays logo.png" alt="logo" />
         </div>
@@ -195,5 +195,6 @@
       </div>
     </footer>
     <script src="./js/navbar.js"></script>
+    <script src="./js/search-button.js"></script>
   </body>
 </html>
