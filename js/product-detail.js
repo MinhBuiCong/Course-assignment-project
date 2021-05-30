@@ -18,12 +18,14 @@ let cartQuantity = document.querySelector(".cartQuantity");
 let favouriteQuantity = document.querySelector(".favouriteQuantity");
 const textQuantity = document.querySelector("#cartText");
 const textFavourite = document.querySelector("#favouriteText");
+const header = document.querySelector(".pageHeader");
 
 async function getProductId() {
   try {
     const response = await fetch(url);
     const product = await response.json();
     console.log(product);
+    header.innerHTML = `${product.name}`;
     productTitle.innerHTML = `<p>${product.name}</p>`;
     price.innerHTML = `<p>£${product.prices.price}</p>`;
     description.innerHTML = `<p>${product.description}</p>`;
