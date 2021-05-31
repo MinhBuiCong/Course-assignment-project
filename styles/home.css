@@ -42,7 +42,7 @@
 }
 
 .newsletter {
-  background-color: rgb(89, 238, 89);
+  background-color: rgba(89, 238, 89, 0.582);
 }
 
 .newsletter:hover {
@@ -51,18 +51,18 @@
 }
 
 .newsletter h2 {
-  color: black;
+  color: #0b3641;
   margin-bottom: 25px;
 }
 
 .newsletter p {
   width: 100%;
-  color: white;
+  color: #0b3641d8;
   font-size: 1rem;
 }
 
 .sales {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.438);
 }
 
 .sales:hover {
@@ -141,6 +141,7 @@
   background-color: rgb(255, 249, 249);
   box-shadow: 3px 3px 3px rgba(165, 165, 165, 0.473);
   padding: 50px 0px;
+  margin-bottom: 50px;
 }
 
 .bottom-information-content div a {
