@@ -35,7 +35,11 @@
 }
 
 .item {
-  width: 100%;
+  width: 50%;
+}
+
+.item:hover {
+  opacity: 0.5;
 }
 
 .productTitle {
@@ -49,11 +53,12 @@
 }
 
 img {
-  width: 50%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0px auto 25px auto;
+  box-shadow: 3px 3px 3px rgba(165, 165, 165, 0.473);
 }
 
 .productPrice {
@@ -71,6 +76,12 @@ img {
   background-color: #ff8600;
   color: white;
   cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(165, 165, 165, 0.473);
+}
+
+.productButton:hover {
+  background-color: white;
+  color: #ff8600;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -5,12 +5,6 @@
 .headerContent {
   width: 100vw;
 }
-.headerContent .backButton {
-  color: #0b3641;
-}
-.headerContent h2 {
-  margin-bottom: 50px;
-}
 .contentContainer {
   display: flex;
   flex-direction: row;
@@ -45,7 +39,7 @@
 }
 
 .side {
-  width: 10%;
+  width: 20%;
   margin: 20px;
   border-radius: 5px;
 }
@@ -213,6 +207,10 @@ span {
   cursor: pointer;
   padding: 7.5px 0px;
   border-radius: 5px;
+}
+
+.dropInfo:hover {
+  opacity: 0.5;
 }
 
 .dropInfo p {

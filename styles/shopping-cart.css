@@ -8,11 +8,6 @@
   margin: 0px;
 }
 
-.pageHeader {
-  width: 100%;
-  text-align: center;
-}
-
 .overview {
   display: flex;
   flex-direction: row;
