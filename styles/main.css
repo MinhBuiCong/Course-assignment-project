@@ -238,63 +238,53 @@ nav .search img {
   transform: translate3d(0, 0vh, 0);
 }
 
-.footerContent {
+footer {
   background-color: #ff8600;
+  width: 100vw;
+  padding: 50px 0px;
+}
+
+.footerContent {
   color: #0b3641;
-  width: auto;
-  height: fit-content;
+  width: 80vw;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-weight: lighter;
-  padding-bottom: 40px;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .footer-section {
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .paymentImage {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
 .info {
-  margin: 5px 0px;
-  font-size: 16px;
-  font-weight: lighter;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .footerImage {
-  height: 40px;
+  height: auto;
   width: 64px;
-  margin: 0px 5px;
-}
-
-.giftCardsText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 5px 0px;
-  font-size: 16px;
-  font-weight: lighter;
+  margin-bottom: 10px;
 }
 
 .deliveryPartners {
-  margin: 5px 0px;
-  font-size: 16px;
-  font-weight: lighter;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: bold;
-  width: fit-content;
-  margin: 40px 0px 20px 0px;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
