@@ -79,23 +79,26 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 30%;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .navText {
   cursor: pointer;
-  text-transform: uppercase;
   font-size: 1rem;
 }
 
 .navHeadline {
   width: 40%;
   text-align: center;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navHeader {
   align-items: center;
-  font-size: 48px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -106,10 +109,10 @@ nav {
 
 .navIcon {
   width: 30%;
-  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .navIcon a {
@@ -117,7 +120,7 @@ nav {
 }
 
 .navImage {
-  width: 40px;
+  width: 32px;
   height: auto;
   cursor: pointer;
 }

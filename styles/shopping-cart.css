@@ -5,36 +5,32 @@
   align-content: center;
   width: 100vw;
   height: 100vh;
-  margin: 0px;
 }
 
 .overview {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: auto;
-  margin: 40px 120px;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin: 0px auto 50px auto;
 }
 
 .overviewName {
   color: #0b3641;
-  font-size: 16px;
-  width: 240px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  font-size: 1rem;
+  width: 33%;
+  text-align: center;
 }
 
 .cartItem {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 20px 0px;
-  margin: 0px 120px;
+  justify-content: space-evenly;
   background: rgb(240, 240, 240);
   border-radius: 5px;
-  box-shadow: 2px 2px 2px rgb(165, 165, 165);
+  box-shadow: 2px 2px 2px rgba(165, 165, 165, 0.466);
+  width: 80vw;
+  margin: 0px auto 50px auto;
+  padding: 50px 0px;
 }
 
 .itemContainer {
@@ -42,12 +38,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 240px;
+  width: 33%;
 }
 
 .remove {
   color: #0b3641;
-  font-size: 16px;
+  font-size: 1rem;
   background: none;
   cursor: pointer;
 }
@@ -59,13 +55,8 @@
 .item {
   width: 160px;
   height: auto;
-  margin: 20px 0px;
+  margin: 25px 0px;
   border-radius: 5px;
-  border: 2px solid #0b3641;
-}
-
-.item:hover {
-  border: 2px solid #ff8600;
 }
 
 .nameItem {
@@ -75,18 +66,17 @@
 
 .quantity {
   color: #0b3641;
-  font-size: 24px;
-  width: 240px;
+  font-size: 1rem;
+  width: 33%;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 .price {
   color: #0b3641;
-  font-size: 24px;
-  width: 240px;
+  font-size: 1rem;
+  width: 33%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -99,40 +89,37 @@
   justify-items: center;
   align-items: center;
   width: 100vw;
-  margin: 60px 0px;
 }
 
 .finishOverview {
   display: flex;
   flex-direction: row-reverse;
+  margin-bottom: 25px;
 }
 
 .subtotal {
   color: #0b3641;
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 .finalPrice {
   color: #0b3641;
-  font-size: 24px;
-}
-.checkoutContainer {
-  margin: 20px 0px;
+  font-size: 1rem;
 }
 
 .checkout {
-  margin-top: 20px;
   height: 40px;
-  font-size: 24px;
-  width: 180px;
+  font-size: 1rem;
   border-radius: 5px;
   background-color: #ff8600;
   color: #0b3641;
   cursor: pointer;
+  padding: 5px 10px;
+  box-shadow: 2px 2px 2px rgba(165, 165, 165, 0.486);
 }
 
 .checkout:hover {
-  background-color: #0b3641;
+  background-color: white;
   color: #ff8600;
   transition: all 400ms ease;
 }
