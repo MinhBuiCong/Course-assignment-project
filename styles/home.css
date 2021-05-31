@@ -123,6 +123,68 @@
 
 .gender-title {
   font-size: 1.5rem;
+  background-color: white;
+  color: #ff8600;
+  padding: 5px 10px;
+}
+
+.bottom-information-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-bottom: 50px;
+}
+
+.bottom-information-content div {
+  width: 30%;
+  text-align: center;
+  background-color: rgb(255, 249, 249);
+  box-shadow: 3px 3px 3px rgba(165, 165, 165, 0.473);
+  padding: 50px 0px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.team p {
+  width: 80%;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.support h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.support p {
+  width: 80%;
+}
+.delivery-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delivery-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.delivery-content p {
+  width: 80%;
 }
 
 @media only screen and (max-width: 1000px) {
