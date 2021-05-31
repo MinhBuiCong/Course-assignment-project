@@ -4,70 +4,117 @@
   cursor: pointer;
 }
 
-.searchContainer .searchContent {
-  border: 2px solid #0b3641;
-  margin: 40px 0px;
-}
-
 .content {
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
 }
 
 .imageContainer img {
   width: 720px;
   height: auto;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .content-title {
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
-  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-.buttonContainer {
+.information-content {
+  width: 80vw;
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  margin-top: 160px;
 }
 
-.buttonContainer a {
-  width: 160px;
-  height: 40px;
-  font-size: 16px;
-  margin: 0px 20px;
-  border-radius: 5px;
+.information-content div {
+  width: 45%;
+  height: fit-content;
+  margin-bottom: 50px;
+  text-align: center;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  text-transform: uppercase;
-  background: #0b3641;
-  color: white;
+  padding: 50px 0px;
 }
 
-.buttonContainer a:hover {
-  background: #0b3641;
-  color: white;
-  border: 2px solid #0b3641;
+.newsletter {
+  background-color: rgb(89, 238, 89);
 }
 
-.whiteSpace {
-  height: 100vh;
-  width: 200px;
-  background-color: #0b3641;
+.newsletter h2 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.newsletter p {
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+}
+
+.sales {
+  background-color: yellow;
+}
+
+.sales h2 {
+  color: red;
+  margin-bottom: 25px;
+}
+
+.sales p {
+  width: 100%;
+  color: rgb(250, 42, 42);
+  font-size: 1rem;
+}
+
+.gender-link {
+  color: white;
+  box-shadow: 3px 3px 3px rgba(165, 165, 165, 0.473);
+  margin-bottom: 50px;
+  width: 80vw;
+  height: 30vh;
+}
+
+.gender-link:hover {
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  opacity: 0.5;
+}
+
+.men {
+  background: url("/images/man.jpg") no-repeat center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.woman {
+  background: url("/images/woman.jpg") no-repeat center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child {
+  background: url("/images/child.jpg") no-repeat center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gender-title {
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1000px) {
-  .whiteSpace {
-    display: none;
-  }
   .allContent {
     flex-direction: column;
     align-items: center;
@@ -76,46 +123,12 @@
   .navHeadlineMobile {
     color: #0b3641;
   }
-
-  .searchContent {
-    width: 200px;
-    height: 20px;
-    border-radius: 16px;
-    overflow-y: hidden;
-    margin-bottom: 40px;
-  }
-
-  .searchContent input[type="text"] {
-    height: 20px;
-    font-size: 12px;
-    padding-left: 10px;
-  }
-
-  .searchContainer .searchContent button {
-    display: block;
-    width: 60px;
-    height: 60px;
-    background: #0b3641;
-    color: white;
-  }
   .imageContainer img {
     width: 320px;
     margin-bottom: 40px;
   }
-
-  h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  .buttonContainer {
+  .genderContainer {
     flex-direction: column;
     margin: 0px;
-  }
-  .buttonContainer a {
-    width: 160px;
-    height: 24px;
-    font-size: 12px;
-    margin-bottom: 10px;
-    border-radius: 16px;
   }
 }
