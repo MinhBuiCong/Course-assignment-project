@@ -34,7 +34,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #0b3641;
+  color: inherit;
   cursor: pointer;
 }
 
@@ -64,8 +64,8 @@ a:hover {
 }
 
 nav {
-  width: 100vw;
-  margin-bottom: 50px;
+  width: 80vw;
+  margin: 0px auto 50px auto;
 }
 
 .desktop-menu {
@@ -76,7 +76,7 @@ nav {
 
 .navLinks {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 30%;
   margin-top: 40px;
 }
@@ -108,7 +108,7 @@ nav {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navIcon a {
