@@ -26,7 +26,7 @@ function createHTML(products) {
         <a class="item" href="product-page.html?id=${product.id}">
         <h2 class="productTitle">${product.name}</h2>
         <img src="${product.images[0].src}" alt="${product.name}"/>
-        <p class="productPrice">£${product.prices.price}</p>
+        <p class="productPrice">Price: £${product.prices.price}</p>
         </a>
         <button class="productButton" onclick="addItemCart()">Add to cart</button>
         </div>

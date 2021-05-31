@@ -51,16 +51,17 @@ a:hover {
 
 .backButton {
   position: absolute;
-  left: 3%;
+  font-size: 2rem;
+  left: 10%;
   top: 15%;
 }
 
 .pageHeader {
-  font-size: 32px;
-  font-weight: normal;
+  font-size: 2rem;
   color: #0b3641;
   text-align: center;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 nav {
